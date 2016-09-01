@@ -1,0 +1,345 @@
+void loadConfiguration(String fname) 
+{ 
+  HashMap align2value;
+  HashMap valign2value;
+  
+  align2value = new HashMap();
+  align2value.put("left", LEFT);
+  align2value.put("center", CENTER);
+  align2value.put("right", RIGHT);
+  
+  valign2value = new HashMap();
+  valign2value.put("top", TOP);
+  valign2value.put("center", CENTER);
+  valign2value.put("bottom", BOTTOM);
+  
+  XML xml_configuration = loadXML(fname);
+  
+  // callback URL configuration
+  XML xml_callback = xml_configuration.getChild("callback");
+  XML xml_base_url = xml_callback.getChild("base_url");
+  base_url = xml_base_url.getContent();
+  
+  // node configuration
+  XML xml_node = xml_configuration.getChild("node");
+  XML xml_node_font = xml_node.getChild("font");
+  node_font_name = xml_node_font.getString("name");
+  node_font_size = xml_node_font.getFloat("size"); 
+  
+  // edge configuration
+  XML xml_edge = xml_configuration.getChild("edge");
+  XML xml_edge_line_weight = xml_edge.getChild("line_weight");
+  edge_line_weight = float(xml_edge_line_weight.getContent());
+  XML xml_edge_color = xml_edge.getChild("color");
+  String edge_color_string = xml_edge_color.getContent();
+  edge_color = unhex(edge_color_string);
+  
+  // color configuration
+  XML [] xml_colors = xml_configuration.getChildren("colors/set/color");
+  node_color_count = xml_colors.length;
+  
+  for (int i = 0; i < node_color_count; i++)
+  {
+    XML xml_color = xml_colors[i];
+    String color_id = xml_color.getString("id");
+    String color_name = xml_color.getString("name");
+    String color_value = xml_color.getString("value");
+    node_colors.add(new NodeColor(color_id,color_name,color_value));
+    colorref2index.put(color_id,i);
+  }
+
+  // version HUD configuration
+  XML xml_version_font = xml_configuration.getChild("version/font");
+  version_font_name = xml_version_font.getString("name");
+  version_font_size = xml_version_font.getFloat("size");
+  String version_font_color_string = xml_version_font.getString("color");
+  version_font_color = unhex(version_font_color_string);
+  
+  // timeline configuration
+  XML xml_timeline_font = xml_configuration.getChild("timeline/font");
+  timeline_font_name = xml_timeline_font.getString("name");
+  timeline_font_size = xml_timeline_font.getFloat("size");
+  String timeline_font_color_string = xml_timeline_font.getString("color");
+  timeline_font_color = unhex(timeline_font_color_string);
+  XML xml_timeline_background = xml_configuration.getChild("timeline/background");
+  String timeline_background_string = xml_timeline_background.getContent();
+  timeline_background = unhex(timeline_background_string);
+  
+  // depth layers configuration
+  XML xml_depthlayers = xml_configuration.getChild("depthlayers");
+  layershift_x = xml_depthlayers.getFloat("xshift");
+  layershift_y = xml_depthlayers.getFloat("yshift");
+  String layer_color_string = xml_depthlayers.getString("color");
+  layer_color = unhex(layer_color_string);
+  
+  // trend analysis configuration
+  XML xml_trendanalysis = xml_configuration.getChild("trendanalysis");
+  analysis_start = xml_trendanalysis.getString("start");
+  analysis_end = xml_trendanalysis.getString("end");
+  
+  // Heads-Up-Displays (HUDs)
+  // zoombutton configuration
+  XML xml_zoombutton = xml_configuration.getChild("huds/zoombutton");
+  zoombutton_size = xml_zoombutton.getFloat("size");
+  zoombutton_margin = xml_zoombutton.getFloat("margin");
+  zoombutton_padding = xml_zoombutton.getFloat("padding");
+  
+  String zoombutton_align_string = xml_zoombutton.getString("align").toLowerCase();
+  if (align2value.get(zoombutton_align_string) != null)
+  {
+    zoombutton_align = (Integer) align2value.get(zoombutton_align_string);
+  }
+  else
+  {
+    zoombutton_align = LEFT;
+  }
+  
+  String zoombutton_valign_string = xml_zoombutton.getString("valign").toLowerCase();
+  if (valign2value.get(zoombutton_valign_string) != null)
+  {
+    zoombutton_valign = (Integer) valign2value.get(zoombutton_valign_string);
+  }
+  else
+  {
+    zoombutton_valign = TOP;
+  }
+  
+  String zoombutton_background_string = xml_zoombutton.getString("background");
+  zoombutton_background = unhex(zoombutton_background_string);
+  
+  String zoombutton_color_string = xml_zoombutton.getString("color");
+  zoombutton_color = unhex(zoombutton_color_string);
+  
+  // trend direction HUD configuration
+  XML xml_trenddirhud = xml_configuration.getChild("huds/trenddirhud");
+  trenddirhud_size = xml_trenddirhud.getFloat("size");
+  trenddirhud_margin = xml_trenddirhud.getFloat("margin");
+  trenddirhud_padding = xml_trenddirhud.getFloat("padding");
+  
+  String trenddirhud_align_string = xml_trenddirhud.getString("align").toLowerCase();
+  if (align2value.get(trenddirhud_align_string) != null)
+  {
+    trenddirhud_align = (Integer) align2value.get(trenddirhud_align_string);
+  }
+  else
+  {
+    trenddirhud_align = LEFT;
+  }
+  
+  String trenddirhud_valign_string = xml_trenddirhud.getString("valign").toLowerCase();
+  if (valign2value.get(trenddirhud_valign_string) != null)
+  {
+    trenddirhud_valign = (Integer) valign2value.get(trenddirhud_valign_string);
+  }
+  else
+  {
+    trenddirhud_valign = TOP;
+  }
+  
+  String trenddirhud_background_string = xml_trenddirhud.getString("background");
+  trenddirhud_background = unhex(trenddirhud_background_string);
+  
+  String trenddirhud_color_string = xml_trenddirhud.getString("color");
+  trenddirhud_color = unhex(trenddirhud_color_string);
+  
+  String trenddirhud_distcolor_string = xml_trenddirhud.getString("distcolor");
+  trenddirhud_distcolor = unhex(trenddirhud_distcolor_string);
+  
+  trenddirhud_font = xml_trenddirhud.getString("font");
+  trenddirhud_high = xml_trenddirhud.getString("high");
+  trenddirhud_mid = xml_trenddirhud.getString("mid");
+  trenddirhud_low= xml_trenddirhud.getString("low");
+  
+  // trend size HUD configuration
+  XML xml_trendsizehud = xml_configuration.getChild("huds/trendsizehud");
+  trendsizehud_size = xml_trendsizehud.getFloat("size");
+  trendsizehud_margin = xml_trendsizehud.getFloat("margin");
+  trendsizehud_padding = xml_trendsizehud.getFloat("padding");
+  
+  String trendsizehud_align_string = xml_trendsizehud.getString("align").toLowerCase();
+  if (align2value.get(trendsizehud_align_string) != null)
+  {
+    trendsizehud_align = (Integer) align2value.get(trendsizehud_align_string);
+  }
+  else
+  {
+    trendsizehud_align = LEFT;
+  }
+  
+  String trendsizehud_valign_string = xml_trendsizehud.getString("valign").toLowerCase();
+  if (valign2value.get(trendsizehud_valign_string) != null)
+  {
+    trendsizehud_valign = (Integer) valign2value.get(trendsizehud_valign_string);
+  }
+  else
+  {
+    trendsizehud_valign = TOP;
+  }
+  
+  String trendsizehud_background_string = xml_trendsizehud.getString("background");
+  trendsizehud_background = unhex(trendsizehud_background_string);
+  
+  String trendsizehud_color_string = xml_trendsizehud.getString("color");
+  trendsizehud_color = unhex(trendsizehud_color_string);
+  
+  String trendsizehud_distcolor_string = xml_trendsizehud.getString("distcolor");
+  trendsizehud_distcolor = unhex(trendsizehud_distcolor_string);
+  
+  trendsizehud_font = xml_trendsizehud.getString("font");
+  trendsizehud_high = xml_trendsizehud.getString("high");
+  trendsizehud_mid = xml_trendsizehud.getString("mid");
+  trendsizehud_low= xml_trendsizehud.getString("low");
+  
+  align2value.clear();
+  valign2value.clear();
+}
+
+void loadData(String f_termdata, String f_edgedata)
+{
+  xml_nodedata = loadXML(f_termdata);
+  
+  XML xml_optimize = xml_nodedata.getChild("optimize");
+  String string_optimize = xml_optimize.getString("value");
+  optimize = (string_optimize.toLowerCase().equals("true"));
+
+  loadTimeline();
+  loadNodes();
+  loadEdges(f_edgedata);
+}
+
+void loadTimeline()
+{
+  XML xml_timeline = xml_nodedata.getChild("timeline");
+  
+  timeline_count = xml_timeline.getInt("count");
+  String timeline_dates = xml_timeline.getString("dates");
+  
+  String[] dates = split( timeline_dates, ',');
+  
+  last_date = 0;
+
+  for (int i = 0; i < timeline_count; i++)
+  {
+    String id = str(i);
+    timepoint2id.put(dates[i],id);
+    timeline.add(new TimeLine(id,float(dates[i])));
+    last_date = max(last_date,int(dates[i]));
+  }
+  
+  if (date.equals(""))
+  {
+    date = str(last_date);
+  }
+}
+
+void loadNodes()
+{
+  XML [] xml_nodes = xml_nodedata.getChildren("terms/term");
+  int node_count_temp = xml_nodes.length;
+
+  node_count = 0;
+  for (int i = 0; i < node_count_temp; i++)
+  {
+    XML xml_node = xml_nodes[i];
+    String id = xml_node.getString("id");
+    String term_value = xml_node.getString("value");
+    float x = xml_node.getFloat("x");
+    float y = xml_node.getFloat("y");
+    String colorref = xml_node.getString("colorref");
+    
+    float x_init = x * canvas_width;
+    float y_init = y * canvas_height;
+    
+    boolean node_added = addNode(id,term_value,x_init,y_init,colorref);
+    
+    if (node_added) {
+      Node current_node = (Node) nodes.get(node_count);
+      
+      // load trend
+      XML xml_trends = xml_node.getChild("trend");
+      int trend_count = xml_trends.getInt("count");
+      String trend_data = xml_trends.getString("data");
+ 
+      String[] trendvalues = split(trend_data, ",");
+      
+      float trend_max = 0.0;
+      
+      for (int j = 0; j < trend_count; j++)
+      {
+        String ref = str(j);
+        float trend_value = float(trendvalues[j]);
+        current_node.addTrend(j, ref, trend_value);
+        trend_max = max(trend_max,trend_value);
+      }
+      current_node.setRadius(date);
+      current_node.setTrendMax(trend_max);
+      node_count++;
+    }
+  }
+  
+  // dispose for garbage collection
+  xml_nodedata = null;
+}
+
+void loadEdges(String f_edgedata)
+{
+  xml_edgedata = loadXML(f_edgedata);
+  XML [] xml_edges = xml_edgedata.getChildren("edges/e");
+  edge_count = 0;
+  
+  int edge_count_temp = xml_edges.length;
+  
+  for (int i = 0; i < edge_count_temp; i++)
+  {
+    XML xml_edge = xml_edges[i];
+    String id = xml_edge.getString("id");
+    String from = xml_edge.getString("f");
+    String to = xml_edge.getString("t");
+    float weight = xml_edge.getFloat("w");
+    
+    // for performance reasons - n*(n-1)/2 combinations to check -
+    // we don't do a duplicate test here 
+    
+    // test whether the two referenced nodes exist
+    if (node2index.get(from) != null && node2index.get(to) != null)
+    {
+      int node_index_from = (Integer) node2index.get(from);
+      int node_index_to = (Integer) node2index.get(to);
+       
+      edges.add(new Edge(id,from,to,weight,node_index_from,node_index_to));
+      
+      Node node_from = (Node) nodes.get(node_index_from);
+      Node node_to = (Node) nodes.get(node_index_to);
+      
+      node_from.addEdgeIndex(edge_count);
+      node_to.addEdgeIndex(edge_count);
+        
+      edge_count++;     
+    }
+  }
+  
+  // dispose for garbage collection
+  xml_edgedata = null;
+}
+
+
+boolean addNode(String id, String term_value, float x, float y, String colorref)
+{
+  // deduplicate nodes
+  boolean duplicate = false;
+  boolean added = false;
+  
+  for (int j = 0; j < node_count; j++) {
+    Node node = (Node) nodes.get(j);
+    if (node.id.equals(id)) {
+      duplicate = true;
+    }
+  }
+  
+  if (duplicate == false) {
+    node2index.put(id,node_count);
+    nodes.add(new Node(id,term_value,x,y,colorref));
+    added = true;
+  }
+  return added;
+}

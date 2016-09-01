@@ -1,0 +1,358 @@
+/*
+  Key events
+*/
+
+void keyPressed() {
+  if (mouse_in)
+  {
+    switch(keyCode) {
+      case 37: // left cursor, drag left
+        x_offset = x_offset - x_drag;
+        break;
+      case 39: // right cursor, drag right
+        x_offset = x_offset + x_drag;
+        break;
+      case 38: // up cursor, drag up
+        y_offset = y_offset - y_drag;
+        break;
+      case 40: // down cursor, drag down
+        y_offset = y_offset + y_drag;
+        break;
+      case 48: // center view, 100% zoom
+        x_offset = x_offset_initial;
+        y_offset = y_offset_initial;
+        zoom = zoom_initial;
+        fscale = fscale_initial;
+        break;  
+    }
+    switch(key) {
+      case '+':  // zoom in
+        if (zoom < 1600) {
+          zoom = zoom + zoom_change;
+          fscale = fscale_initial * zoom / 100.0;
+          x_offset = x_offset - canvas_width * zoom_change / 200;
+          y_offset = y_offset - canvas_height * zoom_change / 200;
+        }
+        break;
+      case '-': // zoom out
+        if (zoom > 50) {
+          zoom = zoom - zoom_change;
+          fscale = fscale_initial * zoom / 100.0;
+          x_offset = x_offset + canvas_width * zoom_change / 200;
+          y_offset = y_offset + canvas_height * zoom_change / 200;
+        }
+        break;
+      case 'u': // select/deselect up trend
+        setTrendDirNodes(trenddir_selected, true);
+        if (trenddir_selected == 1)
+        {
+          trenddir_selected = 9999;
+        }
+        else 
+        {
+          trenddir_selected = 1;
+          setTrendDirNodes(1, false);
+        }
+        break;
+      case 'c': // select/deselect constant trend
+        setTrendDirNodes(trenddir_selected, true);
+        if (trenddir_selected == 0)
+        {
+          trenddir_selected = 9999;
+        }
+        else 
+        {
+          trenddir_selected = 0;
+          setTrendDirNodes(0, false);
+        }
+        break;
+      case 'd': // select/deselect down trend
+        setTrendDirNodes(trenddir_selected, true);
+        if (trenddir_selected == -1)
+        {
+          trenddir_selected = 9999;
+        }
+        else 
+        {
+          trenddir_selected = -1;
+          setTrendDirNodes(-1, false);
+        }
+        break;
+      case 'h': // select/deselect high trend
+        setTrendSizeNodes(trendsize_selected, true);
+        if (trendsize_selected == 1)
+        {
+          trendsize_selected = 9999;
+        }
+        else 
+        {
+          trendsize_selected = 1;
+          setTrendSizeNodes(1, false);
+        }
+        break;
+      case 'm': // select/deselect mid trend
+        setTrendSizeNodes(trendsize_selected, true);
+        if (trendsize_selected == 0)
+        {
+          trendsize_selected = 9999;
+        }
+        else 
+        {
+          trendsize_selected = 0;
+          setTrendSizeNodes(0, false);
+        }
+        break;
+      case 'l': // select/deselect low trend
+        setTrendSizeNodes(trendsize_selected, true);
+        if (trendsize_selected == -1)
+        {
+          trendsize_selected = 9999;
+        }
+        else 
+        {
+          trendsize_selected = -1;
+          setTrendSizeNodes(-1, false);
+        }
+        break;  
+      case 'p': // turn on physics simulation
+        animate_physics = true;
+        break;
+      case 's': // turn off physics simulation
+        animate_physics = false;
+        break;
+    }
+  }
+}
+/*
+  Mouse events
+*/
+void mousePressed() {
+  switch (hovered_object) {
+    case -1: // no object chosen
+      x_offset_drag = mouseX - x_offset;
+      y_offset_drag = mouseY - y_offset;
+      drag_locked = true;
+      zoom_locked = false;
+      cursor(HAND);
+      break;
+    case 1000001: // zoom in
+      drag_locked = false;
+      zoom_locked = true;
+      hovered_object_prev = hovered_object;
+      break;
+    case 1000002: // center view, 100% zoom
+      x_offset = x_offset_initial;
+      y_offset = y_offset_initial;
+      zoom = zoom_initial;
+      fscale = fscale_initial;
+      drag_locked = false;
+      zoom_locked = false;
+      break;
+    case 1000003: // zoom out
+      drag_locked = false;
+      zoom_locked = true;
+      hovered_object_prev = hovered_object;
+      break;
+    case 1000004:
+      drag_locked = false;
+      zoom_locked = false;
+      break;
+    case 1000005:
+      drag_locked = false;
+      zoom_locked = false;
+      break;
+    case 1000006:
+      drag_locked = false;
+      zoom_locked = false;
+      break;
+    case 1000007:
+      drag_locked = false;
+      zoom_locked = false;
+      break;
+    case 1000008:
+      drag_locked = false;
+      zoom_locked = false;
+      break;
+    case 1000009:
+      drag_locked = false;
+      zoom_locked = false;
+      break;
+
+    default:
+      x_offset_drag = mouseX - x_offset;
+      y_offset_drag = mouseY - y_offset;
+      drag_locked = true;
+      cursor(HAND);
+      break;
+  }
+}
+
+// mouse click handler
+void mouseClicked() {
+  if (hovered_object > -1 && hovered_object < 1000001) {
+    if (nodes.get(hovered_object) != null)
+    {
+      Node node_clicked = (Node) nodes.get(hovered_object);
+      // String term = escape(node_clicked.term);
+      String term = node_clicked.term;
+      String url = base_url + term;
+      link(url);
+    }
+  }
+  
+  switch (hovered_object) {
+    case 1000004: // select/deselect up trend
+        setTrendDirNodes(trenddir_selected, true);
+        if (trenddir_selected == 1)
+        {
+          trenddir_selected = 9999;
+        }
+        else 
+        {
+          trenddir_selected = 1;
+          setTrendDirNodes(1, false);
+        }
+        break;
+      case 1000005: // select/deselect constant trend
+        setTrendDirNodes(trenddir_selected, true);
+        if (trenddir_selected == 0)
+        {
+          trenddir_selected = 9999;
+        }
+        else 
+        {
+          trenddir_selected = 0;
+          setTrendDirNodes(0, false);
+        }
+        break;
+      case 1000006: // select/deselect down trend
+        setTrendDirNodes(trenddir_selected, true);
+        if (trenddir_selected == -1)
+        {
+          trenddir_selected = 9999;
+        }
+        else 
+        {
+          trenddir_selected = -1;
+          setTrendDirNodes(-1, false);
+        }
+        break;
+      case 1000007: // select/deselect high trend
+        setTrendSizeNodes(trendsize_selected, true);
+        if (trendsize_selected == 1)
+        {
+          trendsize_selected = 9999;
+        }
+        else 
+        {
+          trendsize_selected = 1;
+          setTrendSizeNodes(1, false);
+        }
+        break;
+      case 1000008: // select/deselect mid trend
+        setTrendSizeNodes(trendsize_selected, true);
+        if (trendsize_selected == 0)
+        {
+          trendsize_selected = 9999;
+        }
+        else 
+        {
+          trendsize_selected = 0;
+          setTrendSizeNodes(0, false);
+        }
+        break;
+      case 1000009: // select/deselect low trend
+        setTrendSizeNodes(trendsize_selected, true);
+        if (trendsize_selected == -1)
+        {
+          trendsize_selected = 9999;
+        }
+        else 
+        {
+          trendsize_selected = -1;
+          setTrendSizeNodes(-1, false);
+        }
+        break;  
+  }
+}
+
+// mouse release event handler
+void mouseReleased() 
+{
+  drag_locked = false;
+  zoom_locked = false;
+  hovered_object_prev = -1;
+  if (hovered_object > 1000000) hovered_object = -1;
+  cursor(ARROW);
+}
+
+// mouse drag event handler, handles map drag
+void mouseDragged() 
+{
+  if (drag_locked) 
+  {
+    x_offset = mouseX - x_offset_drag;
+    y_offset = mouseY - y_offset_drag;
+  }
+}
+
+
+// mouse move event handler
+void mouseMoved() 
+{
+  if (drag_locked == false) {
+    cursor(ARROW);
+  }
+}
+
+
+
+void mouseOut()
+{
+  mouse_in = false;
+  drag_locked = false;
+  zoom_locked = false;
+  hovered_object_prev = -1;
+  cursor(ARROW);
+}
+
+void mouseOver()
+{
+  mouse_in = true;
+}
+
+// mouse wheel event handler, handles zoom
+void mouseScrolled() {
+  if (mouse_in) 
+  {
+    // float step = 0;             // Java mode
+    float step = mouseScroll;   //JavaScript mode, comment out for Java mode
+   
+    if (zoom >= 50 && zoom <= 1600) {
+      if (step > 0) {
+        cursor(mouse_zoomplus,0,0);
+        step = 1;
+      }
+      if (step < 0) {
+        cursor(mouse_zoomminus,0,0);
+        step = -1;
+      }
+      float zoom_change2 = zoom_change * step; 
+      zoom = zoom + zoom_change2;
+      
+      if (zoom < 50) {
+        float diff = 50 - zoom;
+        zoom_change2 = zoom_change2 + diff;
+        zoom = 50;
+      }
+      if (zoom > 400) {
+        float diff = zoom - 400;
+        zoom_change2 = zoom_change2 - diff;
+        zoom = 400;
+      }
+      fscale = fscale_initial * zoom / 100.0;
+      x_offset = x_offset - canvas_width * zoom_change2 / 200;
+      y_offset = y_offset - canvas_height * zoom_change2 / 200;
+    }
+  }
+}
