@@ -1,0 +1,3403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph>
+<optimize value="false"/>
+<timeline count="9" dates="2008,2009,2010,2011,2012,2013,2014,2015,2016"/>
+<terms count="1132">
+<term id="0" value="ablation" x="0.284" y="0.741" colorref="3">
+<trend count="9" data="0.014,0.011,0.018,0.012,0.014,0.021,0.005,0.000,0.000"/>
+</term>
+<term id="1" value="abstract" x="0.233" y="0.252" colorref="2">
+<trend count="9" data="0.020,0.035,0.073,0.050,0.048,0.032,0.008,0.000,0.000"/>
+</term>
+<term id="2" value="abuse" x="0.360" y="0.203" colorref="1">
+<trend count="9" data="0.009,0.005,0.010,0.007,0.008,0.011,0.005,0.000,0.000"/>
+</term>
+<term id="3" value="acceptance" x="0.502" y="0.266" colorref="1">
+<trend count="9" data="0.043,0.059,0.058,0.056,0.072,0.062,0.018,0.001,0.001"/>
+</term>
+<term id="4" value="accumulation" x="0.285" y="0.694" colorref="3">
+<trend count="9" data="0.063,0.075,0.064,0.084,0.082,0.075,0.021,0.001,0.000"/>
+</term>
+<term id="5" value="accuracy" x="0.439" y="0.412" colorref="4">
+<trend count="9" data="0.063,0.081,0.079,0.078,0.095,0.081,0.027,0.002,0.000"/>
+</term>
+<term id="6" value="acid" x="0.202" y="0.741" colorref="3">
+<trend count="9" data="0.118,0.142,0.123,0.142,0.131,0.162,0.042,0.003,0.000"/>
+</term>
+<term id="7" value="acquisition time" x="0.385" y="0.480" colorref="4">
+<trend count="9" data="0.001,0.003,0.002,0.001,0.001,0.002,0.000,0.000,0.000"/>
+</term>
+<term id="8" value="acs" x="0.090" y="0.147" colorref="2">
+<trend count="9" data="0.009,0.008,0.018,0.012,0.016,0.014,0.005,0.001,0.000"/>
+</term>
+<term id="9" value="activation" x="0.181" y="0.745" colorref="3">
+<trend count="9" data="0.470,0.540,0.517,0.530,0.554,0.550,0.145,0.007,0.000"/>
+</term>
+<term id="10" value="actor" x="0.511" y="0.266" colorref="1">
+<trend count="9" data="0.018,0.012,0.014,0.019,0.019,0.020,0.005,0.002,0.000"/>
+</term>
+<term id="11" value="acute coronary syndrome" x="0.082" y="0.106" colorref="2">
+<trend count="9" data="0.001,0.001,0.003,0.003,0.007,0.005,0.002,0.000,0.000"/>
+</term>
+<term id="12" value="additional information" x="0.380" y="0.369" colorref="1">
+<trend count="9" data="0.012,0.009,0.007,0.007,0.005,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="13" value="adhd" x="0.343" y="0.187" colorref="1">
+<trend count="9" data="0.018,0.010,0.016,0.011,0.010,0.017,0.003,0.000,0.000"/>
+</term>
+<term id="14" value="adherence" x="0.264" y="0.177" colorref="2">
+<trend count="9" data="0.019,0.024,0.025,0.021,0.027,0.030,0.004,0.001,0.000"/>
+</term>
+<term id="15" value="adhesion" x="0.244" y="0.654" colorref="3">
+<trend count="9" data="0.022,0.033,0.042,0.031,0.044,0.056,0.014,0.001,0.000"/>
+</term>
+<term id="16" value="adjustment" x="0.231" y="0.198" colorref="2">
+<trend count="9" data="0.067,0.070,0.077,0.084,0.108,0.110,0.031,0.002,0.000"/>
+</term>
+<term id="17" value="admission" x="0.121" y="0.095" colorref="2">
+<trend count="9" data="0.020,0.016,0.018,0.016,0.020,0.018,0.008,0.000,0.000"/>
+</term>
+<term id="18" value="adolescence" x="0.315" y="0.257" colorref="1">
+<trend count="9" data="0.028,0.036,0.031,0.042,0.044,0.046,0.016,0.001,0.000"/>
+</term>
+<term id="19" value="adoption" x="0.410" y="0.252" colorref="1">
+<trend count="9" data="0.037,0.037,0.040,0.045,0.039,0.036,0.010,0.000,0.000"/>
+</term>
+<term id="20" value="adult patient" x="0.166" y="0.132" colorref="2">
+<trend count="9" data="0.001,0.000,0.001,0.001,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="21" value="adulthood" x="0.336" y="0.288" colorref="1">
+<trend count="9" data="0.014,0.012,0.016,0.016,0.018,0.018,0.007,0.000,0.000"/>
+</term>
+<term id="22" value="adverse event" x="0.142" y="0.174" colorref="2">
+<trend count="9" data="0.002,0.002,0.003,0.001,0.004,0.004,0.002,0.000,0.000"/>
+</term>
+<term id="23" value="adverse outcome" x="0.117" y="0.152" colorref="2">
+<trend count="9" data="0.003,0.003,0.001,0.001,0.004,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="24" value="affinity" x="0.257" y="0.858" colorref="3">
+<trend count="9" data="0.027,0.034,0.038,0.029,0.034,0.030,0.005,0.000,0.000"/>
+</term>
+<term id="25" value="agreement" x="0.493" y="0.395" colorref="6">
+<trend count="9" data="0.054,0.061,0.063,0.086,0.083,0.080,0.022,0.002,0.000"/>
+</term>
+<term id="26" value="aims" x="0.168" y="0.253" colorref="2">
+<trend count="9" data="0.306,0.348,0.341,0.396,0.427,0.473,0.135,0.011,0.000"/>
+</term>
+<term id="27" value="air" x="0.389" y="0.431" colorref="4">
+<trend count="9" data="0.031,0.027,0.018,0.023,0.035,0.035,0.007,0.000,0.001"/>
+</term>
+<term id="28" value="alcohol" x="0.274" y="0.219" colorref="1">
+<trend count="9" data="0.015,0.015,0.020,0.014,0.020,0.023,0.008,0.001,0.000"/>
+</term>
+<term id="29" value="alcohol consumption" x="0.233" y="0.093" colorref="2">
+<trend count="9" data="0.004,0.003,0.003,0.001,0.006,0.003,0.003,0.000,0.000"/>
+</term>
+<term id="30" value="allergen" x="0.224" y="0.624" colorref="1">
+<trend count="9" data="0.018,0.020,0.012,0.025,0.024,0.016,0.003,0.000,0.000"/>
+</term>
+<term id="31" value="allergy" x="0.281" y="0.529" colorref="1">
+<trend count="9" data="0.014,0.021,0.014,0.021,0.019,0.014,0.001,0.000,0.000"/>
+</term>
+<term id="32" value="altitude" x="0.393" y="0.394" colorref="1">
+<trend count="9" data="0.016,0.016,0.008,0.011,0.020,0.020,0.007,0.000,0.000"/>
+</term>
+<term id="33" value="alzheimer" x="0.200" y="0.618" colorref="3">
+<trend count="9" data="0.015,0.028,0.020,0.023,0.023,0.020,0.003,0.000,0.000"/>
+</term>
+<term id="34" value="ami" x="0.126" y="0.001" colorref="2">
+<trend count="9" data="0.004,0.005,0.004,0.001,0.005,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="35" value="ammonoid" x="0.466" y="0.603" colorref="1">
+<trend count="9" data="0.005,0.004,0.005,0.006,0.004,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="36" value="amygdala" x="0.372" y="0.529" colorref="1">
+<trend count="9" data="0.010,0.014,0.008,0.010,0.005,0.009,0.004,0.000,0.000"/>
+</term>
+<term id="37" value="anaesthesia" x="0.245" y="0.398" colorref="4">
+<trend count="9" data="0.007,0.010,0.011,0.008,0.010,0.012,0.003,0.001,0.000"/>
+</term>
+<term id="38" value="anemia" x="0.139" y="0.514" colorref="3">
+<trend count="9" data="0.007,0.016,0.015,0.012,0.012,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="39" value="angiogenesis" x="0.088" y="0.646" colorref="3">
+<trend count="9" data="0.011,0.018,0.010,0.022,0.015,0.010,0.005,0.000,0.000"/>
+</term>
+<term id="40" value="angle" x="0.458" y="0.434" colorref="4">
+<trend count="9" data="0.042,0.039,0.036,0.045,0.046,0.041,0.016,0.002,0.000"/>
+</term>
+<term id="41" value="animal health" x="0.369" y="0.527" colorref="1">
+<trend count="9" data="0.001,0.002,0.004,0.002,0.003,0.009,0.001,0.000,0.000"/>
+</term>
+<term id="42" value="anova" x="0.367" y="0.402" colorref="4">
+<trend count="9" data="0.011,0.020,0.024,0.011,0.026,0.035,0.007,0.000,0.000"/>
+</term>
+<term id="43" value="answer" x="0.442" y="0.230" colorref="1">
+<trend count="9" data="0.020,0.025,0.023,0.027,0.032,0.030,0.008,0.002,0.000"/>
+</term>
+<term id="44" value="anti" x="0.236" y="0.610" colorref="3">
+<trend count="9" data="0.062,0.077,0.078,0.071,0.082,0.088,0.024,0.001,0.000"/>
+</term>
+<term id="45" value="antibiotic" x="0.238" y="0.396" colorref="2">
+<trend count="9" data="0.019,0.030,0.025,0.028,0.026,0.034,0.007,0.000,0.000"/>
+</term>
+<term id="46" value="antibody" x="0.107" y="0.651" colorref="3">
+<trend count="9" data="0.085,0.080,0.072,0.061,0.079,0.077,0.015,0.000,0.000"/>
+</term>
+<term id="47" value="antigen" x="0.121" y="0.654" colorref="3">
+<trend count="9" data="0.061,0.054,0.061,0.056,0.057,0.053,0.016,0.001,0.000"/>
+</term>
+<term id="48" value="anxiety" x="0.332" y="0.167" colorref="2">
+<trend count="9" data="0.028,0.024,0.027,0.022,0.025,0.037,0.010,0.001,0.000"/>
+</term>
+<term id="49" value="apex" x="0.441" y="0.519" colorref="1">
+<trend count="9" data="0.006,0.015,0.007,0.004,0.009,0.007,0.004,0.000,0.000"/>
+</term>
+<term id="50" value="apoptosis" x="0.081" y="0.861" colorref="3">
+<trend count="9" data="0.040,0.037,0.032,0.030,0.035,0.031,0.010,0.001,0.000"/>
+</term>
+<term id="51" value="applicability" x="0.423" y="0.448" colorref="1">
+<trend count="9" data="0.194,0.180,0.205,0.233,0.239,0.225,0.050,0.001,0.001"/>
+</term>
+<term id="52" value="april" x="0.256" y="0.207" colorref="2">
+<trend count="9" data="0.007,0.010,0.012,0.012,0.011,0.011,0.002,0.000,0.000"/>
+</term>
+<term id="53" value="architecture" x="0.397" y="0.601" colorref="1">
+<trend count="9" data="0.027,0.033,0.026,0.041,0.042,0.033,0.007,0.000,0.000"/>
+</term>
+<term id="54" value="argument" x="0.388" y="0.215" colorref="1">
+<trend count="9" data="0.024,0.023,0.031,0.029,0.027,0.018,0.004,0.000,0.000"/>
+</term>
+<term id="55" value="art" x="0.319" y="0.192" colorref="2">
+<trend count="9" data="0.052,0.044,0.050,0.048,0.057,0.037,0.010,0.000,0.000"/>
+</term>
+<term id="56" value="artifact" x="0.422" y="0.447" colorref="4">
+<trend count="9" data="0.011,0.013,0.014,0.016,0.019,0.019,0.005,0.000,0.000"/>
+</term>
+<term id="57" value="asd" x="0.335" y="0.242" colorref="1">
+<trend count="9" data="0.004,0.006,0.005,0.003,0.003,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="58" value="aspirin" x="0.101" y="0.176" colorref="2">
+<trend count="9" data="0.001,0.006,0.003,0.001,0.005,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="59" value="assembly" x="0.333" y="0.776" colorref="3">
+<trend count="9" data="0.035,0.030,0.041,0.033,0.045,0.037,0.010,0.001,0.000"/>
+</term>
+<term id="60" value="asset" x="0.531" y="0.371" colorref="1">
+<trend count="9" data="0.014,0.013,0.012,0.020,0.012,0.012,0.007,0.001,0.000"/>
+</term>
+<term id="61" value="assumption" x="0.481" y="0.329" colorref="1">
+<trend count="9" data="0.045,0.037,0.050,0.057,0.048,0.047,0.018,0.001,0.000"/>
+</term>
+<term id="62" value="asthma" x="0.155" y="0.543" colorref="3">
+<trend count="9" data="0.012,0.014,0.011,0.014,0.013,0.011,0.002,0.000,0.000"/>
+</term>
+<term id="63" value="asymmetry" x="0.766" y="0.475" colorref="6">
+<trend count="9" data="0.012,0.017,0.015,0.018,0.018,0.024,0.005,0.000,0.000"/>
+</term>
+<term id="64" value="atherosclerosis" x="0.076" y="0.568" colorref="3">
+<trend count="9" data="0.012,0.012,0.015,0.016,0.011,0.016,0.005,0.001,0.000"/>
+</term>
+<term id="65" value="athlete" x="0.284" y="0.303" colorref="1">
+<trend count="9" data="0.008,0.007,0.008,0.015,0.025,0.027,0.010,0.001,0.000"/>
+</term>
+<term id="66" value="attention deficit hyperactivity disorder" x="0.339" y="0.187" colorref="1">
+<trend count="9" data="0.017,0.007,0.013,0.007,0.009,0.016,0.005,0.000,0.000"/>
+</term>
+<term id="67" value="attenuation" x="0.352" y="0.529" colorref="4">
+<trend count="9" data="0.035,0.040,0.040,0.037,0.042,0.054,0.018,0.001,0.000"/>
+</term>
+<term id="68" value="attitude" x="0.417" y="0.171" colorref="1">
+<trend count="9" data="0.025,0.025,0.023,0.013,0.028,0.024,0.010,0.001,0.000"/>
+</term>
+<term id="69" value="auc" x="0.086" y="0.208" colorref="2">
+<trend count="9" data="0.007,0.006,0.005,0.009,0.008,0.009,0.005,0.000,0.000"/>
+</term>
+<term id="70" value="audience" x="0.487" y="0.273" colorref="1">
+<trend count="9" data="0.005,0.008,0.007,0.010,0.010,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="71" value="august" x="0.239" y="0.117" colorref="2">
+<trend count="9" data="0.014,0.022,0.008,0.008,0.007,0.014,0.005,0.000,0.000"/>
+</term>
+<term id="72" value="australia" x="0.398" y="0.280" colorref="1">
+<trend count="9" data="0.008,0.011,0.010,0.006,0.010,0.012,0.006,0.000,0.000"/>
+</term>
+<term id="73" value="autoimmune disease" x="0.111" y="0.653" colorref="3">
+<trend count="9" data="0.002,0.003,0.005,0.003,0.005,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="74" value="autonomy" x="0.432" y="0.313" colorref="1">
+<trend count="9" data="0.012,0.007,0.009,0.007,0.012,0.006,0.003,0.001,0.000"/>
+</term>
+<term id="75" value="autophagy" x="0.053" y="0.836" colorref="3">
+<trend count="9" data="0.001,0.005,0.008,0.003,0.007,0.004,0.003,0.000,0.000"/>
+</term>
+<term id="76" value="axis" x="0.285" y="0.745" colorref="3">
+<trend count="9" data="0.022,0.026,0.033,0.032,0.030,0.026,0.007,0.000,0.000"/>
+</term>
+<term id="77" value="b cell" x="0.084" y="0.774" colorref="3">
+<trend count="9" data="0.014,0.007,0.019,0.016,0.015,0.022,0.003,0.000,0.000"/>
+</term>
+<term id="78" value="bacterium" x="0.258" y="0.735" colorref="3">
+<trend count="9" data="0.005,0.011,0.010,0.014,0.006,0.006,0.003,0.000,0.000"/>
+</term>
+<term id="79" value="bank" x="0.531" y="0.282" colorref="1">
+<trend count="9" data="0.017,0.016,0.013,0.017,0.016,0.012,0.007,0.001,0.000"/>
+</term>
+<term id="80" value="baseline" x="0.226" y="0.205" colorref="2">
+<trend count="9" data="0.076,0.093,0.077,0.076,0.091,0.116,0.035,0.001,0.000"/>
+</term>
+<term id="81" value="belgium" x="0.285" y="0.306" colorref="1">
+<trend count="9" data="0.005,0.002,0.004,0.003,0.003,0.003,0.002,0.000,0.000"/>
+</term>
+<term id="82" value="belief" x="0.427" y="0.224" colorref="1">
+<trend count="9" data="0.011,0.021,0.019,0.021,0.014,0.017,0.004,0.001,0.000"/>
+</term>
+<term id="83" value="beta" x="0.266" y="0.558" colorref="3">
+<trend count="9" data="0.080,0.088,0.069,0.025,0.031,0.035,0.008,0.000,0.000"/>
+</term>
+<term id="84" value="bind" x="0.163" y="0.956" colorref="3">
+<trend count="9" data="0.122,0.141,0.108,0.120,0.124,0.122,0.016,0.001,0.000"/>
+</term>
+<term id="85" value="binding" x="0.179" y="0.902" colorref="3">
+<trend count="9" data="0.122,0.141,0.108,0.120,0.124,0.122,0.016,0.001,0.000"/>
+</term>
+<term id="86" value="biodiversity" x="0.454" y="0.490" colorref="1">
+<trend count="9" data="0.012,0.022,0.015,0.016,0.014,0.018,0.005,0.001,0.000"/>
+</term>
+<term id="87" value="biofilm" x="0.268" y="0.722" colorref="4">
+<trend count="9" data="0.010,0.002,0.005,0.008,0.010,0.011,0.005,0.000,0.000"/>
+</term>
+<term id="88" value="biomarker" x="0.110" y="0.429" colorref="2">
+<trend count="9" data="0.020,0.020,0.018,0.031,0.041,0.036,0.014,0.001,0.000"/>
+</term>
+<term id="89" value="biopsy" x="0.141" y="0.493" colorref="4">
+<trend count="9" data="0.030,0.042,0.042,0.044,0.048,0.047,0.017,0.001,0.000"/>
+</term>
+<term id="90" value="bird" x="0.412" y="0.608" colorref="1">
+<trend count="9" data="0.016,0.021,0.008,0.017,0.014,0.017,0.005,0.000,0.000"/>
+</term>
+<term id="91" value="birth" x="0.226" y="0.278" colorref="2">
+<trend count="9" data="0.036,0.024,0.021,0.032,0.037,0.035,0.004,0.000,0.000"/>
+</term>
+<term id="92" value="birth weight" x="0.183" y="0.180" colorref="2">
+<trend count="9" data="0.004,0.005,0.005,0.004,0.008,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="93" value="blood pressure" x="0.235" y="0.224" colorref="2">
+<trend count="9" data="0.026,0.016,0.022,0.014,0.026,0.029,0.008,0.000,0.000"/>
+</term>
+<term id="94" value="blood vessel" x="0.235" y="0.665" colorref="3">
+<trend count="9" data="0.001,0.003,0.001,0.001,0.005,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="95" value="bmi" x="0.224" y="0.204" colorref="2">
+<trend count="9" data="0.022,0.018,0.016,0.014,0.020,0.019,0.004,0.000,0.000"/>
+</term>
+<term id="96" value="body mass index" x="0.177" y="0.164" colorref="2">
+<trend count="9" data="0.022,0.024,0.022,0.024,0.023,0.023,0.007,0.001,0.000"/>
+</term>
+<term id="97" value="body size" x="0.417" y="0.547" colorref="1">
+<trend count="9" data="0.005,0.009,0.010,0.012,0.008,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="98" value="body weight" x="0.185" y="0.246" colorref="2">
+<trend count="9" data="0.015,0.027,0.028,0.020,0.020,0.025,0.003,0.000,0.000"/>
+</term>
+<term id="99" value="bone" x="0.317" y="0.519" colorref="4">
+<trend count="9" data="0.077,0.077,0.088,0.093,0.108,0.095,0.033,0.002,0.001"/>
+</term>
+<term id="100" value="bone marrow" x="0.105" y="0.696" colorref="3">
+<trend count="9" data="0.016,0.018,0.020,0.024,0.019,0.029,0.005,0.000,0.001"/>
+</term>
+<term id="101" value="book" x="0.465" y="0.271" colorref="1">
+<trend count="9" data="0.030,0.037,0.026,0.029,0.033,0.025,0.007,0.000,0.000"/>
+</term>
+<term id="102" value="bottom" x="0.520" y="0.437" colorref="1">
+<trend count="9" data="0.007,0.008,0.008,0.007,0.011,0.025,0.003,0.000,0.000"/>
+</term>
+<term id="103" value="boy" x="0.219" y="0.327" colorref="2">
+<trend count="9" data="0.010,0.010,0.012,0.015,0.014,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="104" value="bpd" x="0.192" y="0.049" colorref="2">
+<trend count="9" data="0.001,0.004,0.003,0.000,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="105" value="braf" x="0.014" y="0.344" colorref="2">
+<trend count="9" data="0.001,0.001,0.001,0.003,0.008,0.006,0.005,0.000,0.000"/>
+</term>
+<term id="106" value="brain" x="0.290" y="0.616" colorref="3">
+<trend count="9" data="0.148,0.146,0.151,0.175,0.178,0.172,0.054,0.000,0.000"/>
+</term>
+<term id="107" value="brain activity" x="0.392" y="0.366" colorref="1">
+<trend count="9" data="0.008,0.007,0.010,0.011,0.010,0.008,0.004,0.000,0.000"/>
+</term>
+<term id="108" value="brain area" x="0.365" y="0.522" colorref="1">
+<trend count="9" data="0.002,0.001,0.001,0.002,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="109" value="brain region" x="0.358" y="0.487" colorref="1">
+<trend count="9" data="0.003,0.003,0.002,0.001,0.006,0.004,0.000,0.000,0.000"/>
+</term>
+<term id="110" value="branching fraction" x="0.989" y="0.551" colorref="6">
+<trend count="9" data="0.000,0.001,0.001,0.012,0.007,0.027,0.003,0.000,0.000"/>
+</term>
+<term id="111" value="breast cancer" x="0.128" y="0.430" colorref="2">
+<trend count="9" data="0.022,0.018,0.015,0.016,0.019,0.023,0.005,0.000,0.000"/>
+</term>
+<term id="112" value="building" x="0.479" y="0.358" colorref="1">
+<trend count="9" data="0.032,0.042,0.044,0.052,0.056,0.048,0.009,0.001,0.000"/>
+</term>
+<term id="113" value="cad" x="0.139" y="0.169" colorref="2">
+<trend count="9" data="0.011,0.018,0.014,0.024,0.024,0.020,0.005,0.001,0.000"/>
+</term>
+<term id="114" value="cad cam" x="0.288" y="0.368" colorref="4">
+<trend count="9" data="0.004,0.005,0.003,0.001,0.007,0.007,0.000,0.001,0.000"/>
+</term>
+<term id="115" value="calculation" x="0.583" y="0.515" colorref="6">
+<trend count="9" data="0.127,0.135,0.135,0.157,0.158,0.152,0.048,0.003,0.000"/>
+</term>
+<term id="116" value="canada" x="0.318" y="0.184" colorref="1">
+<trend count="9" data="0.004,0.008,0.005,0.006,0.006,0.008,0.005,0.000,0.000"/>
+</term>
+<term id="117" value="cancer" x="0.114" y="0.477" colorref="3">
+<trend count="9" data="0.111,0.105,0.111,0.147,0.163,0.141,0.046,0.003,0.000"/>
+</term>
+<term id="118" value="cancer cell" x="0.104" y="0.830" colorref="3">
+<trend count="9" data="0.008,0.007,0.008,0.014,0.014,0.011,0.007,0.000,0.000"/>
+</term>
+<term id="119" value="cancer patient" x="0.144" y="0.413" colorref="4">
+<trend count="9" data="0.000,0.001,0.000,0.001,0.000,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="120" value="cannabi" x="0.331" y="0.067" colorref="1">
+<trend count="9" data="0.005,0.003,0.003,0.003,0.005,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="121" value="canton" x="0.340" y="0.182" colorref="1">
+<trend count="9" data="0.010,0.011,0.012,0.013,0.008,0.009,0.005,0.001,0.000"/>
+</term>
+<term id="122" value="capability" x="0.454" y="0.514" colorref="1">
+<trend count="9" data="0.034,0.046,0.060,0.056,0.068,0.043,0.008,0.000,0.000"/>
+</term>
+<term id="123" value="cardiac surgery" x="0.186" y="0.140" colorref="2">
+<trend count="9" data="0.007,0.005,0.007,0.007,0.007,0.005,0.002,0.000,0.000"/>
+</term>
+<term id="124" value="cardiovascular disease" x="0.125" y="0.187" colorref="2">
+<trend count="9" data="0.016,0.008,0.010,0.022,0.012,0.018,0.005,0.000,0.000"/>
+</term>
+<term id="125" value="cardiovascular event" x="0.063" y="0.199" colorref="2">
+<trend count="9" data="0.001,0.001,0.002,0.001,0.003,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="126" value="care" x="0.269" y="0.126" colorref="2">
+<trend count="9" data="0.111,0.121,0.113,0.121,0.163,0.150,0.037,0.004,0.000"/>
+</term>
+<term id="127" value="cart" x="0.128" y="0.121" colorref="2">
+<trend count="9" data="0.008,0.003,0.008,0.006,0.007,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="128" value="cascade" x="0.184" y="0.800" colorref="3">
+<trend count="9" data="0.014,0.016,0.021,0.016,0.016,0.017,0.005,0.000,0.000"/>
+</term>
+<term id="129" value="case report" x="0.181" y="0.358" colorref="4">
+<trend count="9" data="0.004,0.010,0.008,0.012,0.010,0.017,0.003,0.000,0.000"/>
+</term>
+<term id="130" value="case study" x="0.497" y="0.334" colorref="1">
+<trend count="9" data="0.014,0.016,0.014,0.013,0.025,0.021,0.003,0.001,0.000"/>
+</term>
+<term id="131" value="caspase" x="0.111" y="0.942" colorref="3">
+<trend count="9" data="0.010,0.012,0.008,0.014,0.010,0.008,0.002,0.001,0.000"/>
+</term>
+<term id="132" value="cat" x="0.191" y="0.489" colorref="4">
+<trend count="9" data="0.024,0.044,0.029,0.029,0.025,0.042,0.010,0.000,0.000"/>
+</term>
+<term id="133" value="catchment" x="0.533" y="0.450" colorref="1">
+<trend count="9" data="0.003,0.012,0.006,0.010,0.009,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="134" value="cattle" x="0.272" y="0.581" colorref="4">
+<trend count="9" data="0.014,0.021,0.016,0.020,0.014,0.014,0.005,0.000,0.000"/>
+</term>
+<term id="135" value="cause mortality" x="0.126" y="0.036" colorref="2">
+<trend count="9" data="0.001,0.007,0.003,0.007,0.008,0.008,0.005,0.000,0.000"/>
+</term>
+<term id="136" value="ccta" x="0.101" y="0.057" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.005,0.007,0.005,0.005,0.000,0.000"/>
+</term>
+<term id="137" value="cd4" x="0.077" y="0.810" colorref="3">
+<trend count="9" data="0.024,0.024,0.030,0.029,0.031,0.019,0.003,0.001,0.000"/>
+</term>
+<term id="138" value="cell" x="0.171" y="0.779" colorref="3">
+<trend count="9" data="0.447,0.478,0.490,0.549,0.530,0.528,0.136,0.005,0.001"/>
+</term>
+<term id="139" value="cell death" x="0.086" y="0.892" colorref="3">
+<trend count="9" data="0.020,0.018,0.018,0.017,0.021,0.016,0.005,0.000,0.000"/>
+</term>
+<term id="140" value="cell line" x="0.088" y="0.878" colorref="3">
+<trend count="9" data="0.012,0.014,0.010,0.018,0.020,0.013,0.004,0.000,0.000"/>
+</term>
+<term id="141" value="cell proliferation" x="0.163" y="0.774" colorref="3">
+<trend count="9" data="0.018,0.023,0.024,0.022,0.018,0.021,0.001,0.000,0.000"/>
+</term>
+<term id="142" value="cell type" x="0.213" y="0.870" colorref="3">
+<trend count="9" data="0.011,0.002,0.013,0.006,0.009,0.013,0.003,0.000,0.000"/>
+</term>
+<term id="143" value="cells" x="0.178" y="0.972" colorref="3">
+<trend count="9" data="0.447,0.478,0.490,0.549,0.530,0.528,0.136,0.005,0.001"/>
+</term>
+<term id="144" value="cent" x="0.450" y="0.235" colorref="1">
+<trend count="9" data="0.007,0.011,0.010,0.008,0.015,0.009,0.001,0.000,0.000"/>
+</term>
+<term id="145" value="center" x="0.517" y="0.339" colorref="6">
+<trend count="9" data="0.063,0.086,0.086,0.086,0.108,0.120,0.024,0.001,0.000"/>
+</term>
+<term id="146" value="central" x="0.267" y="0.121" colorref="2">
+<trend count="9" data="0.144,0.170,0.161,0.169,0.164,0.166,0.041,0.002,0.000"/>
+</term>
+<term id="147" value="central nervous system" x="0.143" y="0.638" colorref="3">
+<trend count="9" data="0.025,0.022,0.025,0.025,0.024,0.029,0.008,0.000,0.000"/>
+</term>
+<term id="148" value="central role" x="0.284" y="0.601" colorref="3">
+<trend count="9" data="0.008,0.009,0.008,0.014,0.010,0.011,0.001,0.000,0.000"/>
+</term>
+<term id="149" value="centre" x="0.524" y="0.312" colorref="6">
+<trend count="9" data="0.042,0.041,0.041,0.055,0.058,0.066,0.019,0.000,0.000"/>
+</term>
+<term id="150" value="century" x="0.461" y="0.330" colorref="1">
+<trend count="9" data="0.024,0.032,0.035,0.038,0.041,0.037,0.007,0.000,0.000"/>
+</term>
+<term id="151" value="cerebellum" x="0.299" y="0.603" colorref="1">
+<trend count="9" data="0.008,0.010,0.008,0.011,0.005,0.009,0.002,0.000,0.000"/>
+</term>
+<term id="152" value="cerebrospinal fluid" x="0.138" y="0.648" colorref="3">
+<trend count="9" data="0.010,0.008,0.012,0.009,0.014,0.010,0.002,0.000,0.000"/>
+</term>
+<term id="153" value="channel" x="0.583" y="0.560" colorref="6">
+<trend count="9" data="0.035,0.030,0.052,0.052,0.054,0.061,0.012,0.001,0.000"/>
+</term>
+<term id="154" value="chapter" x="0.400" y="0.400" colorref="1">
+<trend count="9" data="0.025,0.039,0.019,0.024,0.033,0.025,0.012,0.000,0.000"/>
+</term>
+<term id="155" value="character" x="0.460" y="0.457" colorref="1">
+<trend count="9" data="0.029,0.031,0.027,0.029,0.025,0.025,0.005,0.000,0.000"/>
+</term>
+<term id="156" value="charge" x="0.651" y="0.599" colorref="6">
+<trend count="9" data="0.024,0.029,0.028,0.041,0.033,0.037,0.007,0.000,0.000"/>
+</term>
+<term id="157" value="chd" x="0.160" y="0.121" colorref="2">
+<trend count="9" data="0.003,0.005,0.005,0.007,0.004,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="158" value="chemotherapy" x="0.059" y="0.329" colorref="2">
+<trend count="9" data="0.047,0.030,0.029,0.041,0.052,0.033,0.008,0.001,0.000"/>
+</term>
+<term id="159" value="childhood" x="0.308" y="0.306" colorref="1">
+<trend count="9" data="0.018,0.032,0.039,0.033,0.026,0.039,0.008,0.000,0.000"/>
+</term>
+<term id="160" value="china" x="0.479" y="0.413" colorref="1">
+<trend count="9" data="0.016,0.022,0.017,0.016,0.019,0.019,0.002,0.001,0.000"/>
+</term>
+<term id="161" value="chronic obstructive pulmonary disease" x="0.188" y="0.121" colorref="2">
+<trend count="9" data="0.006,0.008,0.005,0.003,0.010,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="162" value="circuit" x="0.418" y="0.608" colorref="1">
+<trend count="9" data="0.021,0.027,0.022,0.023,0.024,0.023,0.006,0.000,0.000"/>
+</term>
+<term id="163" value="cirrhosis" x="0.226" y="0.272" colorref="2">
+<trend count="9" data="0.004,0.003,0.002,0.004,0.004,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="164" value="cisplatin" x="0.082" y="0.434" colorref="2">
+<trend count="9" data="0.009,0.005,0.005,0.010,0.008,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="165" value="citizen" x="0.476" y="0.228" colorref="1">
+<trend count="9" data="0.009,0.006,0.009,0.013,0.009,0.009,0.002,0.001,0.000"/>
+</term>
+<term id="166" value="city" x="0.447" y="0.275" colorref="1">
+<trend count="9" data="0.007,0.012,0.012,0.012,0.015,0.020,0.007,0.001,0.000"/>
+</term>
+<term id="167" value="clade" x="0.463" y="0.620" colorref="1">
+<trend count="9" data="0.018,0.020,0.018,0.018,0.013,0.012,0.004,0.000,0.000"/>
+</term>
+<term id="168" value="claim" x="0.406" y="0.241" colorref="1">
+<trend count="9" data="0.027,0.018,0.025,0.025,0.022,0.027,0.005,0.001,0.000"/>
+</term>
+<term id="169" value="client" x="0.374" y="0.235" colorref="1">
+<trend count="9" data="0.008,0.010,0.007,0.008,0.012,0.010,0.001,0.000,0.000"/>
+</term>
+<term id="170" value="climate" x="0.506" y="0.454" colorref="1">
+<trend count="9" data="0.035,0.046,0.046,0.058,0.058,0.061,0.012,0.001,0.000"/>
+</term>
+<term id="171" value="climate change" x="0.530" y="0.414" colorref="1">
+<trend count="9" data="0.009,0.015,0.015,0.025,0.025,0.025,0.004,0.000,0.000"/>
+</term>
+<term id="172" value="clinical" x="0.137" y="0.242" colorref="2">
+<trend count="9" data="0.389,0.431,0.438,0.451,0.547,0.542,0.167,0.007,0.001"/>
+</term>
+<term id="173" value="clinical data" x="0.138" y="0.204" colorref="2">
+<trend count="9" data="0.007,0.008,0.012,0.010,0.012,0.011,0.005,0.001,0.000"/>
+</term>
+<term id="174" value="clinical diagnosis" x="0.250" y="0.332" colorref="4">
+<trend count="9" data="0.005,0.007,0.004,0.005,0.006,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="175" value="clinical evaluation" x="0.316" y="0.380" colorref="4">
+<trend count="9" data="0.005,0.003,0.003,0.006,0.004,0.003,0.002,0.001,0.000"/>
+</term>
+<term id="176" value="clinical importance" x="0.143" y="0.368" colorref="4">
+<trend count="9" data="0.005,0.005,0.008,0.003,0.007,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="177" value="clinical outcome" x="0.135" y="0.280" colorref="2">
+<trend count="9" data="0.020,0.014,0.020,0.020,0.016,0.013,0.007,0.000,0.000"/>
+</term>
+<term id="178" value="clinical parameter" x="0.214" y="0.421" colorref="4">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="179" value="clinical presentation" x="0.130" y="0.329" colorref="2">
+<trend count="9" data="0.009,0.006,0.006,0.007,0.012,0.013,0.003,0.000,0.000"/>
+</term>
+<term id="180" value="clinical sign" x="0.191" y="0.372" colorref="4">
+<trend count="9" data="0.000,0.001,0.000,0.003,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="181" value="clinical symptom" x="0.223" y="0.438" colorref="4">
+<trend count="9" data="0.000,0.001,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="182" value="clinicaltrial" x="0.138" y="0.113" colorref="2">
+<trend count="9" data="0.007,0.012,0.012,0.012,0.016,0.019,0.005,0.001,0.000"/>
+</term>
+<term id="183" value="clinicaltrials gov" x="0.116" y="0.177" colorref="2">
+<trend count="9" data="0.006,0.012,0.012,0.011,0.016,0.018,0.005,0.001,0.000"/>
+</term>
+<term id="184" value="cmr" x="0.299" y="0.206" colorref="2">
+<trend count="9" data="0.004,0.002,0.007,0.008,0.008,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="185" value="cms detector" x="0.969" y="0.571" colorref="6">
+<trend count="9" data="0.001,0.001,0.005,0.029,0.010,0.027,0.006,0.000,0.000"/>
+</term>
+<term id="186" value="cms experiment" x="0.968" y="0.560" colorref="6">
+<trend count="9" data="0.001,0.001,0.005,0.018,0.014,0.018,0.003,0.000,0.000"/>
+</term>
+<term id="187" value="cmv" x="0.225" y="0.402" colorref="2">
+<trend count="9" data="0.002,0.001,0.002,0.001,0.003,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="188" value="cns" x="0.086" y="0.617" colorref="3">
+<trend count="9" data="0.023,0.018,0.015,0.023,0.018,0.025,0.007,0.000,0.000"/>
+</term>
+<term id="189" value="co infection" x="0.259" y="0.426" colorref="4">
+<trend count="9" data="0.001,0.000,0.003,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="190" value="code" x="0.501" y="0.356" colorref="1">
+<trend count="9" data="0.044,0.044,0.053,0.058,0.061,0.056,0.018,0.001,0.000"/>
+</term>
+<term id="191" value="coefficient" x="0.425" y="0.406" colorref="4">
+<trend count="9" data="0.035,0.046,0.050,0.049,0.052,0.050,0.024,0.001,0.000"/>
+</term>
+<term id="192" value="cognition" x="0.344" y="0.291" colorref="1">
+<trend count="9" data="0.077,0.073,0.085,0.087,0.090,0.092,0.027,0.001,0.000"/>
+</term>
+<term id="193" value="cognitive deficit" x="0.267" y="0.326" colorref="1">
+<trend count="9" data="0.001,0.000,0.000,0.001,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="194" value="cognitive function" x="0.232" y="0.312" colorref="2">
+<trend count="9" data="0.001,0.003,0.005,0.003,0.003,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="195" value="cognitive impairment" x="0.251" y="0.265" colorref="2">
+<trend count="9" data="0.002,0.005,0.002,0.006,0.007,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="196" value="cognitive performance" x="0.302" y="0.237" colorref="1">
+<trend count="9" data="0.003,0.005,0.006,0.006,0.007,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="197" value="cohort" x="0.126" y="0.233" colorref="2">
+<trend count="9" data="0.079,0.074,0.093,0.108,0.122,0.126,0.035,0.001,0.000"/>
+</term>
+<term id="198" value="cohort study" x="0.201" y="0.161" colorref="2">
+<trend count="9" data="0.033,0.022,0.028,0.036,0.040,0.041,0.016,0.000,0.000"/>
+</term>
+<term id="199" value="collaboration" x="0.436" y="0.252" colorref="1">
+<trend count="9" data="0.019,0.024,0.025,0.046,0.044,0.027,0.007,0.001,0.000"/>
+</term>
+<term id="200" value="collagen" x="0.110" y="0.885" colorref="3">
+<trend count="9" data="0.015,0.020,0.022,0.025,0.022,0.029,0.016,0.002,0.000"/>
+</term>
+<term id="201" value="collision" x="0.919" y="0.561" colorref="6">
+<trend count="9" data="0.006,0.008,0.012,0.058,0.039,0.112,0.014,0.000,0.000"/>
+</term>
+<term id="202" value="colony" x="0.346" y="0.568" colorref="1">
+<trend count="9" data="0.018,0.008,0.011,0.014,0.012,0.022,0.005,0.000,0.000"/>
+</term>
+<term id="203" value="community" x="0.421" y="0.440" colorref="1">
+<trend count="9" data="0.058,0.071,0.068,0.062,0.076,0.062,0.020,0.003,0.001"/>
+</term>
+<term id="204" value="comorbidity" x="0.196" y="0.129" colorref="2">
+<trend count="9" data="0.015,0.015,0.022,0.013,0.017,0.025,0.008,0.000,0.000"/>
+</term>
+<term id="205" value="company" x="0.436" y="0.248" colorref="1">
+<trend count="9" data="0.016,0.012,0.013,0.016,0.018,0.018,0.008,0.000,0.000"/>
+</term>
+<term id="206" value="competition" x="0.476" y="0.455" colorref="1">
+<trend count="9" data="0.048,0.051,0.046,0.057,0.048,0.051,0.014,0.000,0.000"/>
+</term>
+<term id="207" value="completeness" x="0.362" y="0.291" colorref="1">
+<trend count="9" data="0.208,0.203,0.180,0.177,0.218,0.214,0.055,0.004,0.000"/>
+</term>
+<term id="208" value="complex" x="0.263" y="0.836" colorref="3">
+<trend count="9" data="0.233,0.230,0.230,0.284,0.273,0.256,0.058,0.001,0.001"/>
+</term>
+<term id="209" value="compliance" x="0.347" y="0.148" colorref="1">
+<trend count="9" data="0.012,0.015,0.012,0.009,0.021,0.011,0.008,0.001,0.000"/>
+</term>
+<term id="210" value="complication" x="0.189" y="0.244" colorref="2">
+<trend count="9" data="0.080,0.093,0.099,0.095,0.105,0.108,0.031,0.000,0.000"/>
+</term>
+<term id="211" value="compound" x="0.221" y="0.760" colorref="3">
+<trend count="9" data="0.057,0.064,0.067,0.058,0.061,0.061,0.014,0.001,0.000"/>
+</term>
+<term id="212" value="computation" x="0.594" y="0.490" colorref="1">
+<trend count="9" data="0.148,0.134,0.140,0.165,0.190,0.197,0.052,0.003,0.000"/>
+</term>
+<term id="213" value="computed tomography" x="0.343" y="0.443" colorref="4">
+<trend count="9" data="0.035,0.043,0.038,0.052,0.058,0.066,0.021,0.001,0.000"/>
+</term>
+<term id="214" value="computer" x="0.359" y="0.359" colorref="4">
+<trend count="9" data="0.148,0.134,0.140,0.165,0.190,0.197,0.052,0.003,0.000"/>
+</term>
+<term id="215" value="confidence interval" x="0.169" y="0.123" colorref="2">
+<trend count="9" data="0.036,0.042,0.036,0.037,0.061,0.058,0.018,0.000,0.000"/>
+</term>
+<term id="216" value="confidence interval ci" x="0.088" y="0.086" colorref="2">
+<trend count="9" data="0.017,0.024,0.019,0.020,0.040,0.031,0.007,0.000,0.000"/>
+</term>
+<term id="217" value="confidence level" x="0.969" y="0.569" colorref="6">
+<trend count="9" data="0.003,0.004,0.003,0.020,0.014,0.035,0.004,0.000,0.000"/>
+</term>
+<term id="218" value="conflict" x="0.459" y="0.283" colorref="1">
+<trend count="9" data="0.033,0.045,0.040,0.037,0.043,0.036,0.010,0.001,0.000"/>
+</term>
+<term id="219" value="congenital heart disease" x="0.167" y="0.140" colorref="2">
+<trend count="9" data="0.005,0.004,0.004,0.006,0.002,0.006,0.003,0.000,0.000"/>
+</term>
+<term id="220" value="connectivity" x="0.425" y="0.504" colorref="1">
+<trend count="9" data="0.069,0.086,0.074,0.088,0.086,0.086,0.022,0.003,0.000"/>
+</term>
+<term id="221" value="consecutive patient" x="0.179" y="0.203" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.001,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="222" value="constraint" x="0.605" y="0.438" colorref="1">
+<trend count="9" data="0.028,0.034,0.040,0.054,0.051,0.030,0.009,0.001,0.000"/>
+</term>
+<term id="223" value="construction" x="0.509" y="0.447" colorref="1">
+<trend count="9" data="0.082,0.075,0.098,0.122,0.085,0.077,0.020,0.001,0.000"/>
+</term>
+<term id="224" value="consumer" x="0.455" y="0.351" colorref="1">
+<trend count="9" data="0.032,0.036,0.031,0.038,0.035,0.033,0.012,0.000,0.000"/>
+</term>
+<term id="225" value="contribution" x="0.463" y="0.495" colorref="1">
+<trend count="9" data="0.226,0.242,0.229,0.271,0.290,0.275,0.084,0.003,0.001"/>
+</term>
+<term id="226" value="control group" x="0.245" y="0.224" colorref="2">
+<trend count="9" data="0.036,0.040,0.042,0.042,0.045,0.065,0.016,0.001,0.000"/>
+</term>
+<term id="227" value="controlled trial" x="0.251" y="0.054" colorref="2">
+<trend count="9" data="0.011,0.012,0.008,0.014,0.009,0.018,0.007,0.000,0.000"/>
+</term>
+<term id="228" value="convergence" x="0.485" y="0.478" colorref="1">
+<trend count="9" data="0.031,0.030,0.037,0.026,0.029,0.028,0.008,0.000,0.000"/>
+</term>
+<term id="229" value="cooperation" x="0.428" y="0.374" colorref="1">
+<trend count="9" data="0.029,0.035,0.032,0.033,0.038,0.029,0.008,0.001,0.000"/>
+</term>
+<term id="230" value="copd" x="0.193" y="0.089" colorref="2">
+<trend count="9" data="0.009,0.008,0.005,0.005,0.010,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="231" value="copd patient" x="0.188" y="0.024" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="232" value="copy" x="0.156" y="0.308" colorref="2">
+<trend count="9" data="0.021,0.025,0.035,0.027,0.038,0.022,0.005,0.001,0.000"/>
+</term>
+<term id="233" value="coronary angiography" x="0.120" y="0.187" colorref="2">
+<trend count="9" data="0.018,0.018,0.009,0.014,0.009,0.003,0.003,0.000,0.000"/>
+</term>
+<term id="234" value="coronary artery disease" x="0.113" y="0.110" colorref="2">
+<trend count="9" data="0.017,0.024,0.017,0.026,0.022,0.018,0.008,0.000,0.000"/>
+</term>
+<term id="235" value="correction" x="0.467" y="0.459" colorref="4">
+<trend count="9" data="0.100,0.112,0.105,0.113,0.126,0.127,0.027,0.001,0.001"/>
+</term>
+<term id="236" value="correspond" x="0.872" y="0.538" colorref="6">
+<trend count="9" data="0.128,0.114,0.127,0.159,0.142,0.190,0.046,0.003,0.000"/>
+</term>
+<term id="237" value="cortex" x="0.396" y="0.533" colorref="1">
+<trend count="9" data="0.058,0.066,0.054,0.057,0.054,0.069,0.023,0.001,0.000"/>
+</term>
+<term id="238" value="corticosteroid" x="0.153" y="0.200" colorref="2">
+<trend count="9" data="0.007,0.008,0.014,0.003,0.011,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="239" value="country" x="0.363" y="0.246" colorref="1">
+<trend count="9" data="0.095,0.078,0.099,0.117,0.118,0.104,0.044,0.003,0.000"/>
+</term>
+<term id="240" value="coupling" x="0.623" y="0.579" colorref="6">
+<trend count="9" data="0.069,0.068,0.084,0.067,0.085,0.088,0.012,0.003,0.000"/>
+</term>
+<term id="241" value="cow" x="0.195" y="0.642" colorref="4">
+<trend count="9" data="0.012,0.007,0.009,0.020,0.020,0.017,0.004,0.000,0.000"/>
+</term>
+<term id="242" value="critical role" x="0.268" y="0.746" colorref="3">
+<trend count="9" data="0.012,0.007,0.009,0.012,0.007,0.007,0.004,0.000,0.000"/>
+</term>
+<term id="243" value="crohn" x="0.125" y="0.395" colorref="3">
+<trend count="9" data="0.005,0.010,0.015,0.007,0.012,0.014,0.004,0.000,0.000"/>
+</term>
+<term id="244" value="cross section" x="0.911" y="0.557" colorref="6">
+<trend count="9" data="0.010,0.011,0.012,0.038,0.023,0.044,0.007,0.000,0.000"/>
+</term>
+<term id="245" value="cross sectional study" x="0.225" y="0.176" colorref="2">
+<trend count="9" data="0.010,0.008,0.010,0.008,0.017,0.020,0.006,0.001,0.000"/>
+</term>
+<term id="246" value="crown" x="0.311" y="0.415" colorref="4">
+<trend count="9" data="0.011,0.011,0.010,0.008,0.014,0.014,0.007,0.000,0.000"/>
+</term>
+<term id="247" value="crystal structure" x="0.266" y="0.971" colorref="3">
+<trend count="9" data="0.008,0.007,0.005,0.006,0.007,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="248" value="csf" x="0.139" y="0.646" colorref="3">
+<trend count="9" data="0.012,0.011,0.011,0.011,0.012,0.012,0.004,0.000,0.000"/>
+</term>
+<term id="249" value="cto" x="0.179" y="0.236" colorref="2">
+<trend count="9" data="0.000,0.001,0.001,0.000,0.000,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="250" value="current evidence" x="0.200" y="0.240" colorref="2">
+<trend count="9" data="0.005,0.005,0.005,0.006,0.004,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="251" value="current state" x="0.337" y="0.334" colorref="1">
+<trend count="9" data="0.005,0.005,0.003,0.006,0.005,0.004,0.005,0.000,0.000"/>
+</term>
+<term id="252" value="curve" x="0.165" y="0.206" colorref="2">
+<trend count="9" data="0.035,0.037,0.035,0.052,0.054,0.050,0.018,0.000,0.000"/>
+</term>
+<term id="253" value="cut" x="0.448" y="0.311" colorref="6">
+<trend count="9" data="0.021,0.025,0.028,0.028,0.031,0.033,0.010,0.001,0.000"/>
+</term>
+<term id="254" value="cystic fibrosis" x="0.290" y="0.207" colorref="2">
+<trend count="9" data="0.001,0.005,0.003,0.003,0.005,0.012,0.001,0.000,0.000"/>
+</term>
+<term id="255" value="cytokine" x="0.090" y="0.792" colorref="3">
+<trend count="9" data="0.035,0.046,0.045,0.050,0.059,0.046,0.013,0.000,0.000"/>
+</term>
+<term id="256" value="cytokine production" x="0.070" y="0.825" colorref="3">
+<trend count="9" data="0.003,0.004,0.006,0.004,0.003,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="257" value="cytotoxicity" x="0.192" y="0.834" colorref="3">
+<trend count="9" data="0.022,0.017,0.019,0.027,0.026,0.021,0.006,0.000,0.000"/>
+</term>
+<term id="258" value="dabrafenib" x="0.050" y="0.291" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.001,0.000,0.002,0.000,0.000"/>
+</term>
+<term id="259" value="damage" x="0.210" y="0.654" colorref="3">
+<trend count="9" data="0.070,0.058,0.060,0.069,0.079,0.073,0.018,0.001,0.000"/>
+</term>
+<term id="260" value="data collection" x="0.389" y="0.201" colorref="1">
+<trend count="9" data="0.007,0.007,0.012,0.012,0.008,0.013,0.002,0.001,0.000"/>
+</term>
+<term id="261" value="data sample" x="0.966" y="0.550" colorref="6">
+<trend count="9" data="0.003,0.003,0.003,0.029,0.014,0.033,0.004,0.000,0.000"/>
+</term>
+<term id="262" value="dcs" x="0.099" y="0.918" colorref="3">
+<trend count="9" data="0.005,0.003,0.005,0.010,0.007,0.011,0.001,0.000,0.000"/>
+</term>
+<term id="263" value="death" x="0.157" y="0.244" colorref="2">
+<trend count="9" data="0.070,0.078,0.077,0.088,0.107,0.108,0.031,0.001,0.000"/>
+</term>
+<term id="264" value="decay" x="0.871" y="0.550" colorref="6">
+<trend count="9" data="0.019,0.022,0.012,0.056,0.036,0.103,0.016,0.001,0.000"/>
+</term>
+<term id="265" value="december" x="0.213" y="0.145" colorref="2">
+<trend count="9" data="0.018,0.015,0.025,0.024,0.024,0.024,0.008,0.000,0.001"/>
+</term>
+<term id="266" value="decision maker" x="0.495" y="0.324" colorref="1">
+<trend count="9" data="0.002,0.000,0.002,0.001,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="267" value="decision making" x="0.385" y="0.282" colorref="1">
+<trend count="9" data="0.031,0.029,0.027,0.029,0.031,0.041,0.009,0.000,0.000"/>
+</term>
+<term id="268" value="deficiency" x="0.172" y="0.629" colorref="3">
+<trend count="9" data="0.065,0.079,0.073,0.077,0.075,0.088,0.022,0.002,0.000"/>
+</term>
+<term id="269" value="degradation" x="0.257" y="0.839" colorref="3">
+<trend count="9" data="0.037,0.042,0.047,0.047,0.042,0.039,0.008,0.001,0.000"/>
+</term>
+<term id="270" value="deletion" x="0.211" y="0.785" colorref="3">
+<trend count="9" data="0.031,0.046,0.037,0.031,0.037,0.039,0.010,0.000,0.000"/>
+</term>
+<term id="271" value="democracy" x="0.501" y="0.261" colorref="1">
+<trend count="9" data="0.012,0.010,0.007,0.017,0.010,0.014,0.002,0.000,0.000"/>
+</term>
+<term id="272" value="dendritic cell" x="0.081" y="0.910" colorref="3">
+<trend count="9" data="0.004,0.003,0.004,0.001,0.003,0.006,0.000,0.000,0.000"/>
+</term>
+<term id="273" value="dental implant" x="0.321" y="0.408" colorref="4">
+<trend count="9" data="0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="274" value="depletion" x="0.171" y="0.833" colorref="3">
+<trend count="9" data="0.022,0.024,0.029,0.027,0.035,0.034,0.010,0.000,0.000"/>
+</term>
+<term id="275" value="depressive symptom" x="0.345" y="0.185" colorref="1">
+<trend count="9" data="0.000,0.001,0.001,0.000,0.000,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="276" value="depth" x="0.414" y="0.478" colorref="4">
+<trend count="9" data="0.039,0.042,0.038,0.037,0.041,0.030,0.010,0.001,0.001"/>
+</term>
+<term id="277" value="descriptive statistic" x="0.296" y="0.216" colorref="4">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="278" value="detector" x="0.710" y="0.532" colorref="6">
+<trend count="9" data="0.023,0.031,0.031,0.067,0.035,0.078,0.009,0.000,0.000"/>
+</term>
+<term id="279" value="determination" x="0.485" y="0.540" colorref="6">
+<trend count="9" data="0.331,0.417,0.379,0.367,0.443,0.379,0.108,0.006,0.000"/>
+</term>
+<term id="280" value="deviation" x="0.568" y="0.407" colorref="6">
+<trend count="9" data="0.038,0.044,0.038,0.037,0.048,0.063,0.020,0.000,0.000"/>
+</term>
+<term id="281" value="diabete" x="0.116" y="0.226" colorref="2">
+<trend count="9" data="0.039,0.044,0.044,0.042,0.050,0.044,0.016,0.000,0.000"/>
+</term>
+<term id="282" value="diabetes" x="0.115" y="0.281" colorref="2">
+<trend count="9" data="0.039,0.044,0.044,0.042,0.050,0.044,0.016,0.000,0.000"/>
+</term>
+<term id="283" value="diabetes mellitus" x="0.084" y="0.271" colorref="2">
+<trend count="9" data="0.008,0.012,0.014,0.012,0.014,0.013,0.005,0.000,0.000"/>
+</term>
+<term id="284" value="diagnosis" x="0.171" y="0.287" colorref="2">
+<trend count="9" data="0.116,0.136,0.129,0.139,0.155,0.168,0.048,0.001,0.000"/>
+</term>
+<term id="285" value="diagnostic accuracy" x="0.242" y="0.272" colorref="4">
+<trend count="9" data="0.014,0.012,0.010,0.009,0.012,0.015,0.005,0.000,0.000"/>
+</term>
+<term id="286" value="diagnostic criterium" x="0.247" y="0.250" colorref="1">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="287" value="diameter" x="0.246" y="0.510" colorref="4">
+<trend count="9" data="0.036,0.044,0.040,0.035,0.037,0.059,0.011,0.001,0.001"/>
+</term>
+<term id="288" value="differential diagnosis" x="0.178" y="0.444" colorref="4">
+<trend count="9" data="0.011,0.007,0.016,0.014,0.014,0.017,0.005,0.001,0.000"/>
+</term>
+<term id="289" value="differentiation" x="0.190" y="0.751" colorref="3">
+<trend count="9" data="0.157,0.173,0.183,0.186,0.187,0.184,0.043,0.003,0.001"/>
+</term>
+<term id="290" value="diffusion" x="0.466" y="0.575" colorref="1">
+<trend count="9" data="0.041,0.054,0.043,0.054,0.054,0.056,0.020,0.000,0.000"/>
+</term>
+<term id="291" value="diptera" x="0.382" y="0.591" colorref="1">
+<trend count="9" data="0.001,0.005,0.007,0.003,0.003,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="292" value="disability" x="0.284" y="0.244" colorref="2">
+<trend count="9" data="0.012,0.025,0.020,0.022,0.030,0.029,0.007,0.000,0.000"/>
+</term>
+<term id="293" value="discharge" x="0.305" y="0.243" colorref="2">
+<trend count="9" data="0.016,0.020,0.016,0.024,0.022,0.024,0.008,0.001,0.000"/>
+</term>
+<term id="294" value="discipline" x="0.422" y="0.280" colorref="1">
+<trend count="9" data="0.013,0.009,0.016,0.021,0.017,0.017,0.003,0.000,0.000"/>
+</term>
+<term id="295" value="discontinuation" x="0.109" y="0.189" colorref="2">
+<trend count="9" data="0.018,0.020,0.017,0.016,0.020,0.021,0.003,0.000,0.000"/>
+</term>
+<term id="296" value="discrimination" x="0.212" y="0.222" colorref="2">
+<trend count="9" data="0.035,0.037,0.044,0.049,0.054,0.051,0.014,0.000,0.000"/>
+</term>
+<term id="297" value="disease progression" x="0.071" y="0.423" colorref="2">
+<trend count="9" data="0.007,0.020,0.016,0.012,0.014,0.015,0.003,0.001,0.000"/>
+</term>
+<term id="298" value="dispersal" x="0.498" y="0.586" colorref="1">
+<trend count="9" data="0.031,0.042,0.035,0.041,0.030,0.030,0.009,0.000,0.000"/>
+</term>
+<term id="299" value="display" x="0.498" y="0.404" colorref="1">
+<trend count="9" data="0.076,0.078,0.076,0.090,0.088,0.092,0.027,0.001,0.000"/>
+</term>
+<term id="300" value="disruption" x="0.269" y="0.766" colorref="3">
+<trend count="9" data="0.022,0.031,0.030,0.034,0.032,0.032,0.003,0.001,0.000"/>
+</term>
+<term id="301" value="dissemination" x="0.268" y="0.422" colorref="1">
+<trend count="9" data="0.010,0.009,0.011,0.011,0.018,0.016,0.007,0.000,0.000"/>
+</term>
+<term id="302" value="distribution" x="0.512" y="0.496" colorref="1">
+<trend count="9" data="0.159,0.200,0.189,0.215,0.185,0.194,0.056,0.005,0.000"/>
+</term>
+<term id="303" value="divergence" x="0.429" y="0.580" colorref="1">
+<trend count="9" data="0.022,0.035,0.028,0.021,0.034,0.025,0.010,0.000,0.000"/>
+</term>
+<term id="304" value="dna" x="0.202" y="0.765" colorref="3">
+<trend count="9" data="0.114,0.108,0.110,0.116,0.125,0.105,0.035,0.001,0.000"/>
+</term>
+<term id="305" value="dna methylation" x="0.099" y="0.753" colorref="3">
+<trend count="9" data="0.003,0.008,0.005,0.005,0.007,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="306" value="document" x="0.426" y="0.260" colorref="1">
+<trend count="9" data="0.061,0.079,0.081,0.081,0.093,0.088,0.020,0.001,0.000"/>
+</term>
+<term id="307" value="dog" x="0.253" y="0.510" colorref="4">
+<trend count="9" data="0.027,0.033,0.044,0.039,0.041,0.039,0.016,0.001,0.000"/>
+</term>
+<term id="308" value="dopamine" x="0.320" y="0.590" colorref="1">
+<trend count="9" data="0.010,0.013,0.018,0.011,0.008,0.012,0.003,0.000,0.000"/>
+</term>
+<term id="309" value="dosage" x="0.180" y="0.442" colorref="4">
+<trend count="9" data="0.010,0.010,0.012,0.009,0.010,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="310" value="dose" x="0.159" y="0.361" colorref="2">
+<trend count="9" data="0.104,0.105,0.113,0.107,0.110,0.110,0.033,0.001,0.000"/>
+</term>
+<term id="311" value="double blind" x="0.180" y="0.311" colorref="2">
+<trend count="9" data="0.020,0.023,0.012,0.012,0.027,0.020,0.002,0.001,0.000"/>
+</term>
+<term id="312" value="downregulation" x="0.088" y="0.861" colorref="3">
+<trend count="9" data="0.014,0.015,0.018,0.020,0.012,0.022,0.004,0.000,0.000"/>
+</term>
+<term id="313" value="dsb" x="0.165" y="0.916" colorref="3">
+<trend count="9" data="0.003,0.001,0.005,0.002,0.002,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="314" value="dsbs" x="0.158" y="1.000" colorref="3">
+<trend count="9" data="0.002,0.001,0.006,0.002,0.003,0.004,0.000,0.000,0.000"/>
+</term>
+<term id="315" value="dsm" x="0.358" y="0.230" colorref="1">
+<trend count="9" data="0.013,0.014,0.010,0.005,0.007,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="316" value="dynamic" x="0.475" y="0.522" colorref="1">
+<trend count="9" data="0.129,0.152,0.156,0.161,0.184,0.150,0.036,0.003,0.001"/>
+</term>
+<term id="317" value="e coli" x="0.279" y="0.904" colorref="3">
+<trend count="9" data="0.011,0.008,0.008,0.011,0.010,0.006,0.003,0.000,0.000"/>
+</term>
+<term id="318" value="early diagnosis" x="0.260" y="0.516" colorref="4">
+<trend count="9" data="0.005,0.006,0.004,0.007,0.006,0.007,0.005,0.000,0.000"/>
+</term>
+<term id="319" value="earth" x="0.514" y="0.454" colorref="1">
+<trend count="9" data="0.017,0.013,0.019,0.010,0.016,0.012,0.001,0.000,0.000"/>
+</term>
+<term id="320" value="ecology" x="0.452" y="0.557" colorref="1">
+<trend count="9" data="0.037,0.049,0.047,0.047,0.041,0.043,0.014,0.000,0.000"/>
+</term>
+<term id="321" value="economy" x="0.498" y="0.304" colorref="1">
+<trend count="9" data="0.016,0.014,0.014,0.015,0.021,0.013,0.008,0.001,0.000"/>
+</term>
+<term id="322" value="ecosystem" x="0.501" y="0.486" colorref="1">
+<trend count="9" data="0.016,0.031,0.024,0.035,0.031,0.024,0.008,0.000,0.001"/>
+</term>
+<term id="323" value="edge" x="0.554" y="0.527" colorref="6">
+<trend count="9" data="0.014,0.012,0.015,0.014,0.020,0.021,0.003,0.001,0.000"/>
+</term>
+<term id="324" value="education" x="0.345" y="0.141" colorref="1">
+<trend count="9" data="0.041,0.050,0.049,0.061,0.072,0.050,0.012,0.002,0.000"/>
+</term>
+<term id="325" value="eeg" x="0.358" y="0.400" colorref="1">
+<trend count="9" data="0.020,0.016,0.018,0.020,0.026,0.027,0.011,0.001,0.000"/>
+</term>
+<term id="326" value="effective treatment" x="0.081" y="0.468" colorref="3">
+<trend count="9" data="0.005,0.008,0.008,0.010,0.010,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="327" value="efsa gmo panel" x="0.382" y="0.546" colorref="1">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.010,0.008,0.000,0.000,0.000"/>
+</term>
+<term id="328" value="egfr" x="0.134" y="0.266" colorref="2">
+<trend count="9" data="0.005,0.005,0.007,0.005,0.012,0.007,0.001,0.001,0.000"/>
+</term>
+<term id="329" value="egg" x="0.350" y="0.561" colorref="1">
+<trend count="9" data="0.015,0.014,0.013,0.014,0.012,0.008,0.007,0.001,0.000"/>
+</term>
+<term id="330" value="elderly patient" x="0.142" y="0.098" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.001,0.000,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="331" value="electron" x="0.832" y="0.581" colorref="6">
+<trend count="9" data="0.056,0.089,0.082,0.093,0.091,0.092,0.026,0.000,0.000"/>
+</term>
+<term id="332" value="electron microscopy" x="0.271" y="0.721" colorref="4">
+<trend count="9" data="0.016,0.022,0.021,0.023,0.022,0.018,0.011,0.000,0.000"/>
+</term>
+<term id="333" value="eligible patient" x="0.165" y="0.086" colorref="2">
+<trend count="9" data="0.001,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="334" value="elisa" x="0.145" y="0.608" colorref="4">
+<trend count="9" data="0.012,0.025,0.018,0.027,0.031,0.025,0.003,0.000,0.000"/>
+</term>
+<term id="335" value="embase" x="0.279" y="0.071" colorref="2">
+<trend count="9" data="0.005,0.008,0.002,0.009,0.008,0.011,0.005,0.001,0.000"/>
+</term>
+<term id="336" value="embryo" x="0.303" y="0.781" colorref="3">
+<trend count="9" data="0.016,0.010,0.014,0.011,0.015,0.012,0.004,0.000,0.000"/>
+</term>
+<term id="337" value="emergency department" x="0.177" y="0.094" colorref="2">
+<trend count="9" data="0.001,0.003,0.001,0.001,0.002,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="338" value="emission" x="0.430" y="0.428" colorref="1">
+<trend count="9" data="0.033,0.033,0.036,0.042,0.048,0.039,0.007,0.000,0.000"/>
+</term>
+<term id="339" value="emotion" x="0.412" y="0.354" colorref="1">
+<trend count="9" data="0.056,0.048,0.047,0.042,0.048,0.048,0.014,0.000,0.000"/>
+</term>
+<term id="340" value="empirical evidence" x="0.353" y="0.206" colorref="1">
+<trend count="9" data="0.007,0.007,0.014,0.012,0.009,0.011,0.002,0.000,0.000"/>
+</term>
+<term id="341" value="employee" x="0.443" y="0.174" colorref="1">
+<trend count="9" data="0.006,0.008,0.013,0.011,0.011,0.009,0.003,0.000,0.000"/>
+</term>
+<term id="342" value="endothelial cell" x="0.087" y="0.812" colorref="3">
+<trend count="9" data="0.005,0.008,0.004,0.005,0.006,0.009,0.003,0.000,0.000"/>
+</term>
+<term id="343" value="endpoint" x="0.160" y="0.176" colorref="2">
+<trend count="9" data="0.016,0.024,0.016,0.027,0.027,0.036,0.009,0.000,0.001"/>
+</term>
+<term id="344" value="energy" x="0.594" y="0.488" colorref="6">
+<trend count="9" data="0.086,0.101,0.110,0.140,0.126,0.148,0.032,0.001,0.000"/>
+</term>
+<term id="345" value="engagement" x="0.356" y="0.483" colorref="1">
+<trend count="9" data="0.020,0.027,0.031,0.040,0.037,0.031,0.013,0.001,0.000"/>
+</term>
+<term id="346" value="english" x="0.410" y="0.224" colorref="1">
+<trend count="9" data="0.017,0.021,0.016,0.017,0.027,0.020,0.005,0.000,0.000"/>
+</term>
+<term id="347" value="enzyme" x="0.178" y="0.673" colorref="3">
+<trend count="9" data="0.073,0.083,0.076,0.086,0.087,0.070,0.022,0.000,0.000"/>
+</term>
+<term id="348" value="epidemiology" x="0.272" y="0.424" colorref="4">
+<trend count="9" data="0.028,0.027,0.030,0.030,0.038,0.037,0.012,0.000,0.000"/>
+</term>
+<term id="349" value="epilepsy" x="0.265" y="0.474" colorref="2">
+<trend count="9" data="0.008,0.007,0.014,0.011,0.008,0.009,0.001,0.001,0.000"/>
+</term>
+<term id="350" value="epithelial cell" x="0.147" y="0.796" colorref="3">
+<trend count="9" data="0.005,0.005,0.001,0.006,0.003,0.009,0.003,0.000,0.000"/>
+</term>
+<term id="351" value="equilibrium" x="0.543" y="0.435" colorref="1">
+<trend count="9" data="0.033,0.031,0.035,0.029,0.029,0.025,0.011,0.001,0.000"/>
+</term>
+<term id="352" value="escherichia coli" x="0.283" y="0.837" colorref="3">
+<trend count="9" data="0.023,0.021,0.013,0.016,0.017,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="353" value="ess" x="0.300" y="0.053" colorref="2">
+<trend count="9" data="0.003,0.003,0.005,0.001,0.003,0.003,0.001,0.001,0.000"/>
+</term>
+<term id="354" value="essay" x="0.446" y="0.283" colorref="1">
+<trend count="9" data="0.011,0.009,0.012,0.008,0.010,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="355" value="essential role" x="0.241" y="0.827" colorref="3">
+<trend count="9" data="0.003,0.002,0.003,0.006,0.005,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="356" value="establishment" x="0.337" y="0.562" colorref="1">
+<trend count="9" data="0.152,0.208,0.184,0.215,0.211,0.216,0.053,0.001,0.001"/>
+</term>
+<term id="357" value="eukaryote" x="0.320" y="0.855" colorref="3">
+<trend count="9" data="0.012,0.018,0.018,0.029,0.025,0.016,0.002,0.000,0.000"/>
+</term>
+<term id="358" value="european country" x="0.327" y="0.190" colorref="1">
+<trend count="9" data="0.001,0.001,0.000,0.000,0.000,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="359" value="european union" x="0.427" y="0.335" colorref="1">
+<trend count="9" data="0.005,0.003,0.006,0.006,0.005,0.005,0.003,0.000,0.000"/>
+</term>
+<term id="360" value="excess" x="0.570" y="0.561" colorref="6">
+<trend count="9" data="0.041,0.025,0.037,0.050,0.045,0.062,0.009,0.000,0.000"/>
+</term>
+<term id="361" value="existence" x="0.467" y="0.555" colorref="1">
+<trend count="9" data="0.164,0.172,0.184,0.175,0.195,0.204,0.051,0.003,0.000"/>
+</term>
+<term id="362" value="exon" x="0.212" y="0.604" colorref="3">
+<trend count="9" data="0.016,0.012,0.010,0.013,0.009,0.014,0.004,0.000,0.000"/>
+</term>
+<term id="363" value="expectation" x="0.614" y="0.408" colorref="1">
+<trend count="9" data="0.113,0.118,0.131,0.160,0.139,0.158,0.030,0.002,0.000"/>
+</term>
+<term id="364" value="expense" x="0.458" y="0.391" colorref="1">
+<trend count="9" data="0.009,0.017,0.014,0.019,0.018,0.012,0.002,0.000,0.000"/>
+</term>
+<term id="365" value="experimental group" x="0.264" y="0.244" colorref="2">
+<trend count="9" data="0.001,0.001,0.002,0.000,0.002,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="366" value="expert" x="0.353" y="0.162" colorref="1">
+<trend count="9" data="0.029,0.041,0.039,0.031,0.044,0.046,0.012,0.000,0.000"/>
+</term>
+<term id="367" value="expression" x="0.147" y="0.760" colorref="3">
+<trend count="9" data="0.325,0.371,0.359,0.354,0.342,0.356,0.101,0.003,0.001"/>
+</term>
+<term id="368" value="expression level" x="0.189" y="0.720" colorref="3">
+<trend count="9" data="0.001,0.004,0.005,0.004,0.005,0.002,0.001,0.001,0.000"/>
+</term>
+<term id="369" value="farm" x="0.383" y="0.589" colorref="1">
+<trend count="9" data="0.009,0.016,0.014,0.023,0.018,0.018,0.004,0.000,0.000"/>
+</term>
+<term id="370" value="fatigue" x="0.111" y="0.368" colorref="2">
+<trend count="9" data="0.006,0.011,0.010,0.012,0.010,0.010,0.005,0.000,0.000"/>
+</term>
+<term id="371" value="fdp" x="0.284" y="0.248" colorref="4">
+<trend count="9" data="0.001,0.002,0.001,0.003,0.003,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="372" value="fear" x="0.399" y="0.270" colorref="1">
+<trend count="9" data="0.010,0.025,0.016,0.012,0.016,0.016,0.005,0.001,0.000"/>
+</term>
+<term id="373" value="february" x="0.291" y="0.087" colorref="2">
+<trend count="9" data="0.009,0.005,0.007,0.008,0.004,0.014,0.001,0.000,0.000"/>
+</term>
+<term id="374" value="feedback" x="0.486" y="0.419" colorref="1">
+<trend count="9" data="0.018,0.032,0.035,0.033,0.040,0.035,0.010,0.001,0.000"/>
+</term>
+<term id="375" value="fibroblast" x="0.106" y="0.872" colorref="3">
+<trend count="9" data="0.024,0.035,0.031,0.031,0.036,0.034,0.012,0.000,0.000"/>
+</term>
+<term id="376" value="fibrosis" x="0.075" y="0.508" colorref="3">
+<trend count="9" data="0.015,0.023,0.019,0.021,0.026,0.030,0.007,0.001,0.000"/>
+</term>
+<term id="377" value="final state" x="0.985" y="0.566" colorref="6">
+<trend count="9" data="0.003,0.002,0.000,0.013,0.009,0.025,0.001,0.000,0.000"/>
+</term>
+<term id="378" value="firm" x="0.523" y="0.299" colorref="1">
+<trend count="9" data="0.023,0.027,0.039,0.031,0.032,0.033,0.010,0.002,0.000"/>
+</term>
+<term id="379" value="first part" x="0.411" y="0.468" colorref="1">
+<trend count="9" data="0.006,0.007,0.007,0.012,0.008,0.003,0.002,0.000,0.000"/>
+</term>
+<term id="380" value="first time" x="0.488" y="0.572" colorref="6">
+<trend count="9" data="0.031,0.041,0.052,0.041,0.051,0.048,0.015,0.000,0.000"/>
+</term>
+<term id="381" value="first uncertainty" x="0.987" y="0.542" colorref="6">
+<trend count="9" data="0.000,0.000,0.000,0.008,0.003,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="382" value="first year" x="0.218" y="0.131" colorref="2">
+<trend count="9" data="0.009,0.008,0.007,0.014,0.009,0.009,0.004,0.000,0.000"/>
+</term>
+<term id="383" value="flap" x="0.295" y="0.471" colorref="4">
+<trend count="9" data="0.006,0.008,0.007,0.006,0.006,0.005,0.004,0.000,0.000"/>
+</term>
+<term id="384" value="flow cytometry" x="0.092" y="0.748" colorref="3">
+<trend count="9" data="0.007,0.010,0.012,0.008,0.012,0.012,0.004,0.001,0.000"/>
+</term>
+<term id="385" value="fmri" x="0.435" y="0.469" colorref="1">
+<trend count="9" data="0.027,0.022,0.022,0.025,0.020,0.025,0.007,0.001,0.000"/>
+</term>
+<term id="386" value="foal" x="0.122" y="0.370" colorref="4">
+<trend count="9" data="0.001,0.003,0.001,0.001,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="387" value="fold" x="0.164" y="0.722" colorref="3">
+<trend count="9" data="0.061,0.058,0.054,0.062,0.061,0.054,0.019,0.000,0.000"/>
+</term>
+<term id="388" value="forest" x="0.486" y="0.484" colorref="1">
+<trend count="9" data="0.024,0.035,0.030,0.043,0.039,0.021,0.011,0.001,0.000"/>
+</term>
+<term id="389" value="formation" x="0.293" y="0.732" colorref="3">
+<trend count="9" data="0.168,0.182,0.192,0.195,0.200,0.165,0.047,0.004,0.000"/>
+</term>
+<term id="390" value="formulation" x="0.449" y="0.513" colorref="1">
+<trend count="9" data="0.021,0.024,0.026,0.025,0.025,0.027,0.005,0.000,0.000"/>
+</term>
+<term id="391" value="fraction" x="0.405" y="0.475" colorref="6">
+<trend count="9" data="0.057,0.079,0.067,0.095,0.073,0.107,0.017,0.001,0.000"/>
+</term>
+<term id="392" value="fracture" x="0.256" y="0.249" colorref="4">
+<trend count="9" data="0.028,0.033,0.025,0.036,0.046,0.037,0.016,0.000,0.000"/>
+</term>
+<term id="393" value="france" x="0.383" y="0.344" colorref="1">
+<trend count="9" data="0.014,0.014,0.012,0.007,0.018,0.020,0.003,0.000,0.000"/>
+</term>
+<term id="394" value="free survival" x="0.046" y="0.188" colorref="2">
+<trend count="9" data="0.023,0.018,0.021,0.020,0.028,0.033,0.010,0.001,0.000"/>
+</term>
+<term id="395" value="functional magnetic resonance imaging" x="0.408" y="0.482" colorref="1">
+<trend count="9" data="0.022,0.019,0.029,0.019,0.014,0.022,0.006,0.001,0.000"/>
+</term>
+<term id="396" value="functional outcome" x="0.262" y="0.233" colorref="2">
+<trend count="9" data="0.004,0.002,0.005,0.008,0.006,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="397" value="further show" x="0.391" y="0.689" colorref="3">
+<trend count="9" data="0.003,0.004,0.007,0.006,0.002,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="398" value="future research" x="0.369" y="0.190" colorref="1">
+<trend count="9" data="0.017,0.017,0.014,0.022,0.022,0.020,0.008,0.001,0.000"/>
+</term>
+<term id="399" value="g csf" x="0.139" y="0.301" colorref="2">
+<trend count="9" data="0.001,0.001,0.000,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="400" value="g protein" x="0.215" y="0.915" colorref="3">
+<trend count="9" data="0.005,0.007,0.003,0.006,0.010,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="401" value="gaba" x="0.311" y="0.766" colorref="3">
+<trend count="9" data="0.010,0.012,0.006,0.008,0.007,0.004,0.001,0.001,0.000"/>
+</term>
+<term id="402" value="galaxy" x="0.600" y="0.528" colorref="6">
+<trend count="9" data="0.029,0.033,0.033,0.041,0.043,0.021,0.001,0.000,0.000"/>
+</term>
+<term id="403" value="gas" x="0.519" y="0.526" colorref="6">
+<trend count="9" data="0.031,0.045,0.039,0.040,0.037,0.039,0.004,0.001,0.000"/>
+</term>
+<term id="404" value="gender" x="0.246" y="0.172" colorref="2">
+<trend count="9" data="0.048,0.053,0.042,0.054,0.075,0.067,0.025,0.003,0.000"/>
+</term>
+<term id="405" value="gene" x="0.205" y="0.748" colorref="3">
+<trend count="9" data="0.255,0.272,0.278,0.292,0.303,0.259,0.072,0.002,0.000"/>
+</term>
+<term id="406" value="gene expression" x="0.153" y="0.828" colorref="3">
+<trend count="9" data="0.046,0.061,0.048,0.044,0.056,0.059,0.014,0.000,0.000"/>
+</term>
+<term id="407" value="general population" x="0.225" y="0.220" colorref="2">
+<trend count="9" data="0.015,0.010,0.010,0.008,0.014,0.019,0.004,0.001,0.000"/>
+</term>
+<term id="408" value="genetic variation" x="0.325" y="0.632" colorref="1">
+<trend count="9" data="0.007,0.006,0.007,0.008,0.007,0.012,0.002,0.000,0.000"/>
+</term>
+<term id="409" value="genome" x="0.297" y="0.785" colorref="3">
+<trend count="9" data="0.073,0.076,0.083,0.088,0.092,0.103,0.032,0.001,0.000"/>
+</term>
+<term id="410" value="gestational age" x="0.171" y="0.101" colorref="2">
+<trend count="9" data="0.006,0.007,0.003,0.007,0.012,0.005,0.000,0.000,0.000"/>
+</term>
+<term id="411" value="gev" x="0.957" y="0.556" colorref="6">
+<trend count="9" data="0.008,0.012,0.016,0.033,0.025,0.047,0.008,0.000,0.000"/>
+</term>
+<term id="412" value="girl" x="0.267" y="0.237" colorref="2">
+<trend count="9" data="0.007,0.013,0.012,0.010,0.018,0.014,0.004,0.000,0.000"/>
+</term>
+<term id="413" value="glacier" x="0.515" y="0.448" colorref="1">
+<trend count="9" data="0.010,0.012,0.018,0.024,0.024,0.026,0.002,0.000,0.000"/>
+</term>
+<term id="414" value="glaucoma" x="0.167" y="0.237" colorref="2">
+<trend count="9" data="0.002,0.001,0.002,0.003,0.006,0.003,0.001,0.001,0.000"/>
+</term>
+<term id="415" value="glioblastoma" x="0.051" y="0.527" colorref="3">
+<trend count="9" data="0.008,0.008,0.013,0.011,0.016,0.019,0.007,0.000,0.000"/>
+</term>
+<term id="416" value="global scale" x="0.487" y="0.425" colorref="1">
+<trend count="9" data="0.001,0.002,0.001,0.003,0.000,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="417" value="glucose" x="0.152" y="0.563" colorref="4">
+<trend count="9" data="0.024,0.036,0.042,0.036,0.029,0.033,0.010,0.000,0.000"/>
+</term>
+<term id="418" value="good agreement" x="0.708" y="0.585" colorref="6">
+<trend count="9" data="0.010,0.008,0.007,0.022,0.017,0.013,0.002,0.001,0.000"/>
+</term>
+<term id="419" value="government" x="0.504" y="0.265" colorref="1">
+<trend count="9" data="0.047,0.044,0.059,0.051,0.046,0.041,0.011,0.001,0.000"/>
+</term>
+<term id="420" value="grade" x="0.116" y="0.191" colorref="2">
+<trend count="9" data="0.054,0.056,0.053,0.058,0.067,0.067,0.023,0.001,0.000"/>
+</term>
+<term id="421" value="graft" x="0.214" y="0.368" colorref="4">
+<trend count="9" data="0.029,0.035,0.050,0.039,0.036,0.044,0.014,0.001,0.001"/>
+</term>
+<term id="422" value="graph" x="0.569" y="0.478" colorref="1">
+<trend count="9" data="0.013,0.010,0.005,0.008,0.011,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="423" value="gravity" x="0.462" y="0.591" colorref="1">
+<trend count="9" data="0.009,0.010,0.012,0.012,0.020,0.012,0.001,0.000,0.000"/>
+</term>
+<term id="424" value="ground section" x="0.315" y="0.556" colorref="4">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="425" value="group b" x="0.206" y="0.561" colorref="4">
+<trend count="9" data="0.008,0.006,0.006,0.011,0.010,0.006,0.001,0.001,0.000"/>
+</term>
+<term id="426" value="growth factor" x="0.078" y="0.728" colorref="3">
+<trend count="9" data="0.038,0.042,0.030,0.040,0.039,0.034,0.013,0.000,0.000"/>
+</term>
+<term id="427" value="guideline" x="0.279" y="0.209" colorref="2">
+<trend count="9" data="0.025,0.033,0.041,0.048,0.054,0.060,0.012,0.002,0.000"/>
+</term>
+<term id="428" value="h pylori" x="0.122" y="0.939" colorref="3">
+<trend count="9" data="0.002,0.001,0.001,0.007,0.004,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="429" value="habitat" x="0.459" y="0.598" colorref="1">
+<trend count="9" data="0.024,0.048,0.027,0.027,0.025,0.024,0.015,0.001,0.000"/>
+</term>
+<term id="430" value="hallmark" x="0.166" y="0.861" colorref="3">
+<trend count="9" data="0.008,0.018,0.015,0.014,0.022,0.017,0.003,0.000,0.000"/>
+</term>
+<term id="431" value="harm" x="0.312" y="0.173" colorref="1">
+<trend count="9" data="0.012,0.015,0.012,0.016,0.019,0.014,0.004,0.001,0.001"/>
+</term>
+<term id="432" value="hazard ratio" x="0.073" y="0.093" colorref="2">
+<trend count="9" data="0.010,0.017,0.011,0.019,0.021,0.025,0.003,0.000,0.000"/>
+</term>
+<term id="433" value="hcc" x="0.137" y="0.619" colorref="3">
+<trend count="9" data="0.003,0.003,0.003,0.006,0.003,0.002,0.002,0.000,0.000"/>
+</term>
+<term id="434" value="hcv" x="0.061" y="0.229" colorref="2">
+<trend count="9" data="0.003,0.006,0.005,0.004,0.005,0.012,0.002,0.000,0.000"/>
+</term>
+<term id="435" value="hdl" x="0.056" y="0.584" colorref="3">
+<trend count="9" data="0.007,0.010,0.006,0.006,0.008,0.014,0.001,0.000,0.000"/>
+</term>
+<term id="436" value="healing" x="0.266" y="0.499" colorref="4">
+<trend count="9" data="0.021,0.024,0.024,0.029,0.031,0.032,0.012,0.002,0.000"/>
+</term>
+<term id="437" value="healthy cat" x="0.218" y="0.403" colorref="4">
+<trend count="9" data="0.000,0.001,0.001,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="438" value="healthy individual" x="0.195" y="0.473" colorref="3">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="439" value="healthy volunteer" x="0.311" y="0.475" colorref="4">
+<trend count="9" data="0.000,0.001,0.002,0.000,0.003,0.000,0.001,0.000,0.000"/>
+</term>
+<term id="440" value="heart rate" x="0.296" y="0.212" colorref="2">
+<trend count="9" data="0.025,0.020,0.016,0.018,0.018,0.019,0.004,0.000,0.000"/>
+</term>
+<term id="441" value="height" x="0.354" y="0.407" colorref="4">
+<trend count="9" data="0.029,0.024,0.026,0.028,0.023,0.024,0.009,0.001,0.000"/>
+</term>
+<term id="442" value="hepatocellular carcinoma" x="0.189" y="0.538" colorref="3">
+<trend count="9" data="0.003,0.005,0.005,0.006,0.005,0.004,0.003,0.000,0.000"/>
+</term>
+<term id="443" value="hif" x="0.090" y="0.949" colorref="3">
+<trend count="9" data="0.007,0.009,0.005,0.015,0.005,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="444" value="higgs boson" x="0.926" y="0.558" colorref="6">
+<trend count="9" data="0.003,0.002,0.003,0.004,0.007,0.013,0.003,0.000,0.000"/>
+</term>
+<term id="445" value="high affinity" x="0.216" y="0.870" colorref="3">
+<trend count="9" data="0.007,0.009,0.010,0.005,0.007,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="446" value="high altitude" x="0.308" y="0.464" colorref="1">
+<trend count="9" data="0.005,0.006,0.003,0.003,0.005,0.005,0.003,0.000,0.000"/>
+</term>
+<term id="447" value="high prevalence" x="0.149" y="0.398" colorref="2">
+<trend count="9" data="0.007,0.007,0.010,0.012,0.007,0.013,0.002,0.000,0.000"/>
+</term>
+<term id="448" value="high resolution" x="0.459" y="0.585" colorref="6">
+<trend count="9" data="0.050,0.044,0.041,0.042,0.035,0.037,0.009,0.000,0.000"/>
+</term>
+<term id="449" value="high risk" x="0.165" y="0.189" colorref="2">
+<trend count="9" data="0.030,0.029,0.022,0.027,0.027,0.037,0.012,0.001,0.000"/>
+</term>
+<term id="450" value="high risk patient" x="0.129" y="0.233" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.001,0.000,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="451" value="higher rate" x="0.211" y="0.206" colorref="2">
+<trend count="9" data="0.007,0.005,0.003,0.001,0.004,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="452" value="higher risk" x="0.195" y="0.090" colorref="2">
+<trend count="9" data="0.008,0.006,0.008,0.013,0.013,0.014,0.007,0.000,0.000"/>
+</term>
+<term id="453" value="hippocampus" x="0.285" y="0.608" colorref="1">
+<trend count="9" data="0.012,0.021,0.020,0.022,0.016,0.018,0.002,0.000,0.000"/>
+</term>
+<term id="454" value="histology" x="0.120" y="0.451" colorref="2">
+<trend count="9" data="0.054,0.079,0.057,0.064,0.070,0.093,0.027,0.004,0.000"/>
+</term>
+<term id="455" value="histopathology" x="0.134" y="0.337" colorref="2">
+<trend count="9" data="0.016,0.017,0.019,0.020,0.026,0.029,0.010,0.000,0.000"/>
+</term>
+<term id="456" value="hiv" x="0.131" y="0.327" colorref="2">
+<trend count="9" data="0.044,0.039,0.050,0.046,0.037,0.036,0.005,0.000,0.000"/>
+</term>
+<term id="457" value="hiv hcv" x="0.059" y="0.125" colorref="2">
+<trend count="9" data="0.001,0.000,0.001,0.000,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="458" value="homeostasis" x="0.166" y="0.843" colorref="3">
+<trend count="9" data="0.025,0.029,0.028,0.029,0.035,0.036,0.012,0.000,0.000"/>
+</term>
+<term id="459" value="hope" x="0.372" y="0.162" colorref="1">
+<trend count="9" data="0.010,0.015,0.009,0.013,0.018,0.010,0.005,0.001,0.000"/>
+</term>
+<term id="460" value="hormone" x="0.204" y="0.548" colorref="3">
+<trend count="9" data="0.035,0.042,0.033,0.042,0.043,0.048,0.015,0.000,0.000"/>
+</term>
+<term id="461" value="hospital" x="0.189" y="0.102" colorref="2">
+<trend count="9" data="0.063,0.067,0.067,0.073,0.088,0.093,0.022,0.000,0.001"/>
+</term>
+<term id="462" value="hospital stay" x="0.166" y="0.031" colorref="2">
+<trend count="9" data="0.009,0.007,0.007,0.005,0.010,0.008,0.002,0.000,0.000"/>
+</term>
+<term id="463" value="hospitalization" x="0.176" y="0.134" colorref="2">
+<trend count="9" data="0.063,0.067,0.067,0.073,0.088,0.093,0.022,0.000,0.001"/>
+</term>
+<term id="464" value="host" x="0.339" y="0.661" colorref="1">
+<trend count="9" data="0.057,0.062,0.076,0.089,0.081,0.075,0.025,0.001,0.000"/>
+</term>
+<term id="465" value="host cell" x="0.193" y="0.967" colorref="3">
+<trend count="9" data="0.004,0.005,0.005,0.007,0.008,0.005,0.002,0.000,0.000"/>
+</term>
+<term id="466" value="human brain" x="0.305" y="0.560" colorref="1">
+<trend count="9" data="0.008,0.008,0.007,0.010,0.008,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="467" value="hundred" x="0.457" y="0.564" colorref="1">
+<trend count="9" data="0.046,0.040,0.041,0.032,0.050,0.042,0.014,0.001,0.000"/>
+</term>
+<term id="468" value="hybridization" x="0.277" y="0.842" colorref="3">
+<trend count="9" data="0.050,0.053,0.041,0.049,0.052,0.047,0.008,0.001,0.000"/>
+</term>
+<term id="469" value="hypertension" x="0.122" y="0.142" colorref="2">
+<trend count="9" data="0.032,0.035,0.037,0.024,0.028,0.032,0.012,0.001,0.000"/>
+</term>
+<term id="470" value="hypoxia" x="0.168" y="0.632" colorref="3">
+<trend count="9" data="0.018,0.024,0.018,0.027,0.025,0.020,0.010,0.000,0.000"/>
+</term>
+<term id="471" value="hypoxia inducible factor" x="0.102" y="0.931" colorref="3">
+<trend count="9" data="0.005,0.007,0.003,0.007,0.004,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="472" value="ibd" x="0.112" y="0.448" colorref="3">
+<trend count="9" data="0.003,0.003,0.007,0.007,0.016,0.014,0.004,0.000,0.000"/>
+</term>
+<term id="473" value="icc" x="0.396" y="0.372" colorref="4">
+<trend count="9" data="0.005,0.004,0.002,0.007,0.008,0.010,0.003,0.001,0.000"/>
+</term>
+<term id="474" value="icd" x="0.357" y="0.149" colorref="1">
+<trend count="9" data="0.015,0.008,0.007,0.007,0.008,0.009,0.003,0.000,0.000"/>
+</term>
+<term id="475" value="ice" x="0.528" y="0.497" colorref="1">
+<trend count="9" data="0.010,0.017,0.016,0.023,0.022,0.022,0.003,0.000,0.000"/>
+</term>
+<term id="476" value="idea" x="0.485" y="0.312" colorref="1">
+<trend count="9" data="0.031,0.035,0.045,0.039,0.034,0.032,0.007,0.000,0.000"/>
+</term>
+<term id="477" value="identifier" x="0.171" y="0.055" colorref="2">
+<trend count="9" data="0.329,0.372,0.393,0.412,0.479,0.458,0.133,0.004,0.000"/>
+</term>
+<term id="478" value="identity" x="0.439" y="0.415" colorref="1">
+<trend count="9" data="0.067,0.059,0.052,0.078,0.064,0.056,0.013,0.001,0.000"/>
+</term>
+<term id="479" value="ifn" x="0.070" y="0.843" colorref="3">
+<trend count="9" data="0.019,0.014,0.016,0.019,0.014,0.018,0.003,0.000,0.000"/>
+</term>
+<term id="480" value="illness" x="0.299" y="0.231" colorref="1">
+<trend count="9" data="0.033,0.039,0.037,0.029,0.029,0.043,0.012,0.000,0.000"/>
+</term>
+<term id="481" value="image" x="0.369" y="0.408" colorref="4">
+<trend count="9" data="0.197,0.235,0.227,0.259,0.274,0.261,0.085,0.003,0.000"/>
+</term>
+<term id="482" value="image quality" x="0.379" y="0.453" colorref="4">
+<trend count="9" data="0.014,0.009,0.015,0.013,0.017,0.019,0.010,0.000,0.000"/>
+</term>
+<term id="483" value="imbalance" x="0.469" y="0.459" colorref="6">
+<trend count="9" data="0.009,0.008,0.009,0.007,0.016,0.014,0.005,0.000,0.000"/>
+</term>
+<term id="484" value="immune cell" x="0.068" y="0.859" colorref="3">
+<trend count="9" data="0.005,0.003,0.003,0.003,0.004,0.002,0.000,0.000,0.000"/>
+</term>
+<term id="485" value="immune response" x="0.112" y="0.662" colorref="3">
+<trend count="9" data="0.020,0.024,0.023,0.022,0.023,0.019,0.006,0.001,0.000"/>
+</term>
+<term id="486" value="immune system" x="0.161" y="0.750" colorref="3">
+<trend count="9" data="0.014,0.023,0.018,0.021,0.024,0.016,0.004,0.000,0.000"/>
+</term>
+<term id="487" value="immunity" x="0.110" y="0.793" colorref="3">
+<trend count="9" data="0.087,0.097,0.108,0.106,0.111,0.095,0.033,0.002,0.000"/>
+</term>
+<term id="488" value="immunofluorescence" x="0.110" y="0.828" colorref="3">
+<trend count="9" data="0.009,0.009,0.016,0.015,0.016,0.012,0.003,0.000,0.000"/>
+</term>
+<term id="489" value="immunohistochemistry" x="0.070" y="0.685" colorref="3">
+<trend count="9" data="0.035,0.049,0.037,0.045,0.050,0.042,0.012,0.001,0.000"/>
+</term>
+<term id="490" value="immunosuppression" x="0.069" y="0.580" colorref="3">
+<trend count="9" data="0.012,0.016,0.025,0.010,0.022,0.029,0.007,0.000,0.000"/>
+</term>
+<term id="491" value="immunotherapy" x="0.072" y="0.629" colorref="3">
+<trend count="9" data="0.015,0.014,0.008,0.016,0.017,0.013,0.003,0.000,0.000"/>
+</term>
+<term id="492" value="implant" x="0.311" y="0.471" colorref="4">
+<trend count="9" data="0.052,0.059,0.054,0.063,0.085,0.071,0.033,0.004,0.000"/>
+</term>
+<term id="493" value="implementation" x="0.436" y="0.330" colorref="1">
+<trend count="9" data="0.076,0.111,0.107,0.115,0.123,0.113,0.034,0.002,0.001"/>
+</term>
+<term id="494" value="important part" x="0.247" y="0.509" colorref="4">
+<trend count="9" data="0.002,0.005,0.001,0.006,0.003,0.004,0.000,0.000,0.000"/>
+</term>
+<term id="495" value="important predictor" x="0.310" y="0.196" colorref="1">
+<trend count="9" data="0.001,0.001,0.003,0.001,0.003,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="496" value="incidence" x="0.171" y="0.215" colorref="2">
+<trend count="9" data="0.068,0.065,0.073,0.066,0.076,0.084,0.025,0.000,0.001"/>
+</term>
+<term id="497" value="inclusion criterium" x="0.223" y="0.083" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="498" value="incorporation" x="0.289" y="0.849" colorref="3">
+<trend count="9" data="0.034,0.049,0.051,0.048,0.061,0.044,0.012,0.000,0.000"/>
+</term>
+<term id="499" value="independent predictor" x="0.102" y="0.171" colorref="2">
+<trend count="9" data="0.004,0.008,0.006,0.007,0.009,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="500" value="independent risk factor" x="0.139" y="0.117" colorref="2">
+<trend count="9" data="0.001,0.001,0.003,0.001,0.003,0.003,0.003,0.000,0.000"/>
+</term>
+<term id="501" value="individual difference" x="0.378" y="0.353" colorref="1">
+<trend count="9" data="0.002,0.001,0.001,0.001,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="502" value="induction" x="0.121" y="0.808" colorref="3">
+<trend count="9" data="0.054,0.061,0.061,0.059,0.056,0.058,0.014,0.001,0.000"/>
+</term>
+<term id="503" value="industry" x="0.452" y="0.330" colorref="1">
+<trend count="9" data="0.036,0.027,0.027,0.033,0.037,0.027,0.010,0.001,0.000"/>
+</term>
+<term id="504" value="inequality" x="0.379" y="0.185" colorref="1">
+<trend count="9" data="0.012,0.007,0.012,0.018,0.012,0.011,0.002,0.001,0.000"/>
+</term>
+<term id="505" value="infancy" x="0.238" y="0.198" colorref="2">
+<trend count="9" data="0.007,0.009,0.008,0.005,0.004,0.006,0.001,0.001,0.000"/>
+</term>
+<term id="506" value="infant" x="0.199" y="0.108" colorref="2">
+<trend count="9" data="0.027,0.027,0.024,0.027,0.038,0.038,0.008,0.000,0.000"/>
+</term>
+<term id="507" value="infectious disease" x="0.249" y="0.503" colorref="3">
+<trend count="9" data="0.000,0.003,0.005,0.006,0.007,0.004,0.002,0.000,0.000"/>
+</term>
+<term id="508" value="inflammation" x="0.104" y="0.681" colorref="3">
+<trend count="9" data="0.054,0.058,0.069,0.062,0.075,0.064,0.020,0.001,0.000"/>
+</term>
+<term id="509" value="inflammatory" x="0.120" y="0.618" colorref="3">
+<trend count="9" data="0.080,0.086,0.086,0.091,0.104,0.095,0.031,0.001,0.000"/>
+</term>
+<term id="510" value="inflammatory bowel disease" x="0.123" y="0.430" colorref="3">
+<trend count="9" data="0.004,0.007,0.008,0.007,0.012,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="511" value="inflammatory response" x="0.075" y="0.761" colorref="3">
+<trend count="9" data="0.010,0.008,0.008,0.008,0.014,0.008,0.004,0.000,0.000"/>
+</term>
+<term id="512" value="infrastructure" x="0.523" y="0.314" colorref="1">
+<trend count="9" data="0.008,0.009,0.008,0.012,0.011,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="513" value="inhibition" x="0.194" y="0.805" colorref="3">
+<trend count="9" data="0.107,0.124,0.131,0.127,0.120,0.122,0.029,0.001,0.000"/>
+</term>
+<term id="514" value="inhibitor" x="0.078" y="0.525" colorref="3">
+<trend count="9" data="0.088,0.093,0.089,0.081,0.097,0.089,0.024,0.001,0.000"/>
+</term>
+<term id="515" value="initiation" x="0.119" y="0.607" colorref="3">
+<trend count="9" data="0.182,0.204,0.202,0.225,0.229,0.200,0.043,0.003,0.001"/>
+</term>
+<term id="516" value="initiative" x="0.426" y="0.258" colorref="1">
+<trend count="9" data="0.182,0.204,0.202,0.225,0.229,0.200,0.043,0.003,0.001"/>
+</term>
+<term id="517" value="innovation" x="0.436" y="0.280" colorref="1">
+<trend count="9" data="0.034,0.035,0.024,0.031,0.043,0.033,0.013,0.001,0.000"/>
+</term>
+<term id="518" value="input" x="0.472" y="0.469" colorref="1">
+<trend count="9" data="0.048,0.049,0.046,0.048,0.054,0.054,0.013,0.001,0.000"/>
+</term>
+<term id="519" value="insect" x="0.428" y="0.577" colorref="1">
+<trend count="9" data="0.014,0.024,0.024,0.012,0.016,0.015,0.002,0.000,0.000"/>
+</term>
+<term id="520" value="insulin" x="0.076" y="0.451" colorref="2">
+<trend count="9" data="0.017,0.030,0.031,0.034,0.022,0.028,0.008,0.000,0.000"/>
+</term>
+<term id="521" value="integrated luminosity" x="0.978" y="0.563" colorref="6">
+<trend count="9" data="0.003,0.003,0.007,0.043,0.027,0.097,0.011,0.000,0.000"/>
+</term>
+<term id="522" value="integrity" x="0.258" y="0.699" colorref="3">
+<trend count="9" data="0.158,0.150,0.151,0.210,0.207,0.268,0.056,0.001,0.000"/>
+</term>
+<term id="523" value="intention" x="0.225" y="0.235" colorref="2">
+<trend count="9" data="0.033,0.025,0.020,0.034,0.030,0.022,0.008,0.000,0.000"/>
+</term>
+<term id="524" value="interact" x="0.289" y="0.767" colorref="3">
+<trend count="9" data="0.231,0.233,0.239,0.247,0.270,0.248,0.052,0.001,0.000"/>
+</term>
+<term id="525" value="interference" x="0.301" y="0.713" colorref="3">
+<trend count="9" data="0.035,0.044,0.035,0.036,0.043,0.029,0.008,0.001,0.000"/>
+</term>
+<term id="526" value="interleukin" x="0.046" y="0.634" colorref="3">
+<trend count="9" data="0.029,0.020,0.025,0.034,0.031,0.029,0.005,0.000,0.000"/>
+</term>
+<term id="527" value="internet" x="0.414" y="0.185" colorref="1">
+<trend count="9" data="0.026,0.018,0.022,0.025,0.024,0.025,0.007,0.000,0.000"/>
+</term>
+<term id="528" value="interquartile range" x="0.179" y="0.108" colorref="2">
+<trend count="9" data="0.005,0.005,0.006,0.010,0.011,0.015,0.005,0.001,0.000"/>
+</term>
+<term id="529" value="intervention group" x="0.247" y="0.062" colorref="2">
+<trend count="9" data="0.001,0.003,0.005,0.004,0.003,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="530" value="interview" x="0.374" y="0.189" colorref="1">
+<trend count="9" data="0.048,0.051,0.041,0.036,0.043,0.039,0.010,0.000,0.000"/>
+</term>
+<term id="531" value="invasion" x="0.256" y="0.634" colorref="3">
+<trend count="9" data="0.060,0.094,0.078,0.090,0.090,0.075,0.025,0.000,0.000"/>
+</term>
+<term id="532" value="investigator" x="0.139" y="0.264" colorref="2">
+<trend count="9" data="0.490,0.573,0.548,0.607,0.641,0.624,0.178,0.008,0.001"/>
+</term>
+<term id="533" value="investment" x="0.494" y="0.363" colorref="1">
+<trend count="9" data="0.024,0.026,0.024,0.029,0.033,0.023,0.006,0.001,0.000"/>
+</term>
+<term id="534" value="investor" x="0.514" y="0.239" colorref="1">
+<trend count="9" data="0.007,0.005,0.007,0.010,0.008,0.008,0.004,0.000,0.000"/>
+</term>
+<term id="535" value="ipilimumab" x="0.010" y="0.291" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="536" value="iqr" x="0.132" y="0.101" colorref="2">
+<trend count="9" data="0.005,0.004,0.005,0.006,0.009,0.014,0.005,0.000,0.000"/>
+</term>
+<term id="537" value="irradiation" x="0.176" y="0.648" colorref="3">
+<trend count="9" data="0.015,0.010,0.019,0.008,0.012,0.019,0.007,0.000,0.000"/>
+</term>
+<term id="538" value="isolate" x="0.274" y="0.573" colorref="3">
+<trend count="9" data="0.111,0.124,0.121,0.116,0.133,0.137,0.027,0.001,0.001"/>
+</term>
+<term id="539" value="italy" x="0.413" y="0.380" colorref="1">
+<trend count="9" data="0.012,0.016,0.011,0.011,0.020,0.016,0.003,0.001,0.000"/>
+</term>
+<term id="540" value="january" x="0.199" y="0.124" colorref="2">
+<trend count="9" data="0.017,0.023,0.021,0.027,0.025,0.029,0.009,0.001,0.000"/>
+</term>
+<term id="541" value="jet" x="0.949" y="0.565" colorref="6">
+<trend count="9" data="0.007,0.012,0.013,0.022,0.023,0.042,0.008,0.000,0.000"/>
+</term>
+<term id="542" value="job" x="0.458" y="0.192" colorref="1">
+<trend count="9" data="0.010,0.011,0.016,0.014,0.016,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="543" value="journal" x="0.324" y="0.136" colorref="1">
+<trend count="9" data="0.014,0.016,0.014,0.033,0.019,0.016,0.007,0.000,0.000"/>
+</term>
+<term id="544" value="july" x="0.235" y="0.212" colorref="2">
+<trend count="9" data="0.012,0.017,0.009,0.010,0.016,0.013,0.004,0.000,0.000"/>
+</term>
+<term id="545" value="june" x="0.271" y="0.219" colorref="2">
+<trend count="9" data="0.013,0.020,0.009,0.014,0.014,0.016,0.004,0.000,0.001"/>
+</term>
+<term id="546" value="key player" x="0.202" y="0.878" colorref="3">
+<trend count="9" data="0.001,0.001,0.001,0.002,0.001,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="547" value="key point" x="0.305" y="0.372" colorref="4">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.001,0.000,0.001,0.000,0.000"/>
+</term>
+<term id="548" value="key role" x="0.297" y="0.593" colorref="1">
+<trend count="9" data="0.016,0.010,0.013,0.015,0.022,0.014,0.005,0.000,0.000"/>
+</term>
+<term id="549" value="kidney" x="0.144" y="0.615" colorref="3">
+<trend count="9" data="0.038,0.053,0.045,0.044,0.050,0.051,0.020,0.000,0.000"/>
+</term>
+<term id="550" value="kinase" x="0.097" y="0.710" colorref="3">
+<trend count="9" data="0.054,0.043,0.060,0.047,0.066,0.051,0.012,0.000,0.000"/>
+</term>
+<term id="551" value="kind" x="0.480" y="0.366" colorref="1">
+<trend count="9" data="0.014,0.016,0.014,0.017,0.018,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="552" value="kinetic" x="0.289" y="0.772" colorref="3">
+<trend count="9" data="0.031,0.027,0.034,0.031,0.028,0.037,0.005,0.000,0.000"/>
+</term>
+<term id="553" value="knockdown" x="0.154" y="0.977" colorref="3">
+<trend count="9" data="0.005,0.014,0.011,0.017,0.010,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="554" value="laboratory experiment" x="0.505" y="0.383" colorref="1">
+<trend count="9" data="0.001,0.003,0.001,0.003,0.005,0.003,0.001,0.001,0.000"/>
+</term>
+<term id="555" value="language" x="0.439" y="0.308" colorref="1">
+<trend count="9" data="0.043,0.049,0.052,0.043,0.059,0.058,0.014,0.002,0.000"/>
+</term>
+<term id="556" value="large cohort" x="0.092" y="0.181" colorref="2">
+<trend count="9" data="0.001,0.003,0.005,0.003,0.003,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="557" value="larvae" x="0.337" y="0.601" colorref="1">
+<trend count="9" data="0.008,0.008,0.007,0.008,0.012,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="558" value="law" x="0.510" y="0.263" colorref="1">
+<trend count="9" data="0.029,0.022,0.022,0.022,0.026,0.025,0.006,0.000,0.000"/>
+</term>
+<term id="559" value="leafe" x="0.389" y="0.765" colorref="3">
+<trend count="9" data="0.009,0.019,0.013,0.013,0.022,0.017,0.005,0.000,0.000"/>
+</term>
+<term id="560" value="learning" x="0.439" y="0.442" colorref="1">
+<trend count="9" data="0.061,0.082,0.076,0.058,0.072,0.086,0.018,0.001,0.000"/>
+</term>
+<term id="561" value="left" x="0.568" y="0.421" colorref="4">
+<trend count="9" data="0.096,0.105,0.093,0.085,0.101,0.102,0.035,0.001,0.000"/>
+</term>
+<term id="562" value="leg" x="0.236" y="0.259" colorref="2">
+<trend count="9" data="0.014,0.017,0.022,0.021,0.029,0.025,0.005,0.001,0.000"/>
+</term>
+<term id="563" value="lepton" x="0.933" y="0.545" colorref="6">
+<trend count="9" data="0.006,0.006,0.003,0.016,0.013,0.025,0.003,0.000,0.000"/>
+</term>
+<term id="564" value="letter" x="0.436" y="0.272" colorref="1">
+<trend count="9" data="0.010,0.015,0.009,0.007,0.008,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="565" value="leukocyte" x="0.096" y="0.627" colorref="3">
+<trend count="9" data="0.014,0.027,0.018,0.014,0.012,0.011,0.003,0.000,0.000"/>
+</term>
+<term id="566" value="lhc" x="0.923" y="0.549" colorref="6">
+<trend count="9" data="0.005,0.004,0.015,0.056,0.035,0.053,0.010,0.000,0.000"/>
+</term>
+<term id="567" value="lhcb detector" x="0.964" y="0.535" colorref="6">
+<trend count="9" data="0.001,0.001,0.001,0.007,0.005,0.016,0.000,0.000,0.000"/>
+</term>
+<term id="568" value="lhcb experiment" x="0.975" y="0.554" colorref="6">
+<trend count="9" data="0.001,0.001,0.001,0.002,0.003,0.026,0.002,0.000,0.000"/>
+</term>
+<term id="569" value="lifetime" x="0.533" y="0.481" colorref="6">
+<trend count="9" data="0.011,0.009,0.016,0.015,0.010,0.018,0.004,0.000,0.000"/>
+</term>
+<term id="570" value="ligand" x="0.151" y="0.785" colorref="3">
+<trend count="9" data="0.046,0.057,0.054,0.039,0.050,0.044,0.008,0.000,0.000"/>
+</term>
+<term id="571" value="limit" x="0.618" y="0.464" colorref="6">
+<trend count="9" data="0.222,0.257,0.241,0.297,0.297,0.326,0.095,0.003,0.000"/>
+</term>
+<term id="572" value="lineage" x="0.327" y="0.744" colorref="3">
+<trend count="9" data="0.016,0.027,0.029,0.030,0.031,0.027,0.007,0.000,0.001"/>
+</term>
+<term id="573" value="lipid" x="0.203" y="0.686" colorref="3">
+<trend count="9" data="0.027,0.039,0.038,0.038,0.037,0.038,0.012,0.001,0.000"/>
+</term>
+<term id="574" value="literature review" x="0.352" y="0.236" colorref="1">
+<trend count="9" data="0.003,0.008,0.008,0.005,0.010,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="575" value="literature search" x="0.292" y="0.127" colorref="2">
+<trend count="9" data="0.003,0.008,0.007,0.005,0.006,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="576" value="liver" x="0.178" y="0.507" colorref="3">
+<trend count="9" data="0.044,0.050,0.053,0.063,0.064,0.059,0.029,0.001,0.000"/>
+</term>
+<term id="577" value="liver biopsy" x="0.107" y="0.367" colorref="2">
+<trend count="9" data="0.001,0.003,0.001,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="578" value="liver injury" x="0.164" y="0.440" colorref="3">
+<trend count="9" data="0.003,0.002,0.003,0.005,0.003,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="579" value="loading" x="0.338" y="0.487" colorref="4">
+<trend count="9" data="0.044,0.065,0.060,0.065,0.088,0.084,0.023,0.001,0.000"/>
+</term>
+<term id="580" value="localization" x="0.198" y="0.697" colorref="3">
+<trend count="9" data="0.188,0.219,0.190,0.225,0.225,0.210,0.054,0.003,0.000"/>
+</term>
+<term id="581" value="logistic regression" x="0.184" y="0.184" colorref="2">
+<trend count="9" data="0.017,0.026,0.029,0.024,0.041,0.038,0.009,0.000,0.000"/>
+</term>
+<term id="582" value="logistic regression analysis" x="0.169" y="0.081" colorref="2">
+<trend count="9" data="0.004,0.008,0.008,0.005,0.010,0.011,0.003,0.000,0.000"/>
+</term>
+<term id="583" value="logistic regression model" x="0.196" y="0.130" colorref="2">
+<trend count="9" data="0.002,0.001,0.001,0.001,0.005,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="584" value="long term outcome" x="0.174" y="0.130" colorref="2">
+<trend count="9" data="0.006,0.010,0.008,0.008,0.004,0.011,0.001,0.000,0.000"/>
+</term>
+<term id="585" value="long term survival" x="0.095" y="0.441" colorref="2">
+<trend count="9" data="0.001,0.005,0.002,0.003,0.004,0.006,0.005,0.000,0.000"/>
+</term>
+<term id="586" value="low risk" x="0.137" y="0.100" colorref="2">
+<trend count="9" data="0.007,0.008,0.005,0.005,0.009,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="587" value="lps" x="0.099" y="0.880" colorref="3">
+<trend count="9" data="0.007,0.008,0.007,0.007,0.010,0.005,0.003,0.000,0.000"/>
+</term>
+<term id="588" value="lung" x="0.119" y="0.569" colorref="3">
+<trend count="9" data="0.054,0.062,0.053,0.058,0.069,0.066,0.022,0.001,0.000"/>
+</term>
+<term id="589" value="lung transplantation" x="0.225" y="0.163" colorref="2">
+<trend count="9" data="0.005,0.007,0.007,0.005,0.007,0.010,0.001,0.000,0.000"/>
+</term>
+<term id="590" value="lymph node" x="0.064" y="0.618" colorref="3">
+<trend count="9" data="0.011,0.012,0.011,0.016,0.010,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="591" value="lymphocyte" x="0.056" y="0.673" colorref="3">
+<trend count="9" data="0.024,0.026,0.031,0.031,0.032,0.033,0.008,0.000,0.000"/>
+</term>
+<term id="592" value="lymphoma" x="0.112" y="0.515" colorref="3">
+<trend count="9" data="0.022,0.016,0.025,0.027,0.024,0.030,0.004,0.000,0.000"/>
+</term>
+<term id="593" value="machine" x="0.397" y="0.467" colorref="4">
+<trend count="9" data="0.015,0.022,0.023,0.027,0.039,0.034,0.006,0.001,0.000"/>
+</term>
+<term id="594" value="macrophage" x="0.149" y="0.844" colorref="3">
+<trend count="9" data="0.031,0.035,0.029,0.031,0.032,0.026,0.014,0.000,0.000"/>
+</term>
+<term id="595" value="magnetic resonance imaging" x="0.270" y="0.371" colorref="4">
+<trend count="9" data="0.044,0.049,0.057,0.053,0.058,0.058,0.028,0.002,0.000"/>
+</term>
+<term id="596" value="magnitude" x="0.472" y="0.465" colorref="1">
+<trend count="9" data="0.039,0.026,0.035,0.045,0.052,0.044,0.010,0.001,0.000"/>
+</term>
+<term id="597" value="main outcome measure" x="0.225" y="0.037" colorref="2">
+<trend count="9" data="0.002,0.003,0.005,0.003,0.004,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="598" value="main result" x="0.252" y="0.127" colorref="2">
+<trend count="9" data="0.006,0.004,0.003,0.003,0.001,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="599" value="maintenance" x="0.275" y="0.680" colorref="3">
+<trend count="9" data="0.042,0.037,0.048,0.050,0.054,0.057,0.012,0.001,0.000"/>
+</term>
+<term id="600" value="male patient" x="0.116" y="0.230" colorref="2">
+<trend count="9" data="0.001,0.003,0.001,0.002,0.002,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="601" value="malignancy" x="0.104" y="0.616" colorref="3">
+<trend count="9" data="0.050,0.053,0.052,0.063,0.068,0.065,0.022,0.001,0.000"/>
+</term>
+<term id="602" value="malignant pleural mesothelioma" x="0.053" y="0.325" colorref="2">
+<trend count="9" data="0.003,0.003,0.001,0.004,0.006,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="603" value="malignant transformation" x="0.059" y="0.663" colorref="3">
+<trend count="9" data="0.003,0.002,0.001,0.003,0.005,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="604" value="mammal" x="0.392" y="0.701" colorref="1">
+<trend count="9" data="0.027,0.022,0.027,0.025,0.026,0.023,0.007,0.000,0.000"/>
+</term>
+<term id="605" value="man" x="0.268" y="0.181" colorref="2">
+<trend count="9" data="0.000,0.000,0.001,0.001,0.001,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="606" value="many country" x="0.324" y="0.074" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="607" value="many patient" x="0.254" y="0.153" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="608" value="march" x="0.292" y="0.206" colorref="2">
+<trend count="9" data="0.012,0.023,0.014,0.010,0.009,0.017,0.001,0.000,0.000"/>
+</term>
+<term id="609" value="market" x="0.465" y="0.295" colorref="1">
+<trend count="9" data="0.050,0.059,0.064,0.066,0.067,0.063,0.014,0.000,0.000"/>
+</term>
+<term id="610" value="mass" x="0.649" y="0.503" colorref="6">
+<trend count="9" data="0.152,0.159,0.165,0.226,0.210,0.235,0.050,0.001,0.000"/>
+</term>
+<term id="611" value="mass energy" x="0.962" y="0.554" colorref="6">
+<trend count="9" data="0.003,0.004,0.003,0.022,0.017,0.039,0.008,0.000,0.000"/>
+</term>
+<term id="612" value="maturation" x="0.226" y="0.793" colorref="3">
+<trend count="9" data="0.037,0.047,0.035,0.046,0.042,0.052,0.012,0.000,0.000"/>
+</term>
+<term id="613" value="may" x="0.299" y="0.237" colorref="1">
+<trend count="9" data="0.001,0.000,0.002,0.002,0.000,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="614" value="mean age" x="0.242" y="0.138" colorref="2">
+<trend count="9" data="0.050,0.060,0.056,0.042,0.058,0.078,0.026,0.002,0.000"/>
+</term>
+<term id="615" value="meaning" x="0.482" y="0.242" colorref="1">
+<trend count="9" data="0.312,0.365,0.308,0.329,0.376,0.396,0.111,0.008,0.000"/>
+</term>
+<term id="616" value="measurement" x="0.494" y="0.426" colorref="6">
+<trend count="9" data="0.467,0.534,0.537,0.578,0.629,0.639,0.180,0.006,0.000"/>
+</term>
+<term id="617" value="medial prefrontal cortex" x="0.417" y="0.479" colorref="1">
+<trend count="9" data="0.002,0.001,0.003,0.003,0.001,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="618" value="median" x="0.141" y="0.145" colorref="2">
+<trend count="9" data="0.111,0.096,0.095,0.108,0.133,0.131,0.042,0.003,0.000"/>
+</term>
+<term id="619" value="median age" x="0.145" y="0.154" colorref="2">
+<trend count="9" data="0.022,0.018,0.017,0.018,0.014,0.029,0.010,0.001,0.000"/>
+</term>
+<term id="620" value="median overall survival" x="0.061" y="0.215" colorref="2">
+<trend count="9" data="0.003,0.003,0.003,0.003,0.003,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="621" value="mediator" x="0.155" y="0.571" colorref="3">
+<trend count="9" data="0.173,0.195,0.177,0.193,0.192,0.193,0.054,0.002,0.000"/>
+</term>
+<term id="622" value="medication" x="0.234" y="0.165" colorref="2">
+<trend count="9" data="0.099,0.110,0.085,0.114,0.139,0.114,0.037,0.000,0.000"/>
+</term>
+<term id="623" value="medline" x="0.276" y="0.116" colorref="2">
+<trend count="9" data="0.010,0.014,0.008,0.010,0.016,0.012,0.008,0.000,0.000"/>
+</term>
+<term id="624" value="melanoma" x="0.037" y="0.505" colorref="2">
+<trend count="9" data="0.023,0.016,0.022,0.024,0.033,0.025,0.006,0.000,0.000"/>
+</term>
+<term id="625" value="membrane" x="0.237" y="0.820" colorref="3">
+<trend count="9" data="0.076,0.082,0.074,0.086,0.085,0.080,0.019,0.001,0.000"/>
+</term>
+<term id="626" value="mental disorder" x="0.352" y="0.127" colorref="1">
+<trend count="9" data="0.001,0.002,0.003,0.000,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="627" value="mental health" x="0.375" y="0.136" colorref="1">
+<trend count="9" data="0.014,0.012,0.008,0.010,0.015,0.014,0.009,0.000,0.000"/>
+</term>
+<term id="628" value="meson" x="0.981" y="0.551" colorref="6">
+<trend count="9" data="0.004,0.005,0.005,0.012,0.009,0.025,0.001,0.000,0.000"/>
+</term>
+<term id="629" value="meta analysis" x="0.284" y="0.175" colorref="2">
+<trend count="9" data="0.008,0.015,0.010,0.016,0.015,0.020,0.006,0.000,0.000"/>
+</term>
+<term id="630" value="metabolic syndrome" x="0.086" y="0.396" colorref="2">
+<trend count="9" data="0.001,0.003,0.003,0.005,0.005,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="631" value="metabolism" x="0.179" y="0.700" colorref="3">
+<trend count="9" data="0.076,0.085,0.109,0.110,0.093,0.110,0.033,0.001,0.000"/>
+</term>
+<term id="632" value="metabolite" x="0.240" y="0.720" colorref="3">
+<trend count="9" data="0.016,0.016,0.020,0.027,0.023,0.024,0.008,0.001,0.000"/>
+</term>
+<term id="633" value="metal" x="0.328" y="0.384" colorref="4">
+<trend count="9" data="0.035,0.050,0.046,0.044,0.055,0.047,0.011,0.001,0.000"/>
+</term>
+<term id="634" value="metastase" x="0.057" y="0.539" colorref="3">
+<trend count="9" data="0.018,0.018,0.020,0.018,0.020,0.021,0.012,0.000,0.000"/>
+</term>
+<term id="635" value="metastasis" x="0.053" y="0.659" colorref="3">
+<trend count="9" data="0.016,0.018,0.017,0.022,0.023,0.018,0.010,0.000,0.000"/>
+</term>
+<term id="636" value="metastatic melanoma" x="0.001" y="0.393" colorref="2">
+<trend count="9" data="0.004,0.001,0.002,0.003,0.007,0.003,0.004,0.000,0.000"/>
+</term>
+<term id="637" value="methods" x="0.209" y="0.242" colorref="2">
+<trend count="9" data="0.729,0.829,0.803,0.789,1.000,0.973,0.314,0.020,0.001"/>
+</term>
+<term id="638" value="mg kg" x="0.108" y="0.516" colorref="2">
+<trend count="9" data="0.019,0.018,0.020,0.012,0.016,0.023,0.005,0.000,0.000"/>
+</term>
+<term id="639" value="mice" x="0.100" y="0.683" colorref="3">
+<trend count="9" data="0.114,0.135,0.127,0.137,0.149,0.128,0.035,0.003,0.000"/>
+</term>
+<term id="640" value="microrna" x="0.092" y="0.761" colorref="3">
+<trend count="9" data="0.001,0.005,0.006,0.011,0.011,0.009,0.004,0.000,0.000"/>
+</term>
+<term id="641" value="migration" x="0.243" y="0.769" colorref="3">
+<trend count="9" data="0.036,0.042,0.041,0.050,0.048,0.030,0.012,0.000,0.000"/>
+</term>
+<term id="642" value="mind" x="0.370" y="0.272" colorref="1">
+<trend count="9" data="0.008,0.012,0.012,0.008,0.008,0.017,0.005,0.000,0.000"/>
+</term>
+<term id="643" value="mir" x="0.085" y="0.816" colorref="3">
+<trend count="9" data="0.003,0.004,0.004,0.008,0.009,0.008,0.005,0.000,0.000"/>
+</term>
+<term id="644" value="mirna" x="0.069" y="0.729" colorref="3">
+<trend count="9" data="0.001,0.003,0.005,0.009,0.007,0.006,0.003,0.000,0.000"/>
+</term>
+<term id="645" value="mmhg" x="0.217" y="0.330" colorref="2">
+<trend count="9" data="0.015,0.009,0.010,0.007,0.010,0.010,0.005,0.000,0.000"/>
+</term>
+<term id="646" value="mmol l" x="0.146" y="0.188" colorref="2">
+<trend count="9" data="0.008,0.010,0.011,0.007,0.010,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="647" value="mode" x="0.522" y="0.576" colorref="6">
+<trend count="9" data="0.059,0.063,0.065,0.082,0.075,0.078,0.016,0.001,0.000"/>
+</term>
+<term id="648" value="molecular dynamics simulation" x="0.507" y="0.728" colorref="6">
+<trend count="9" data="0.000,0.001,0.003,0.000,0.003,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="649" value="molecular mechanism" x="0.188" y="0.801" colorref="3">
+<trend count="9" data="0.004,0.004,0.003,0.005,0.006,0.005,0.003,0.000,0.000"/>
+</term>
+<term id="650" value="molecule" x="0.241" y="0.798" colorref="3">
+<trend count="9" data="0.088,0.073,0.095,0.098,0.092,0.090,0.017,0.000,0.000"/>
+</term>
+<term id="651" value="monocyte" x="0.090" y="0.826" colorref="3">
+<trend count="9" data="0.014,0.017,0.022,0.017,0.018,0.020,0.009,0.000,0.000"/>
+</term>
+<term id="652" value="month" x="0.195" y="0.238" colorref="2">
+<trend count="9" data="0.186,0.198,0.178,0.169,0.211,0.207,0.066,0.002,0.000"/>
+</term>
+<term id="653" value="mood" x="0.337" y="0.274" colorref="1">
+<trend count="9" data="0.012,0.014,0.005,0.010,0.014,0.012,0.003,0.000,0.000"/>
+</term>
+<term id="654" value="morbidity" x="0.187" y="0.174" colorref="2">
+<trend count="9" data="0.047,0.042,0.045,0.044,0.044,0.061,0.018,0.000,0.000"/>
+</term>
+<term id="655" value="mortality" x="0.191" y="0.159" colorref="2">
+<trend count="9" data="0.054,0.078,0.077,0.078,0.097,0.111,0.029,0.001,0.000"/>
+</term>
+<term id="656" value="mortality rate" x="0.147" y="0.093" colorref="2">
+<trend count="9" data="0.005,0.007,0.007,0.008,0.012,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="657" value="most patient" x="0.083" y="0.211" colorref="2">
+<trend count="9" data="0.000,0.001,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="658" value="most study" x="0.324" y="0.171" colorref="2">
+<trend count="9" data="0.000,0.001,0.000,0.000,0.000,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="659" value="motion" x="0.435" y="0.411" colorref="4">
+<trend count="9" data="0.038,0.048,0.035,0.036,0.029,0.041,0.014,0.000,0.000"/>
+</term>
+<term id="660" value="motivation" x="0.413" y="0.211" colorref="1">
+<trend count="9" data="0.046,0.055,0.058,0.058,0.068,0.056,0.016,0.003,0.000"/>
+</term>
+<term id="661" value="motive" x="0.434" y="0.211" colorref="1">
+<trend count="9" data="0.046,0.055,0.058,0.058,0.068,0.056,0.016,0.003,0.000"/>
+</term>
+<term id="662" value="mouse" x="0.180" y="0.800" colorref="3">
+<trend count="9" data="0.053,0.061,0.075,0.086,0.086,0.067,0.023,0.001,0.000"/>
+</term>
+<term id="663" value="mouse model" x="0.116" y="0.802" colorref="3">
+<trend count="9" data="0.012,0.018,0.012,0.020,0.025,0.018,0.007,0.001,0.000"/>
+</term>
+<term id="664" value="mpa" x="0.272" y="0.541" colorref="4">
+<trend count="9" data="0.003,0.002,0.008,0.007,0.008,0.013,0.001,0.000,0.000"/>
+</term>
+<term id="665" value="mri" x="0.294" y="0.400" colorref="4">
+<trend count="9" data="0.029,0.050,0.031,0.057,0.049,0.057,0.025,0.001,0.000"/>
+</term>
+<term id="666" value="mrna" x="0.139" y="0.889" colorref="3">
+<trend count="9" data="0.048,0.064,0.051,0.059,0.058,0.048,0.014,0.001,0.000"/>
+</term>
+<term id="667" value="mrna expression" x="0.106" y="0.734" colorref="3">
+<trend count="9" data="0.014,0.025,0.015,0.018,0.024,0.016,0.005,0.001,0.000"/>
+</term>
+<term id="668" value="multiple regression analysis" x="0.251" y="0.220" colorref="2">
+<trend count="9" data="0.003,0.004,0.003,0.005,0.003,0.002,0.002,0.000,0.000"/>
+</term>
+<term id="669" value="multiple sclerosis" x="0.140" y="0.597" colorref="3">
+<trend count="9" data="0.007,0.006,0.008,0.011,0.014,0.022,0.008,0.000,0.000"/>
+</term>
+<term id="670" value="multivariable analysis" x="0.131" y="0.120" colorref="2">
+<trend count="9" data="0.001,0.000,0.005,0.004,0.003,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="671" value="multivariate analysis" x="0.151" y="0.236" colorref="2">
+<trend count="9" data="0.010,0.020,0.018,0.020,0.016,0.019,0.007,0.001,0.000"/>
+</term>
+<term id="672" value="muon" x="0.984" y="0.571" colorref="6">
+<trend count="9" data="0.008,0.010,0.020,0.018,0.014,0.025,0.004,0.000,0.000"/>
+</term>
+<term id="673" value="murine model" x="0.104" y="0.788" colorref="3">
+<trend count="9" data="0.002,0.003,0.005,0.003,0.001,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="674" value="music" x="0.325" y="0.104" colorref="2">
+<trend count="9" data="0.008,0.010,0.011,0.010,0.010,0.007,0.004,0.000,0.000"/>
+</term>
+<term id="675" value="mutant" x="0.223" y="0.919" colorref="3">
+<trend count="9" data="0.058,0.064,0.063,0.063,0.067,0.049,0.013,0.001,0.000"/>
+</term>
+<term id="676" value="mutation" x="0.153" y="0.641" colorref="3">
+<trend count="9" data="0.099,0.105,0.107,0.116,0.140,0.105,0.025,0.001,0.000"/>
+</term>
+<term id="677" value="myocardial infarction" x="0.102" y="0.073" colorref="2">
+<trend count="9" data="0.014,0.020,0.015,0.020,0.025,0.022,0.007,0.000,0.000"/>
+</term>
+<term id="678" value="myocardium" x="0.185" y="0.735" colorref="3">
+<trend count="9" data="0.005,0.004,0.003,0.003,0.007,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="679" value="negative predictive value" x="0.209" y="0.245" colorref="2">
+<trend count="9" data="0.008,0.007,0.007,0.003,0.005,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="680" value="neoadjuvant chemotherapy" x="0.055" y="0.290" colorref="2">
+<trend count="9" data="0.001,0.003,0.002,0.001,0.003,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="681" value="neonate" x="0.207" y="0.318" colorref="2">
+<trend count="9" data="0.024,0.026,0.022,0.025,0.025,0.033,0.005,0.000,0.000"/>
+</term>
+<term id="682" value="netherlands" x="0.372" y="0.363" colorref="1">
+<trend count="9" data="0.012,0.008,0.008,0.009,0.007,0.004,0.002,0.001,0.000"/>
+</term>
+<term id="683" value="neural activity" x="0.404" y="0.549" colorref="1">
+<trend count="9" data="0.007,0.004,0.007,0.007,0.005,0.003,0.002,0.000,0.000"/>
+</term>
+<term id="684" value="neural mechanism" x="0.416" y="0.495" colorref="1">
+<trend count="9" data="0.001,0.001,0.000,0.000,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="685" value="neurological disorder" x="0.222" y="0.535" colorref="3">
+<trend count="9" data="0.001,0.001,0.002,0.001,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="686" value="neuron" x="0.354" y="0.763" colorref="3">
+<trend count="9" data="0.076,0.100,0.085,0.090,0.091,0.090,0.018,0.000,0.000"/>
+</term>
+<term id="687" value="neutrophil" x="0.114" y="0.847" colorref="3">
+<trend count="9" data="0.007,0.014,0.015,0.013,0.016,0.012,0.004,0.000,0.000"/>
+</term>
+<term id="688" value="new light" x="0.390" y="0.581" colorref="1">
+<trend count="9" data="0.002,0.002,0.005,0.003,0.005,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="689" value="new method" x="0.485" y="0.438" colorref="1">
+<trend count="9" data="0.010,0.009,0.004,0.010,0.012,0.008,0.002,0.000,0.000"/>
+</term>
+<term id="690" value="next generation sequencing" x="0.253" y="0.661" colorref="3">
+<trend count="9" data="0.000,0.001,0.003,0.004,0.005,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="691" value="ng ml" x="0.154" y="0.389" colorref="2">
+<trend count="9" data="0.008,0.012,0.010,0.010,0.013,0.012,0.003,0.000,0.000"/>
+</term>
+<term id="692" value="noise" x="0.418" y="0.452" colorref="4">
+<trend count="9" data="0.019,0.024,0.029,0.035,0.042,0.037,0.012,0.000,0.000"/>
+</term>
+<term id="693" value="noise ratio" x="0.380" y="0.463" colorref="4">
+<trend count="9" data="0.006,0.008,0.007,0.005,0.010,0.012,0.003,0.000,0.000"/>
+</term>
+<term id="694" value="norm" x="0.532" y="0.248" colorref="1">
+<trend count="9" data="0.012,0.016,0.016,0.022,0.018,0.024,0.006,0.002,0.000"/>
+</term>
+<term id="695" value="normal range" x="0.174" y="0.239" colorref="2">
+<trend count="9" data="0.004,0.005,0.007,0.007,0.004,0.006,0.000,0.000,0.000"/>
+</term>
+<term id="696" value="north" x="0.460" y="0.354" colorref="1">
+<trend count="9" data="0.022,0.022,0.020,0.024,0.035,0.018,0.008,0.000,0.000"/>
+</term>
+<term id="697" value="notion" x="0.453" y="0.369" colorref="1">
+<trend count="9" data="0.025,0.027,0.034,0.027,0.030,0.029,0.008,0.001,0.000"/>
+</term>
+<term id="698" value="novel approach" x="0.352" y="0.416" colorref="1">
+<trend count="9" data="0.003,0.005,0.005,0.008,0.010,0.010,0.001,0.000,0.000"/>
+</term>
+<term id="699" value="november" x="0.266" y="0.109" colorref="2">
+<trend count="9" data="0.008,0.011,0.017,0.010,0.014,0.018,0.003,0.000,0.000"/>
+</term>
+<term id="700" value="nucleus" x="0.263" y="0.864" colorref="3">
+<trend count="9" data="0.021,0.027,0.024,0.022,0.032,0.021,0.005,0.000,0.000"/>
+</term>
+<term id="701" value="nurse" x="0.312" y="0.053" colorref="2">
+<trend count="9" data="0.009,0.012,0.008,0.009,0.007,0.012,0.007,0.000,0.000"/>
+</term>
+<term id="702" value="oad" x="0.189" y="0.305" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="703" value="obesity" x="0.152" y="0.373" colorref="2">
+<trend count="9" data="0.018,0.016,0.025,0.030,0.027,0.032,0.005,0.000,0.000"/>
+</term>
+<term id="704" value="object" x="0.519" y="0.381" colorref="1">
+<trend count="9" data="0.309,0.371,0.341,0.333,0.407,0.399,0.131,0.005,0.000"/>
+</term>
+<term id="705" value="objectives" x="0.207" y="0.270" colorref="2">
+<trend count="9" data="0.309,0.371,0.341,0.333,0.407,0.399,0.131,0.005,0.000"/>
+</term>
+<term id="706" value="observational study" x="0.221" y="0.157" colorref="2">
+<trend count="9" data="0.011,0.009,0.008,0.009,0.010,0.012,0.006,0.000,0.000"/>
+</term>
+<term id="707" value="oct" x="0.120" y="0.332" colorref="2">
+<trend count="9" data="0.009,0.005,0.003,0.003,0.005,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="708" value="october" x="0.297" y="0.251" colorref="2">
+<trend count="9" data="0.012,0.017,0.014,0.010,0.014,0.008,0.006,0.000,0.000"/>
+</term>
+<term id="709" value="odds ratio" x="0.154" y="0.097" colorref="2">
+<trend count="9" data="0.018,0.015,0.022,0.022,0.039,0.039,0.007,0.000,0.000"/>
+</term>
+<term id="710" value="offspring" x="0.396" y="0.538" colorref="1">
+<trend count="9" data="0.018,0.019,0.019,0.016,0.019,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="711" value="older adult" x="0.349" y="0.279" colorref="1">
+<trend count="9" data="0.001,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="712" value="operator" x="0.551" y="0.491" colorref="4">
+<trend count="9" data="0.127,0.127,0.128,0.135,0.124,0.145,0.037,0.002,0.000"/>
+</term>
+<term id="713" value="opinion" x="0.372" y="0.293" colorref="1">
+<trend count="9" data="0.008,0.014,0.020,0.014,0.028,0.024,0.005,0.001,0.000"/>
+</term>
+<term id="714" value="osseointegration" x="0.306" y="0.550" colorref="4">
+<trend count="9" data="0.003,0.001,0.002,0.001,0.004,0.003,0.003,0.001,0.000"/>
+</term>
+<term id="715" value="outbreak" x="0.308" y="0.407" colorref="1">
+<trend count="9" data="0.005,0.006,0.008,0.012,0.012,0.009,0.003,0.000,0.000"/>
+</term>
+<term id="716" value="outcome measure" x="0.276" y="0.186" colorref="2">
+<trend count="9" data="0.006,0.003,0.009,0.010,0.007,0.009,0.001,0.000,0.000"/>
+</term>
+<term id="717" value="overall survival" x="0.035" y="0.319" colorref="2">
+<trend count="9" data="0.022,0.026,0.029,0.031,0.031,0.033,0.011,0.001,0.000"/>
+</term>
+<term id="718" value="overexpression" x="0.100" y="0.789" colorref="3">
+<trend count="9" data="0.033,0.031,0.037,0.045,0.037,0.031,0.008,0.001,0.000"/>
+</term>
+<term id="719" value="oxidative stress" x="0.232" y="0.702" colorref="3">
+<trend count="9" data="0.016,0.008,0.017,0.014,0.018,0.020,0.003,0.000,0.000"/>
+</term>
+<term id="720" value="p value" x="0.296" y="0.280" colorref="2">
+<trend count="9" data="0.002,0.005,0.004,0.006,0.004,0.009,0.002,0.000,0.000"/>
+</term>
+<term id="721" value="p00001" x="0.139" y="0.183" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="722" value="p0001" x="0.174" y="0.206" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="723" value="p001" x="0.215" y="0.289" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="724" value="p005" x="0.243" y="0.286" colorref="4">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="725" value="pair" x="0.717" y="0.546" colorref="6">
+<trend count="9" data="0.061,0.074,0.058,0.090,0.080,0.091,0.025,0.000,0.000"/>
+</term>
+<term id="726" value="paper" x="0.472" y="0.295" colorref="1">
+<trend count="9" data="0.245,0.282,0.275,0.281,0.262,0.236,0.055,0.005,0.000"/>
+</term>
+<term id="727" value="parasite" x="0.295" y="0.574" colorref="1">
+<trend count="9" data="0.022,0.019,0.027,0.026,0.021,0.027,0.011,0.000,0.000"/>
+</term>
+<term id="728" value="parkinson" x="0.315" y="0.590" colorref="1">
+<trend count="9" data="0.007,0.008,0.008,0.010,0.011,0.006,0.005,0.000,0.000"/>
+</term>
+<term id="729" value="participation" x="0.376" y="0.219" colorref="1">
+<trend count="9" data="0.147,0.161,0.167,0.181,0.190,0.210,0.076,0.005,0.000"/>
+</term>
+<term id="730" value="particle" x="0.548" y="0.658" colorref="6">
+<trend count="9" data="0.042,0.050,0.056,0.068,0.049,0.073,0.011,0.000,0.000"/>
+</term>
+<term id="731" value="parturition" x="0.201" y="0.638" colorref="4">
+<trend count="9" data="0.004,0.002,0.001,0.003,0.005,0.005,0.002,0.000,0.000"/>
+</term>
+<term id="732" value="party" x="0.476" y="0.293" colorref="1">
+<trend count="9" data="0.012,0.016,0.017,0.020,0.018,0.020,0.005,0.000,0.000"/>
+</term>
+<term id="733" value="pathogen" x="0.257" y="0.641" colorref="3">
+<trend count="9" data="0.056,0.075,0.082,0.086,0.091,0.063,0.019,0.001,0.000"/>
+</term>
+<term id="734" value="pathogenesis" x="0.141" y="0.643" colorref="3">
+<trend count="9" data="0.038,0.048,0.051,0.040,0.043,0.043,0.015,0.000,0.000"/>
+</term>
+<term id="735" value="pathogenicity" x="0.200" y="0.846" colorref="3">
+<trend count="9" data="0.056,0.075,0.082,0.086,0.091,0.063,0.019,0.001,0.000"/>
+</term>
+<term id="736" value="pathway" x="0.196" y="0.727" colorref="3">
+<trend count="9" data="0.130,0.129,0.129,0.150,0.138,0.144,0.039,0.001,0.000"/>
+</term>
+<term id="737" value="patient characteristic" x="0.231" y="0.068" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.001,0.000"/>
+</term>
+<term id="738" value="patient group" x="0.220" y="0.228" colorref="2">
+<trend count="9" data="0.006,0.007,0.006,0.003,0.003,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="739" value="patient population" x="0.147" y="0.252" colorref="2">
+<trend count="9" data="0.003,0.007,0.004,0.009,0.008,0.010,0.001,0.000,0.000"/>
+</term>
+<term id="740" value="patient safety" x="0.312" y="0.126" colorref="1">
+<trend count="9" data="0.001,0.000,0.003,0.002,0.004,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="741" value="pca" x="0.204" y="0.488" colorref="4">
+<trend count="9" data="0.003,0.003,0.005,0.003,0.007,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="742" value="pcr" x="0.187" y="0.590" colorref="3">
+<trend count="9" data="0.057,0.097,0.078,0.075,0.071,0.069,0.016,0.001,0.000"/>
+</term>
+<term id="743" value="peer" x="0.388" y="0.136" colorref="1">
+<trend count="9" data="0.012,0.010,0.012,0.007,0.018,0.012,0.005,0.000,0.000"/>
+</term>
+<term id="744" value="peptide" x="0.139" y="0.547" colorref="3">
+<trend count="9" data="0.059,0.066,0.058,0.048,0.063,0.051,0.009,0.001,0.000"/>
+</term>
+<term id="745" value="periodontitis" x="0.216" y="0.740" colorref="4">
+<trend count="9" data="0.003,0.007,0.007,0.014,0.014,0.009,0.011,0.001,0.000"/>
+</term>
+<term id="746" value="person year" x="0.240" y="0.061" colorref="2">
+<trend count="9" data="0.001,0.001,0.000,0.000,0.000,0.000,0.001,0.000,0.000"/>
+</term>
+<term id="747" value="personality" x="0.381" y="0.145" colorref="1">
+<trend count="9" data="0.083,0.101,0.095,0.089,0.112,0.096,0.030,0.003,0.000"/>
+</term>
+<term id="748" value="perspective" x="0.417" y="0.293" colorref="1">
+<trend count="9" data="0.065,0.056,0.061,0.070,0.077,0.068,0.014,0.002,0.000"/>
+</term>
+<term id="749" value="perturbation" x="0.412" y="0.680" colorref="1">
+<trend count="9" data="0.014,0.024,0.031,0.035,0.024,0.030,0.005,0.001,0.000"/>
+</term>
+<term id="750" value="pet" x="0.270" y="0.406" colorref="4">
+<trend count="9" data="0.018,0.015,0.022,0.020,0.024,0.029,0.008,0.000,0.000"/>
+</term>
+<term id="751" value="pet ct" x="0.297" y="0.384" colorref="4">
+<trend count="9" data="0.007,0.004,0.014,0.011,0.009,0.012,0.005,0.000,0.000"/>
+</term>
+<term id="752" value="pet mri" x="0.386" y="0.408" colorref="4">
+<trend count="9" data="0.000,0.001,0.001,0.001,0.001,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="753" value="pfs" x="0.036" y="0.299" colorref="2">
+<trend count="9" data="0.003,0.003,0.002,0.003,0.005,0.007,0.004,0.000,0.000"/>
+</term>
+<term id="754" value="phenotype" x="0.215" y="0.760" colorref="3">
+<trend count="9" data="0.091,0.107,0.107,0.128,0.118,0.107,0.025,0.000,0.001"/>
+</term>
+<term id="755" value="philosophy" x="0.483" y="0.238" colorref="1">
+<trend count="9" data="0.016,0.012,0.013,0.016,0.019,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="756" value="phosphorylation" x="0.121" y="0.879" colorref="3">
+<trend count="9" data="0.029,0.036,0.037,0.031,0.041,0.034,0.010,0.000,0.000"/>
+</term>
+<term id="757" value="photon" x="0.807" y="0.563" colorref="6">
+<trend count="9" data="0.022,0.021,0.024,0.029,0.020,0.029,0.003,0.000,0.000"/>
+</term>
+<term id="758" value="phylogeny" x="0.431" y="0.703" colorref="1">
+<trend count="9" data="0.008,0.008,0.016,0.013,0.010,0.006,0.005,0.000,0.000"/>
+</term>
+<term id="759" value="physical activity" x="0.258" y="0.083" colorref="2">
+<trend count="9" data="0.009,0.018,0.014,0.016,0.022,0.016,0.007,0.001,0.000"/>
+</term>
+<term id="760" value="physician" x="0.298" y="0.128" colorref="2">
+<trend count="9" data="0.030,0.038,0.033,0.034,0.035,0.034,0.013,0.001,0.000"/>
+</term>
+<term id="761" value="pilot study" x="0.221" y="0.237" colorref="2">
+<trend count="9" data="0.005,0.010,0.008,0.012,0.010,0.008,0.004,0.001,0.000"/>
+</term>
+<term id="762" value="pixel" x="0.499" y="0.565" colorref="1">
+<trend count="9" data="0.014,0.016,0.013,0.011,0.006,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="763" value="placebo" x="0.187" y="0.286" colorref="2">
+<trend count="9" data="0.031,0.038,0.023,0.022,0.039,0.027,0.009,0.001,0.000"/>
+</term>
+<term id="764" value="placement" x="0.330" y="0.318" colorref="4">
+<trend count="9" data="0.016,0.018,0.011,0.017,0.021,0.022,0.006,0.001,0.001"/>
+</term>
+<term id="765" value="plant" x="0.404" y="0.623" colorref="1">
+<trend count="9" data="0.071,0.096,0.091,0.114,0.090,0.091,0.025,0.000,0.001"/>
+</term>
+<term id="766" value="plasma" x="0.155" y="0.584" colorref="3">
+<trend count="9" data="0.067,0.061,0.074,0.078,0.090,0.090,0.024,0.001,0.000"/>
+</term>
+<term id="767" value="plasma level" x="0.105" y="0.571" colorref="3">
+<trend count="9" data="0.001,0.001,0.001,0.001,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="768" value="plasmid" x="0.267" y="0.756" colorref="3">
+<trend count="9" data="0.011,0.005,0.007,0.009,0.010,0.003,0.002,0.000,0.000"/>
+</term>
+<term id="769" value="plasticity" x="0.390" y="0.662" colorref="1">
+<trend count="9" data="0.035,0.042,0.037,0.039,0.041,0.046,0.012,0.000,0.000"/>
+</term>
+<term id="770" value="platelet" x="0.126" y="0.490" colorref="3">
+<trend count="9" data="0.014,0.011,0.019,0.015,0.023,0.019,0.005,0.000,0.000"/>
+</term>
+<term id="771" value="policy" x="0.450" y="0.229" colorref="1">
+<trend count="9" data="0.042,0.048,0.048,0.059,0.061,0.049,0.015,0.002,0.000"/>
+</term>
+<term id="772" value="politic" x="0.514" y="0.279" colorref="1">
+<trend count="9" data="0.052,0.048,0.041,0.060,0.064,0.059,0.014,0.001,0.000"/>
+</term>
+<term id="773" value="pollen" x="0.327" y="0.655" colorref="1">
+<trend count="9" data="0.012,0.014,0.010,0.016,0.010,0.010,0.002,0.000,0.000"/>
+</term>
+<term id="774" value="poly" x="0.217" y="0.831" colorref="3">
+<trend count="9" data="0.023,0.016,0.015,0.022,0.016,0.017,0.004,0.000,0.000"/>
+</term>
+<term id="775" value="poor prognosis" x="0.088" y="0.541" colorref="3">
+<trend count="9" data="0.010,0.007,0.008,0.008,0.011,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="776" value="positive effect" x="0.346" y="0.150" colorref="2">
+<trend count="9" data="0.005,0.012,0.007,0.010,0.012,0.010,0.003,0.001,0.000"/>
+</term>
+<term id="777" value="positron emission tomography" x="0.241" y="0.424" colorref="4">
+<trend count="9" data="0.012,0.008,0.010,0.013,0.012,0.016,0.002,0.000,0.000"/>
+</term>
+<term id="778" value="posttraumatic stress disorder" x="0.354" y="0.226" colorref="1">
+<trend count="9" data="0.011,0.014,0.010,0.004,0.005,0.008,0.000,0.000,0.000"/>
+</term>
+<term id="779" value="potential effect" x="0.313" y="0.542" colorref="1">
+<trend count="9" data="0.000,0.002,0.001,0.000,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="780" value="pp collision" x="0.965" y="0.547" colorref="6">
+<trend count="9" data="0.000,0.000,0.000,0.003,0.001,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="781" value="practice" x="0.370" y="0.245" colorref="1">
+<trend count="9" data="0.104,0.127,0.135,0.152,0.173,0.143,0.039,0.003,0.001"/>
+</term>
+<term id="782" value="practitioner" x="0.365" y="0.197" colorref="1">
+<trend count="9" data="0.014,0.022,0.021,0.015,0.024,0.018,0.005,0.000,0.000"/>
+</term>
+<term id="783" value="precipitation" x="0.536" y="0.436" colorref="1">
+<trend count="9" data="0.010,0.012,0.018,0.018,0.023,0.018,0.001,0.000,0.000"/>
+</term>
+<term id="784" value="precision" x="0.517" y="0.496" colorref="1">
+<trend count="9" data="0.063,0.057,0.060,0.067,0.084,0.073,0.017,0.001,0.000"/>
+</term>
+<term id="785" value="precursor" x="0.343" y="0.792" colorref="3">
+<trend count="9" data="0.024,0.035,0.033,0.026,0.039,0.038,0.010,0.000,0.000"/>
+</term>
+<term id="786" value="prediction" x="0.477" y="0.391" colorref="1">
+<trend count="9" data="0.237,0.229,0.241,0.280,0.274,0.296,0.076,0.005,0.000"/>
+</term>
+<term id="787" value="predictive value" x="0.115" y="0.240" colorref="2">
+<trend count="9" data="0.017,0.014,0.019,0.020,0.015,0.016,0.006,0.000,0.000"/>
+</term>
+<term id="788" value="predictor" x="0.231" y="0.201" colorref="2">
+<trend count="9" data="0.058,0.061,0.059,0.071,0.088,0.082,0.024,0.001,0.000"/>
+</term>
+<term id="789" value="prerequisite" x="0.239" y="0.625" colorref="3">
+<trend count="9" data="0.012,0.020,0.016,0.014,0.016,0.013,0.002,0.001,0.000"/>
+</term>
+<term id="790" value="prescription" x="0.320" y="0.146" colorref="2">
+<trend count="9" data="0.004,0.012,0.005,0.008,0.019,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="791" value="preterm infant" x="0.203" y="0.057" colorref="2">
+<trend count="9" data="0.000,0.002,0.000,0.001,0.000,0.002,0.000,0.000,0.000"/>
+</term>
+<term id="792" value="prevalence" x="0.237" y="0.292" colorref="2">
+<trend count="9" data="0.067,0.088,0.087,0.097,0.099,0.112,0.033,0.002,0.000"/>
+</term>
+<term id="793" value="previous work" x="0.407" y="0.490" colorref="1">
+<trend count="9" data="0.005,0.008,0.006,0.010,0.012,0.009,0.001,0.000,0.000"/>
+</term>
+<term id="794" value="price" x="0.429" y="0.317" colorref="1">
+<trend count="9" data="0.022,0.029,0.027,0.034,0.024,0.022,0.010,0.001,0.000"/>
+</term>
+<term id="795" value="primary care" x="0.290" y="0.049" colorref="2">
+<trend count="9" data="0.009,0.010,0.007,0.012,0.012,0.010,0.008,0.000,0.000"/>
+</term>
+<term id="796" value="primary end point" x="0.070" y="0.140" colorref="2">
+<trend count="9" data="0.001,0.005,0.004,0.001,0.008,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="797" value="primary endpoint" x="0.092" y="0.111" colorref="2">
+<trend count="9" data="0.006,0.005,0.007,0.007,0.008,0.012,0.002,0.000,0.000"/>
+</term>
+<term id="798" value="primary outcome" x="0.223" y="0.000" colorref="2">
+<trend count="9" data="0.007,0.009,0.010,0.016,0.011,0.015,0.002,0.000,0.000"/>
+</term>
+<term id="799" value="primary outcome measure" x="0.165" y="0.029" colorref="2">
+<trend count="9" data="0.001,0.001,0.001,0.005,0.001,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="800" value="primate" x="0.412" y="0.600" colorref="1">
+<trend count="9" data="0.014,0.022,0.014,0.018,0.019,0.010,0.003,0.000,0.000"/>
+</term>
+<term id="801" value="prion" x="0.310" y="0.882" colorref="3">
+<trend count="9" data="0.028,0.017,0.007,0.007,0.011,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="802" value="processing" x="0.400" y="0.568" colorref="1">
+<trend count="9" data="0.355,0.401,0.410,0.440,0.446,0.414,0.116,0.005,0.000"/>
+</term>
+<term id="803" value="product" x="0.481" y="0.510" colorref="1">
+<trend count="9" data="0.195,0.229,0.220,0.240,0.239,0.252,0.057,0.002,0.001"/>
+</term>
+<term id="804" value="production" x="0.522" y="0.646" colorref="6">
+<trend count="9" data="0.195,0.229,0.220,0.240,0.239,0.252,0.057,0.002,0.001"/>
+</term>
+<term id="805" value="production cross section" x="0.976" y="0.561" colorref="6">
+<trend count="9" data="0.001,0.003,0.003,0.012,0.007,0.018,0.002,0.000,0.000"/>
+</term>
+<term id="806" value="productivity" x="0.491" y="0.487" colorref="1">
+<trend count="9" data="0.195,0.229,0.220,0.240,0.239,0.252,0.057,0.002,0.001"/>
+</term>
+<term id="807" value="progeny" x="0.339" y="0.783" colorref="3">
+<trend count="9" data="0.006,0.001,0.005,0.003,0.004,0.002,0.000,0.000,0.000"/>
+</term>
+<term id="808" value="prognosis" x="0.078" y="0.372" colorref="2">
+<trend count="9" data="0.037,0.042,0.038,0.042,0.037,0.044,0.016,0.001,0.000"/>
+</term>
+<term id="809" value="prognostic value" x="0.139" y="0.166" colorref="2">
+<trend count="9" data="0.008,0.005,0.005,0.014,0.010,0.011,0.003,0.000,0.000"/>
+</term>
+<term id="810" value="programme" x="0.410" y="0.237" colorref="1">
+<trend count="9" data="0.039,0.034,0.023,0.026,0.025,0.032,0.008,0.001,0.000"/>
+</term>
+<term id="811" value="progression" x="0.117" y="0.551" colorref="3">
+<trend count="9" data="0.119,0.174,0.146,0.129,0.163,0.168,0.052,0.002,0.000"/>
+</term>
+<term id="812" value="progression free survival" x="0.019" y="0.282" colorref="2">
+<trend count="9" data="0.006,0.006,0.008,0.007,0.012,0.008,0.006,0.000,0.000"/>
+</term>
+<term id="813" value="projection" x="0.512" y="0.487" colorref="1">
+<trend count="9" data="0.077,0.088,0.076,0.083,0.080,0.076,0.029,0.000,0.000"/>
+</term>
+<term id="814" value="proliferation" x="0.124" y="0.855" colorref="3">
+<trend count="9" data="0.064,0.071,0.067,0.070,0.063,0.066,0.017,0.001,0.000"/>
+</term>
+<term id="815" value="promising result" x="0.205" y="0.380" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="816" value="promoter" x="0.148" y="0.769" colorref="3">
+<trend count="9" data="0.089,0.112,0.110,0.129,0.131,0.124,0.035,0.000,0.001"/>
+</term>
+<term id="817" value="propagation" x="0.433" y="0.692" colorref="1">
+<trend count="9" data="0.017,0.018,0.012,0.014,0.022,0.012,0.001,0.000,0.000"/>
+</term>
+<term id="818" value="prophylaxi" x="0.191" y="0.188" colorref="2">
+<trend count="9" data="0.012,0.010,0.008,0.008,0.010,0.014,0.003,0.000,0.000"/>
+</term>
+<term id="819" value="prospective cohort study" x="0.181" y="0.077" colorref="2">
+<trend count="9" data="0.007,0.004,0.006,0.006,0.002,0.005,0.005,0.000,0.000"/>
+</term>
+<term id="820" value="prospective study" x="0.190" y="0.188" colorref="2">
+<trend count="9" data="0.010,0.012,0.013,0.007,0.014,0.017,0.004,0.000,0.000"/>
+</term>
+<term id="821" value="prostate" x="0.216" y="0.495" colorref="4">
+<trend count="9" data="0.013,0.010,0.011,0.014,0.013,0.020,0.010,0.000,0.000"/>
+</term>
+<term id="822" value="prostate cancer" x="0.168" y="0.433" colorref="4">
+<trend count="9" data="0.007,0.007,0.008,0.008,0.010,0.013,0.007,0.000,0.000"/>
+</term>
+<term id="823" value="protection" x="0.235" y="0.646" colorref="3">
+<trend count="9" data="0.107,0.108,0.093,0.116,0.102,0.084,0.026,0.003,0.000"/>
+</term>
+<term id="824" value="protective effect" x="0.132" y="0.491" colorref="3">
+<trend count="9" data="0.014,0.009,0.010,0.003,0.005,0.008,0.001,0.001,0.000"/>
+</term>
+<term id="825" value="protein" x="0.188" y="0.763" colorref="3">
+<trend count="9" data="0.314,0.363,0.317,0.332,0.352,0.318,0.080,0.003,0.000"/>
+</term>
+<term id="826" value="protein expression" x="0.061" y="0.770" colorref="3">
+<trend count="9" data="0.029,0.021,0.024,0.031,0.022,0.026,0.007,0.001,0.000"/>
+</term>
+<term id="827" value="protein level" x="0.090" y="0.731" colorref="3">
+<trend count="9" data="0.008,0.003,0.002,0.005,0.005,0.010,0.000,0.000,0.000"/>
+</term>
+<term id="828" value="proton" x="0.823" y="0.607" colorref="6">
+<trend count="9" data="0.016,0.019,0.031,0.040,0.034,0.068,0.009,0.001,0.000"/>
+</term>
+<term id="829" value="proton proton collision" x="0.988" y="0.558" colorref="6">
+<trend count="9" data="0.000,0.000,0.000,0.003,0.003,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="830" value="proton proton collision data" x="0.963" y="0.557" colorref="6">
+<trend count="9" data="0.000,0.000,0.000,0.003,0.002,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="831" value="provision" x="0.462" y="0.206" colorref="1">
+<trend count="9" data="0.009,0.015,0.020,0.013,0.016,0.012,0.010,0.001,0.000"/>
+</term>
+<term id="832" value="psychiatric disorder" x="0.282" y="0.272" colorref="1">
+<trend count="9" data="0.003,0.001,0.002,0.001,0.003,0.001,0.002,0.000,0.000"/>
+</term>
+<term id="833" value="psychiatry" x="0.338" y="0.082" colorref="1">
+<trend count="9" data="0.008,0.007,0.007,0.003,0.012,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="834" value="psychological distress" x="0.237" y="0.051" colorref="2">
+<trend count="9" data="0.005,0.001,0.003,0.003,0.001,0.003,0.002,0.000,0.000"/>
+</term>
+<term id="835" value="psychosis" x="0.323" y="0.244" colorref="1">
+<trend count="9" data="0.004,0.001,0.003,0.006,0.005,0.005,0.002,0.001,0.000"/>
+</term>
+<term id="836" value="pten" x="0.045" y="0.678" colorref="3">
+<trend count="9" data="0.004,0.002,0.003,0.004,0.003,0.001,0.002,0.000,0.000"/>
+</term>
+<term id="837" value="ptsd" x="0.336" y="0.244" colorref="1">
+<trend count="9" data="0.016,0.018,0.011,0.007,0.010,0.011,0.002,0.000,0.000"/>
+</term>
+<term id="838" value="public health" x="0.287" y="0.399" colorref="1">
+<trend count="9" data="0.012,0.014,0.013,0.022,0.022,0.020,0.007,0.001,0.000"/>
+</term>
+<term id="839" value="pubmed" x="0.274" y="0.141" colorref="2">
+<trend count="9" data="0.007,0.005,0.010,0.009,0.010,0.012,0.002,0.001,0.000"/>
+</term>
+<term id="840" value="pulmonary hypertension" x="0.181" y="0.421" colorref="2">
+<trend count="9" data="0.003,0.006,0.007,0.003,0.006,0.006,0.003,0.001,0.000"/>
+</term>
+<term id="841" value="qol" x="0.247" y="0.085" colorref="2">
+<trend count="9" data="0.008,0.005,0.005,0.003,0.005,0.007,0.005,0.000,0.000"/>
+</term>
+<term id="842" value="questionnaire" x="0.311" y="0.183" colorref="1">
+<trend count="9" data="0.076,0.092,0.084,0.076,0.099,0.086,0.037,0.002,0.000"/>
+</term>
+<term id="843" value="rabbit" x="0.256" y="0.582" colorref="4">
+<trend count="9" data="0.007,0.010,0.011,0.013,0.007,0.010,0.003,0.001,0.000"/>
+</term>
+<term id="844" value="radiograph" x="0.214" y="0.381" colorref="4">
+<trend count="9" data="0.022,0.024,0.022,0.028,0.030,0.037,0.011,0.001,0.000"/>
+</term>
+<term id="845" value="radiologist" x="0.336" y="0.366" colorref="4">
+<trend count="9" data="0.002,0.007,0.006,0.011,0.012,0.012,0.007,0.000,0.000"/>
+</term>
+<term id="846" value="radiotherapy" x="0.069" y="0.306" colorref="2">
+<trend count="9" data="0.017,0.017,0.018,0.025,0.029,0.026,0.007,0.001,0.000"/>
+</term>
+<term id="847" value="rainfall" x="0.499" y="0.510" colorref="1">
+<trend count="9" data="0.003,0.003,0.001,0.008,0.005,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="848" value="randomised controlled trial" x="0.244" y="0.043" colorref="2">
+<trend count="9" data="0.001,0.001,0.001,0.003,0.003,0.002,0.002,0.000,0.000"/>
+</term>
+<term id="849" value="randomized controlled trial" x="0.258" y="0.090" colorref="2">
+<trend count="9" data="0.005,0.007,0.007,0.010,0.003,0.010,0.005,0.000,0.000"/>
+</term>
+<term id="850" value="rare disease" x="0.206" y="0.327" colorref="2">
+<trend count="9" data="0.001,0.001,0.002,0.001,0.004,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="851" value="rat" x="0.182" y="0.629" colorref="3">
+<trend count="9" data="0.046,0.044,0.047,0.054,0.038,0.048,0.019,0.001,0.000"/>
+</term>
+<term id="852" value="rct" x="0.245" y="0.037" colorref="2">
+<trend count="9" data="0.003,0.000,0.003,0.003,0.007,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="853" value="rcts" x="0.251" y="0.003" colorref="2">
+<trend count="9" data="0.002,0.001,0.003,0.005,0.008,0.008,0.004,0.000,0.000"/>
+</term>
+<term id="854" value="reactive oxygen species" x="0.249" y="0.802" colorref="3">
+<trend count="9" data="0.008,0.008,0.009,0.012,0.008,0.009,0.005,0.000,0.000"/>
+</term>
+<term id="855" value="reader" x="0.333" y="0.386" colorref="4">
+<trend count="9" data="0.011,0.026,0.029,0.018,0.034,0.038,0.017,0.001,0.000"/>
+</term>
+<term id="856" value="receiver" x="0.147" y="0.173" colorref="2">
+<trend count="9" data="0.139,0.148,0.138,0.122,0.179,0.168,0.050,0.003,0.001"/>
+</term>
+<term id="857" value="recent finding" x="0.246" y="0.590" colorref="3">
+<trend count="9" data="0.001,0.000,0.000,0.000,0.000,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="858" value="receptor" x="0.143" y="0.771" colorref="3">
+<trend count="9" data="0.141,0.167,0.167,0.138,0.161,0.152,0.038,0.002,0.000"/>
+</term>
+<term id="859" value="recipient" x="0.196" y="0.284" colorref="2">
+<trend count="9" data="0.016,0.022,0.025,0.024,0.031,0.036,0.004,0.000,0.000"/>
+</term>
+<term id="860" value="reconstruction" x="0.413" y="0.428" colorref="4">
+<trend count="9" data="0.043,0.063,0.068,0.085,0.075,0.084,0.029,0.000,0.000"/>
+</term>
+<term id="861" value="recruitment" x="0.127" y="0.615" colorref="3">
+<trend count="9" data="0.037,0.054,0.056,0.048,0.074,0.046,0.014,0.000,0.000"/>
+</term>
+<term id="862" value="recurrence" x="0.081" y="0.286" colorref="2">
+<trend count="9" data="0.058,0.047,0.057,0.060,0.058,0.058,0.012,0.000,0.000"/>
+</term>
+<term id="863" value="regeneration" x="0.243" y="0.739" colorref="3">
+<trend count="9" data="0.031,0.024,0.020,0.025,0.032,0.025,0.008,0.001,0.000"/>
+</term>
+<term id="864" value="regimen" x="0.113" y="0.275" colorref="2">
+<trend count="9" data="0.029,0.035,0.027,0.031,0.033,0.037,0.007,0.000,0.000"/>
+</term>
+<term id="865" value="registry" x="0.187" y="0.079" colorref="2">
+<trend count="9" data="0.006,0.007,0.018,0.025,0.026,0.025,0.007,0.001,0.000"/>
+</term>
+<term id="866" value="regression analysis" x="0.197" y="0.231" colorref="2">
+<trend count="9" data="0.023,0.032,0.032,0.029,0.033,0.033,0.013,0.000,0.000"/>
+</term>
+<term id="867" value="regression model" x="0.247" y="0.189" colorref="2">
+<trend count="9" data="0.007,0.007,0.007,0.007,0.010,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="868" value="regulation" x="0.266" y="0.672" colorref="3">
+<trend count="9" data="0.187,0.205,0.223,0.248,0.230,0.218,0.059,0.003,0.000"/>
+</term>
+<term id="869" value="relapse" x="0.120" y="0.259" colorref="2">
+<trend count="9" data="0.016,0.016,0.018,0.022,0.022,0.031,0.007,0.000,0.000"/>
+</term>
+<term id="870" value="relative importance" x="0.424" y="0.472" colorref="1">
+<trend count="9" data="0.001,0.005,0.002,0.010,0.006,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="871" value="relative risk" x="0.252" y="0.045" colorref="2">
+<trend count="9" data="0.006,0.008,0.006,0.007,0.006,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="872" value="release" x="0.185" y="0.804" colorref="3">
+<trend count="9" data="0.079,0.069,0.062,0.069,0.076,0.077,0.016,0.001,0.000"/>
+</term>
+<term id="873" value="reliability" x="0.387" y="0.323" colorref="4">
+<trend count="9" data="0.079,0.088,0.101,0.098,0.112,0.116,0.030,0.003,0.000"/>
+</term>
+<term id="874" value="remission" x="0.061" y="0.382" colorref="2">
+<trend count="9" data="0.014,0.011,0.017,0.013,0.017,0.020,0.004,0.000,0.000"/>
+</term>
+<term id="875" value="renal function" x="0.106" y="0.230" colorref="2">
+<trend count="9" data="0.007,0.014,0.010,0.010,0.011,0.010,0.004,0.000,0.000"/>
+</term>
+<term id="876" value="repair" x="0.204" y="0.635" colorref="3">
+<trend count="9" data="0.046,0.041,0.050,0.061,0.060,0.058,0.013,0.001,0.000"/>
+</term>
+<term id="877" value="reperfusion" x="0.059" y="0.469" colorref="3">
+<trend count="9" data="0.007,0.007,0.007,0.006,0.010,0.007,0.004,0.000,0.000"/>
+</term>
+<term id="878" value="replication" x="0.245" y="0.709" colorref="3">
+<trend count="9" data="0.048,0.041,0.049,0.056,0.055,0.052,0.017,0.001,0.000"/>
+</term>
+<term id="879" value="representation" x="0.494" y="0.391" colorref="1">
+<trend count="9" data="0.038,0.047,0.042,0.044,0.039,0.046,0.012,0.001,0.000"/>
+</term>
+<term id="880" value="representative sample" x="0.363" y="0.130" colorref="1">
+<trend count="9" data="0.006,0.004,0.007,0.003,0.003,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="881" value="researcher" x="0.398" y="0.303" colorref="1">
+<trend count="9" data="0.253,0.254,0.288,0.295,0.323,0.290,0.085,0.005,0.000"/>
+</term>
+<term id="882" value="resection" x="0.104" y="0.391" colorref="2">
+<trend count="9" data="0.025,0.034,0.023,0.035,0.039,0.034,0.012,0.001,0.000"/>
+</term>
+<term id="883" value="resident" x="0.383" y="0.204" colorref="1">
+<trend count="9" data="0.025,0.020,0.023,0.028,0.037,0.027,0.008,0.000,0.000"/>
+</term>
+<term id="884" value="resistance" x="0.172" y="0.593" colorref="3">
+<trend count="9" data="0.086,0.108,0.107,0.122,0.115,0.105,0.027,0.001,0.000"/>
+</term>
+<term id="885" value="resonance" x="0.514" y="0.418" colorref="6">
+<trend count="9" data="0.090,0.089,0.099,0.109,0.116,0.117,0.042,0.002,0.000"/>
+</term>
+<term id="886" value="resource" x="0.418" y="0.265" colorref="1">
+<trend count="9" data="0.058,0.059,0.063,0.076,0.080,0.069,0.023,0.001,0.000"/>
+</term>
+<term id="887" value="respondent" x="0.380" y="0.126" colorref="1">
+<trend count="9" data="0.042,0.061,0.054,0.058,0.079,0.059,0.016,0.002,0.000"/>
+</term>
+<term id="888" value="response rate" x="0.206" y="0.146" colorref="2">
+<trend count="9" data="0.008,0.012,0.007,0.005,0.011,0.007,0.004,0.001,0.000"/>
+</term>
+<term id="889" value="responsibility" x="0.425" y="0.165" colorref="1">
+<trend count="9" data="0.345,0.366,0.390,0.406,0.427,0.401,0.112,0.006,0.001"/>
+</term>
+<term id="890" value="restoration" x="0.271" y="0.395" colorref="4">
+<trend count="9" data="0.041,0.041,0.039,0.044,0.052,0.055,0.013,0.001,0.000"/>
+</term>
+<term id="891" value="results highlight" x="0.464" y="0.583" colorref="1">
+<trend count="9" data="0.001,0.003,0.007,0.004,0.007,0.003,0.001,0.001,0.000"/>
+</term>
+<term id="892" value="retrospective analysis" x="0.153" y="0.221" colorref="2">
+<trend count="9" data="0.008,0.013,0.005,0.005,0.016,0.015,0.004,0.001,0.000"/>
+</term>
+<term id="893" value="retrospective study" x="0.125" y="0.261" colorref="2">
+<trend count="9" data="0.011,0.014,0.017,0.010,0.019,0.025,0.005,0.000,0.000"/>
+</term>
+<term id="894" value="revision" x="0.375" y="0.330" colorref="1">
+<trend count="9" data="0.034,0.029,0.035,0.022,0.044,0.021,0.012,0.000,0.000"/>
+</term>
+<term id="895" value="reward" x="0.390" y="0.418" colorref="1">
+<trend count="9" data="0.015,0.020,0.021,0.019,0.016,0.025,0.008,0.000,0.000"/>
+</term>
+<term id="896" value="right" x="0.505" y="0.378" colorref="1">
+<trend count="9" data="0.011,0.010,0.046,0.058,0.026,0.017,0.009,0.000,0.000"/>
+</term>
+<term id="897" value="risk factor" x="0.179" y="0.266" colorref="2">
+<trend count="9" data="0.022,0.022,0.029,0.023,0.023,0.033,0.013,0.000,0.000"/>
+</term>
+<term id="898" value="risk stratification" x="0.098" y="0.260" colorref="2">
+<trend count="9" data="0.001,0.011,0.003,0.004,0.008,0.007,0.002,0.001,0.000"/>
+</term>
+<term id="899" value="rna" x="0.148" y="0.575" colorref="3">
+<trend count="9" data="0.061,0.070,0.057,0.063,0.067,0.052,0.015,0.000,0.000"/>
+</term>
+<term id="900" value="robot" x="0.435" y="0.317" colorref="1">
+<trend count="9" data="0.010,0.015,0.020,0.028,0.025,0.021,0.005,0.000,0.000"/>
+</term>
+<term id="901" value="rt pcr" x="0.186" y="0.673" colorref="3">
+<trend count="9" data="0.014,0.025,0.019,0.017,0.014,0.012,0.001,0.000,0.000"/>
+</term>
+<term id="902" value="ruminant" x="0.349" y="0.645" colorref="1">
+<trend count="9" data="0.015,0.017,0.015,0.018,0.010,0.012,0.008,0.000,0.000"/>
+</term>
+<term id="903" value="safety" x="0.220" y="0.247" colorref="2">
+<trend count="9" data="0.047,0.048,0.048,0.048,0.068,0.065,0.014,0.000,0.000"/>
+</term>
+<term id="904" value="saliva" x="0.187" y="0.626" colorref="4">
+<trend count="9" data="0.010,0.012,0.007,0.003,0.014,0.012,0.004,0.000,0.000"/>
+</term>
+<term id="905" value="sample size" x="0.432" y="0.252" colorref="1">
+<trend count="9" data="0.006,0.008,0.003,0.012,0.006,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="906" value="satisfaction" x="0.355" y="0.198" colorref="1">
+<trend count="9" data="0.029,0.018,0.029,0.022,0.034,0.036,0.011,0.002,0.000"/>
+</term>
+<term id="907" value="scan" x="0.302" y="0.392" colorref="4">
+<trend count="9" data="0.056,0.069,0.079,0.086,0.090,0.089,0.031,0.002,0.000"/>
+</term>
+<term id="908" value="scanning" x="0.394" y="0.456" colorref="4">
+<trend count="9" data="0.056,0.069,0.079,0.086,0.090,0.089,0.031,0.002,0.000"/>
+</term>
+<term id="909" value="scenario" x="0.528" y="0.441" colorref="1">
+<trend count="9" data="0.039,0.031,0.035,0.046,0.044,0.039,0.006,0.000,0.000"/>
+</term>
+<term id="910" value="scene" x="0.488" y="0.431" colorref="1">
+<trend count="9" data="0.012,0.011,0.008,0.012,0.013,0.010,0.002,0.000,0.000"/>
+</term>
+<term id="911" value="scheme" x="0.517" y="0.420" colorref="1">
+<trend count="9" data="0.038,0.042,0.037,0.039,0.042,0.035,0.005,0.001,0.000"/>
+</term>
+<term id="912" value="schizophrenia" x="0.342" y="0.367" colorref="1">
+<trend count="9" data="0.017,0.012,0.018,0.018,0.022,0.016,0.007,0.001,0.000"/>
+</term>
+<term id="913" value="scholar" x="0.482" y="0.258" colorref="1">
+<trend count="9" data="0.008,0.018,0.014,0.016,0.020,0.016,0.003,0.000,0.000"/>
+</term>
+<term id="914" value="sci" x="0.278" y="0.156" colorref="2">
+<trend count="9" data="0.007,0.011,0.010,0.012,0.024,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="915" value="science" x="0.433" y="0.229" colorref="1">
+<trend count="9" data="0.039,0.039,0.042,0.041,0.041,0.032,0.012,0.000,0.000"/>
+</term>
+<term id="916" value="scientist" x="0.425" y="0.374" colorref="1">
+<trend count="9" data="0.010,0.012,0.005,0.008,0.016,0.008,0.001,0.000,0.000"/>
+</term>
+<term id="917" value="scope" x="0.412" y="0.490" colorref="1">
+<trend count="9" data="0.016,0.014,0.011,0.016,0.016,0.017,0.006,0.000,0.000"/>
+</term>
+<term id="918" value="score" x="0.218" y="0.177" colorref="2">
+<trend count="9" data="0.114,0.113,0.125,0.124,0.146,0.171,0.059,0.003,0.000"/>
+</term>
+<term id="919" value="screen" x="0.315" y="0.672" colorref="3">
+<trend count="9" data="0.067,0.080,0.076,0.078,0.103,0.099,0.024,0.001,0.001"/>
+</term>
+<term id="920" value="search" x="0.589" y="0.340" colorref="6">
+<trend count="9" data="0.056,0.073,0.064,0.095,0.094,0.119,0.024,0.003,0.000"/>
+</term>
+<term id="921" value="second part" x="0.432" y="0.430" colorref="1">
+<trend count="9" data="0.005,0.011,0.008,0.014,0.007,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="922" value="secondary endpoint" x="0.101" y="0.052" colorref="2">
+<trend count="9" data="0.000,0.002,0.001,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="923" value="secondary outcome" x="0.190" y="0.007" colorref="2">
+<trend count="9" data="0.001,0.003,0.003,0.006,0.003,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="924" value="secretion" x="0.110" y="0.805" colorref="3">
+<trend count="9" data="0.038,0.054,0.050,0.072,0.056,0.056,0.014,0.001,0.000"/>
+</term>
+<term id="925" value="seed" x="0.434" y="0.577" colorref="1">
+<trend count="9" data="0.015,0.019,0.022,0.031,0.030,0.017,0.008,0.000,0.000"/>
+</term>
+<term id="926" value="seizure" x="0.227" y="0.339" colorref="2">
+<trend count="9" data="0.007,0.012,0.010,0.012,0.008,0.008,0.002,0.000,0.000"/>
+</term>
+<term id="927" value="sensation" x="0.346" y="0.249" colorref="1">
+<trend count="9" data="0.007,0.005,0.008,0.009,0.008,0.007,0.004,0.000,0.000"/>
+</term>
+<term id="928" value="sensor" x="0.458" y="0.509" colorref="1">
+<trend count="9" data="0.037,0.045,0.031,0.034,0.035,0.032,0.008,0.000,0.000"/>
+</term>
+<term id="929" value="sepsis" x="0.132" y="0.379" colorref="2">
+<trend count="9" data="0.008,0.010,0.009,0.005,0.009,0.015,0.003,0.000,0.000"/>
+</term>
+<term id="930" value="september" x="0.233" y="0.096" colorref="2">
+<trend count="9" data="0.013,0.022,0.012,0.011,0.018,0.014,0.005,0.001,0.000"/>
+</term>
+<term id="931" value="sequencing" x="0.167" y="0.679" colorref="3">
+<trend count="9" data="0.140,0.152,0.163,0.159,0.175,0.146,0.046,0.001,0.000"/>
+</term>
+<term id="932" value="sera" x="0.218" y="0.587" colorref="4">
+<trend count="9" data="0.007,0.007,0.008,0.011,0.009,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="933" value="serious adverse event" x="0.076" y="0.108" colorref="2">
+<trend count="9" data="0.001,0.001,0.000,0.000,0.001,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="934" value="serum" x="0.118" y="0.592" colorref="3">
+<trend count="9" data="0.058,0.056,0.066,0.056,0.073,0.074,0.019,0.001,0.000"/>
+</term>
+<term id="935" value="serum level" x="0.077" y="0.391" colorref="2">
+<trend count="9" data="0.001,0.000,0.001,0.000,0.001,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="936" value="service" x="0.434" y="0.221" colorref="1">
+<trend count="9" data="0.044,0.041,0.052,0.053,0.045,0.041,0.018,0.002,0.000"/>
+</term>
+<term id="937" value="session" x="0.317" y="0.199" colorref="2">
+<trend count="9" data="0.021,0.024,0.025,0.022,0.029,0.026,0.010,0.001,0.000"/>
+</term>
+<term id="938" value="sex" x="0.261" y="0.193" colorref="2">
+<trend count="9" data="0.052,0.054,0.052,0.059,0.073,0.086,0.025,0.001,0.000"/>
+</term>
+<term id="939" value="sex difference" x="0.317" y="0.269" colorref="1">
+<trend count="9" data="0.001,0.001,0.001,0.001,0.001,0.009,0.006,0.000,0.000"/>
+</term>
+<term id="940" value="shape" x="0.480" y="0.581" colorref="1">
+<trend count="9" data="0.067,0.077,0.065,0.097,0.092,0.096,0.019,0.001,0.000"/>
+</term>
+<term id="941" value="shcs" x="0.116" y="0.015" colorref="2">
+<trend count="9" data="0.001,0.001,0.001,0.002,0.005,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="942" value="sheep" x="0.336" y="0.545" colorref="4">
+<trend count="9" data="0.013,0.014,0.014,0.014,0.012,0.011,0.005,0.000,0.000"/>
+</term>
+<term id="943" value="short" x="0.236" y="0.247" colorref="2">
+<trend count="9" data="0.104,0.131,0.116,0.123,0.135,0.153,0.041,0.000,0.000"/>
+</term>
+<term id="944" value="shortcoming" x="0.472" y="0.373" colorref="1">
+<trend count="9" data="0.005,0.011,0.008,0.011,0.008,0.012,0.002,0.001,0.000"/>
+</term>
+<term id="945" value="side" x="0.345" y="0.485" colorref="4">
+<trend count="9" data="0.007,0.011,0.012,0.008,0.014,0.008,0.003,0.001,0.000"/>
+</term>
+<term id="946" value="signal" x="0.477" y="0.617" colorref="6">
+<trend count="9" data="0.189,0.218,0.233,0.242,0.247,0.246,0.051,0.001,0.000"/>
+</term>
+<term id="947" value="signalling" x="0.068" y="0.797" colorref="3">
+<trend count="9" data="0.189,0.218,0.233,0.242,0.247,0.246,0.051,0.001,0.000"/>
+</term>
+<term id="948" value="significant association" x="0.194" y="0.208" colorref="2">
+<trend count="9" data="0.007,0.011,0.008,0.006,0.011,0.008,0.002,0.000,0.000"/>
+</term>
+<term id="949" value="significant improvement" x="0.249" y="0.230" colorref="2">
+<trend count="9" data="0.006,0.004,0.006,0.007,0.010,0.012,0.000,0.000,0.000"/>
+</term>
+<term id="950" value="significant increase" x="0.166" y="0.476" colorref="2">
+<trend count="9" data="0.020,0.022,0.018,0.015,0.025,0.019,0.010,0.001,0.000"/>
+</term>
+<term id="951" value="significant predictor" x="0.195" y="0.178" colorref="2">
+<trend count="9" data="0.003,0.004,0.004,0.006,0.005,0.003,0.001,0.000,0.000"/>
+</term>
+<term id="952" value="significant reduction" x="0.167" y="0.569" colorref="3">
+<trend count="9" data="0.007,0.014,0.010,0.012,0.015,0.012,0.003,0.000,0.000"/>
+</term>
+<term id="953" value="silencing" x="0.067" y="0.891" colorref="3">
+<trend count="9" data="0.009,0.017,0.016,0.019,0.020,0.016,0.006,0.000,0.000"/>
+</term>
+<term id="954" value="simulation" x="0.546" y="0.516" colorref="6">
+<trend count="9" data="0.112,0.128,0.142,0.137,0.150,0.118,0.022,0.002,0.000"/>
+</term>
+<term id="955" value="single nucleotide polymorphism" x="0.216" y="0.479" colorref="2">
+<trend count="9" data="0.007,0.005,0.003,0.000,0.005,0.006,0.001,0.000,0.000"/>
+</term>
+<term id="956" value="skeletal muscle" x="0.164" y="0.776" colorref="3">
+<trend count="9" data="0.012,0.012,0.008,0.012,0.014,0.014,0.004,0.001,0.000"/>
+</term>
+<term id="957" value="skill" x="0.391" y="0.245" colorref="1">
+<trend count="9" data="0.024,0.025,0.033,0.033,0.030,0.033,0.013,0.000,0.000"/>
+</term>
+<term id="958" value="skin" x="0.150" y="0.481" colorref="3">
+<trend count="9" data="0.058,0.055,0.076,0.071,0.093,0.093,0.025,0.000,0.000"/>
+</term>
+<term id="959" value="sleep" x="0.300" y="0.456" colorref="1">
+<trend count="9" data="0.021,0.032,0.033,0.033,0.031,0.041,0.015,0.001,0.000"/>
+</term>
+<term id="960" value="slice" x="0.329" y="0.636" colorref="4">
+<trend count="9" data="0.021,0.022,0.013,0.021,0.022,0.017,0.009,0.000,0.000"/>
+</term>
+<term id="961" value="smoker" x="0.180" y="0.093" colorref="2">
+<trend count="9" data="0.006,0.005,0.007,0.009,0.008,0.011,0.004,0.000,0.000"/>
+</term>
+<term id="962" value="smoking" x="0.189" y="0.132" colorref="2">
+<trend count="9" data="0.018,0.018,0.017,0.024,0.028,0.039,0.013,0.001,0.000"/>
+</term>
+<term id="963" value="snow" x="0.519" y="0.445" colorref="1">
+<trend count="9" data="0.008,0.014,0.005,0.014,0.008,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="964" value="snp" x="0.225" y="0.487" colorref="2">
+<trend count="9" data="0.012,0.009,0.008,0.009,0.009,0.016,0.002,0.000,0.000"/>
+</term>
+<term id="965" value="social interaction" x="0.408" y="0.344" colorref="1">
+<trend count="9" data="0.005,0.003,0.002,0.001,0.002,0.001,0.003,0.000,0.000"/>
+</term>
+<term id="966" value="society" x="0.406" y="0.218" colorref="1">
+<trend count="9" data="0.042,0.047,0.065,0.097,0.063,0.068,0.018,0.001,0.000"/>
+</term>
+<term id="967" value="soft tissue" x="0.339" y="0.501" colorref="4">
+<trend count="9" data="0.016,0.017,0.012,0.017,0.018,0.016,0.009,0.000,0.000"/>
+</term>
+<term id="968" value="soil" x="0.462" y="0.480" colorref="1">
+<trend count="9" data="0.028,0.036,0.031,0.050,0.027,0.028,0.008,0.000,0.001"/>
+</term>
+<term id="969" value="south america" x="0.434" y="0.339" colorref="1">
+<trend count="9" data="0.007,0.007,0.003,0.002,0.003,0.004,0.002,0.000,0.000"/>
+</term>
+<term id="970" value="space" x="0.477" y="0.457" colorref="1">
+<trend count="9" data="0.086,0.093,0.097,0.108,0.100,0.085,0.023,0.001,0.000"/>
+</term>
+<term id="971" value="spain" x="0.377" y="0.459" colorref="1">
+<trend count="9" data="0.006,0.003,0.005,0.006,0.007,0.003,0.005,0.000,0.000"/>
+</term>
+<term id="972" value="spatial distribution" x="0.465" y="0.457" colorref="1">
+<trend count="9" data="0.009,0.010,0.008,0.011,0.006,0.005,0.003,0.000,0.000"/>
+</term>
+<term id="973" value="special focus" x="0.266" y="0.630" colorref="3">
+<trend count="9" data="0.003,0.004,0.005,0.004,0.005,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="974" value="specialist" x="0.408" y="0.341" colorref="1">
+<trend count="9" data="0.010,0.011,0.011,0.010,0.016,0.014,0.006,0.000,0.000"/>
+</term>
+<term id="975" value="species richness" x="0.463" y="0.531" colorref="1">
+<trend count="9" data="0.008,0.015,0.012,0.015,0.012,0.010,0.004,0.001,0.000"/>
+</term>
+<term id="976" value="spectra" x="0.565" y="0.574" colorref="6">
+<trend count="9" data="0.022,0.022,0.018,0.027,0.024,0.020,0.005,0.001,0.000"/>
+</term>
+<term id="977" value="speech" x="0.371" y="0.412" colorref="4">
+<trend count="9" data="0.010,0.014,0.019,0.008,0.015,0.014,0.008,0.000,0.000"/>
+</term>
+<term id="978" value="spinal cord injury" x="0.289" y="0.206" colorref="2">
+<trend count="9" data="0.014,0.013,0.014,0.014,0.028,0.012,0.005,0.000,0.000"/>
+</term>
+<term id="979" value="sport" x="0.401" y="0.247" colorref="1">
+<trend count="9" data="0.008,0.018,0.012,0.010,0.016,0.018,0.003,0.001,0.000"/>
+</term>
+<term id="980" value="sqrt" x="0.966" y="0.567" colorref="6">
+<trend count="9" data="0.001,0.001,0.001,0.020,0.003,0.012,0.007,0.000,0.000"/>
+</term>
+<term id="981" value="ssc" x="0.145" y="0.523" colorref="3">
+<trend count="9" data="0.002,0.007,0.008,0.010,0.016,0.007,0.006,0.000,0.000"/>
+</term>
+<term id="982" value="stakeholder" x="0.442" y="0.211" colorref="1">
+<trend count="9" data="0.012,0.012,0.007,0.011,0.010,0.011,0.004,0.001,0.000"/>
+</term>
+<term id="983" value="standard deviation" x="0.518" y="0.423" colorref="6">
+<trend count="9" data="0.017,0.014,0.009,0.014,0.020,0.015,0.006,0.000,0.000"/>
+</term>
+<term id="984" value="standard model" x="0.879" y="0.557" colorref="6">
+<trend count="9" data="0.007,0.008,0.010,0.028,0.023,0.048,0.005,0.000,0.000"/>
+</term>
+<term id="985" value="standard model prediction" x="1.000" y="0.571" colorref="6">
+<trend count="9" data="0.000,0.001,0.001,0.001,0.001,0.008,0.000,0.000,0.000"/>
+</term>
+<term id="986" value="standard treatment" x="0.215" y="0.139" colorref="2">
+<trend count="9" data="0.002,0.003,0.002,0.003,0.005,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="987" value="star" x="0.571" y="0.595" colorref="6">
+<trend count="9" data="0.014,0.031,0.025,0.029,0.030,0.016,0.002,0.000,0.000"/>
+</term>
+<term id="988" value="stat" x="0.924" y="0.554" colorref="6">
+<trend count="9" data="0.002,0.006,0.005,0.021,0.008,0.042,0.004,0.000,0.001"/>
+</term>
+<term id="989" value="statement" x="0.318" y="0.210" colorref="1">
+<trend count="9" data="0.008,0.018,0.010,0.013,0.014,0.016,0.005,0.001,0.000"/>
+</term>
+<term id="990" value="statistical significance" x="0.275" y="0.299" colorref="4">
+<trend count="9" data="0.005,0.007,0.008,0.010,0.010,0.013,0.004,0.000,0.000"/>
+</term>
+<term id="991" value="stay" x="0.199" y="0.144" colorref="2">
+<trend count="9" data="0.022,0.017,0.024,0.018,0.026,0.023,0.008,0.000,0.000"/>
+</term>
+<term id="992" value="stem cell" x="0.204" y="0.720" colorref="3">
+<trend count="9" data="0.012,0.010,0.017,0.024,0.024,0.020,0.007,0.000,0.001"/>
+</term>
+<term id="993" value="stent" x="0.099" y="0.161" colorref="2">
+<trend count="9" data="0.007,0.011,0.017,0.012,0.013,0.016,0.003,0.000,0.000"/>
+</term>
+<term id="994" value="stimulation" x="0.250" y="0.726" colorref="3">
+<trend count="9" data="0.116,0.121,0.112,0.123,0.127,0.118,0.029,0.001,0.000"/>
+</term>
+<term id="995" value="stimuli" x="0.383" y="0.522" colorref="1">
+<trend count="9" data="0.036,0.046,0.047,0.042,0.038,0.036,0.016,0.001,0.000"/>
+</term>
+<term id="996" value="stimulus" x="0.393" y="0.544" colorref="1">
+<trend count="9" data="0.028,0.018,0.025,0.022,0.025,0.023,0.005,0.000,0.000"/>
+</term>
+<term id="997" value="strain" x="0.244" y="0.613" colorref="3">
+<trend count="9" data="0.052,0.067,0.056,0.063,0.063,0.054,0.012,0.000,0.000"/>
+</term>
+<term id="998" value="stream" x="0.456" y="0.492" colorref="1">
+<trend count="9" data="0.012,0.022,0.014,0.024,0.014,0.014,0.002,0.000,0.000"/>
+</term>
+<term id="999" value="stroke" x="0.156" y="0.212" colorref="2">
+<trend count="9" data="0.031,0.033,0.029,0.042,0.039,0.033,0.007,0.000,0.000"/>
+</term>
+<term id="1000" value="strong evidence" x="0.275" y="0.620" colorref="3">
+<trend count="9" data="0.007,0.009,0.005,0.005,0.003,0.007,0.001,0.000,0.000"/>
+</term>
+<term id="1001" value="student" x="0.416" y="0.210" colorref="1">
+<trend count="9" data="0.033,0.033,0.028,0.039,0.041,0.026,0.008,0.001,0.000"/>
+</term>
+<term id="1002" value="study design" x="0.241" y="0.158" colorref="2">
+<trend count="9" data="0.020,0.020,0.023,0.024,0.031,0.033,0.011,0.001,0.000"/>
+</term>
+<term id="1003" value="study population" x="0.164" y="0.180" colorref="2">
+<trend count="9" data="0.007,0.009,0.008,0.008,0.007,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="1004" value="substance use" x="0.341" y="0.092" colorref="1">
+<trend count="9" data="0.004,0.005,0.003,0.002,0.003,0.008,0.004,0.000,0.000"/>
+</term>
+<term id="1005" value="substrate" x="0.260" y="0.745" colorref="3">
+<trend count="9" data="0.042,0.050,0.058,0.047,0.058,0.058,0.012,0.000,0.000"/>
+</term>
+<term id="1006" value="subunit" x="0.209" y="0.836" colorref="3">
+<trend count="9" data="0.032,0.031,0.035,0.027,0.028,0.031,0.005,0.000,0.000"/>
+</term>
+<term id="1007" value="success rate" x="0.232" y="0.133" colorref="2">
+<trend count="9" data="0.007,0.003,0.006,0.005,0.006,0.005,0.002,0.000,0.001"/>
+</term>
+<term id="1008" value="suggestion" x="0.400" y="0.233" colorref="1">
+<trend count="9" data="0.469,0.535,0.502,0.567,0.509,0.537,0.165,0.007,0.001"/>
+</term>
+<term id="1009" value="suitability" x="0.422" y="0.373" colorref="1">
+<trend count="9" data="0.049,0.060,0.058,0.073,0.067,0.068,0.008,0.001,0.000"/>
+</term>
+<term id="1010" value="sum" x="0.594" y="0.464" colorref="6">
+<trend count="9" data="0.014,0.020,0.016,0.024,0.016,0.025,0.005,0.000,0.000"/>
+</term>
+<term id="1011" value="suppression" x="0.168" y="0.651" colorref="3">
+<trend count="9" data="0.050,0.061,0.061,0.067,0.066,0.061,0.012,0.001,0.000"/>
+</term>
+<term id="1012" value="surgeon" x="0.270" y="0.254" colorref="4">
+<trend count="9" data="0.012,0.018,0.020,0.021,0.017,0.021,0.010,0.001,0.000"/>
+</term>
+<term id="1013" value="surgery" x="0.183" y="0.210" colorref="2">
+<trend count="9" data="0.091,0.099,0.109,0.107,0.111,0.128,0.039,0.002,0.000"/>
+</term>
+<term id="1014" value="surgical intervention" x="0.270" y="0.166" colorref="2">
+<trend count="9" data="0.004,0.003,0.003,0.003,0.001,0.008,0.000,0.000,0.000"/>
+</term>
+<term id="1015" value="surgical patient" x="0.307" y="0.062" colorref="2">
+<trend count="9" data="0.001,0.001,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="1016" value="surgical procedure" x="0.211" y="0.258" colorref="4">
+<trend count="9" data="0.002,0.003,0.003,0.003,0.002,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="1017" value="surgical technique" x="0.267" y="0.312" colorref="4">
+<trend count="9" data="0.003,0.008,0.002,0.006,0.006,0.003,0.001,0.001,0.000"/>
+</term>
+<term id="1018" value="survival analysis" x="0.107" y="0.350" colorref="2">
+<trend count="9" data="0.004,0.001,0.003,0.004,0.005,0.007,0.001,0.001,0.000"/>
+</term>
+<term id="1019" value="survival rate" x="0.201" y="0.355" colorref="4">
+<trend count="9" data="0.012,0.010,0.007,0.007,0.010,0.012,0.003,0.001,0.000"/>
+</term>
+<term id="1020" value="survivor" x="0.220" y="0.159" colorref="2">
+<trend count="9" data="0.007,0.016,0.012,0.013,0.017,0.019,0.006,0.000,0.000"/>
+</term>
+<term id="1021" value="svr" x="0.063" y="0.141" colorref="2">
+<trend count="9" data="0.001,0.001,0.000,0.001,0.001,0.002,0.001,0.000,0.000"/>
+</term>
+<term id="1022" value="swiss hiv cohort study" x="0.109" y="0.060" colorref="2">
+<trend count="9" data="0.009,0.008,0.010,0.012,0.011,0.004,0.001,0.000,0.000"/>
+</term>
+<term id="1023" value="synapse" x="0.410" y="0.746" colorref="1">
+<trend count="9" data="0.010,0.017,0.010,0.013,0.010,0.012,0.003,0.000,0.000"/>
+</term>
+<term id="1024" value="syst" x="0.925" y="0.530" colorref="6">
+<trend count="9" data="0.001,0.001,0.002,0.016,0.008,0.037,0.003,0.000,0.000"/>
+</term>
+<term id="1025" value="systematic review" x="0.297" y="0.108" colorref="2">
+<trend count="9" data="0.011,0.014,0.008,0.009,0.012,0.009,0.002,0.001,0.000"/>
+</term>
+<term id="1026" value="t cell" x="0.073" y="0.799" colorref="3">
+<trend count="9" data="0.039,0.047,0.043,0.042,0.048,0.048,0.007,0.001,0.000"/>
+</term>
+<term id="1027" value="t test" x="0.345" y="0.464" colorref="4">
+<trend count="9" data="0.008,0.017,0.006,0.010,0.016,0.021,0.006,0.002,0.000"/>
+</term>
+<term id="1028" value="t2dm" x="0.049" y="0.362" colorref="2">
+<trend count="9" data="0.001,0.001,0.001,0.003,0.002,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="1029" value="target" x="0.228" y="0.679" colorref="3">
+<trend count="9" data="0.168,0.206,0.199,0.226,0.250,0.229,0.058,0.003,0.000"/>
+</term>
+<term id="1030" value="task" x="0.415" y="0.366" colorref="1">
+<trend count="9" data="0.091,0.097,0.110,0.110,0.109,0.122,0.031,0.003,0.000"/>
+</term>
+<term id="1031" value="taxa" x="0.451" y="0.581" colorref="1">
+<trend count="9" data="0.028,0.027,0.023,0.016,0.014,0.018,0.007,0.001,0.000"/>
+</term>
+<term id="1032" value="teeth" x="0.300" y="0.418" colorref="4">
+<trend count="9" data="0.023,0.025,0.016,0.018,0.024,0.022,0.007,0.001,0.000"/>
+</term>
+<term id="1033" value="tev" x="0.958" y="0.558" colorref="6">
+<trend count="9" data="0.003,0.001,0.008,0.054,0.034,0.102,0.015,0.000,0.000"/>
+</term>
+<term id="1034" value="text" x="0.497" y="0.302" colorref="1">
+<trend count="9" data="0.046,0.053,0.052,0.047,0.084,0.058,0.008,0.000,0.000"/>
+</term>
+<term id="1035" value="tgf" x="0.047" y="0.800" colorref="3">
+<trend count="9" data="0.011,0.008,0.007,0.009,0.008,0.010,0.004,0.000,0.000"/>
+</term>
+<term id="1036" value="thalamus" x="0.378" y="0.538" colorref="1">
+<trend count="9" data="0.010,0.007,0.005,0.007,0.004,0.005,0.000,0.000,0.000"/>
+</term>
+<term id="1037" value="theoretical framework" x="0.471" y="0.329" colorref="1">
+<trend count="9" data="0.008,0.005,0.005,0.006,0.007,0.005,0.003,0.001,0.000"/>
+</term>
+<term id="1038" value="theoretical model" x="0.518" y="0.443" colorref="1">
+<trend count="9" data="0.003,0.001,0.003,0.003,0.005,0.001,0.000,0.000,0.000"/>
+</term>
+<term id="1039" value="theoretical prediction" x="0.819" y="0.530" colorref="6">
+<trend count="9" data="0.002,0.002,0.000,0.001,0.001,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="1040" value="theory" x="0.493" y="0.393" colorref="1">
+<trend count="9" data="0.129,0.097,0.140,0.125,0.133,0.109,0.032,0.004,0.000"/>
+</term>
+<term id="1041" value="therapeutic approach" x="0.147" y="0.561" colorref="3">
+<trend count="9" data="0.004,0.001,0.002,0.011,0.011,0.009,0.001,0.000,0.000"/>
+</term>
+<term id="1042" value="therapeutic intervention" x="0.290" y="0.626" colorref="3">
+<trend count="9" data="0.007,0.007,0.002,0.005,0.003,0.005,0.000,0.000,0.000"/>
+</term>
+<term id="1043" value="therapeutic option" x="0.101" y="0.372" colorref="2">
+<trend count="9" data="0.003,0.005,0.003,0.004,0.005,0.003,0.002,0.000,0.000"/>
+</term>
+<term id="1044" value="therapeutic strategy" x="0.159" y="0.509" colorref="3">
+<trend count="9" data="0.007,0.001,0.001,0.001,0.004,0.006,0.002,0.000,0.000"/>
+</term>
+<term id="1045" value="thesis" x="0.461" y="0.502" colorref="1">
+<trend count="9" data="0.020,0.027,0.023,0.033,0.016,0.014,0.001,0.000,0.000"/>
+</term>
+<term id="1046" value="thousand" x="0.383" y="0.660" colorref="1">
+<trend count="9" data="0.008,0.012,0.008,0.014,0.018,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="1047" value="thrombocytopenia" x="0.072" y="0.183" colorref="2">
+<trend count="9" data="0.003,0.003,0.002,0.004,0.003,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="1048" value="time trend" x="0.274" y="0.060" colorref="2">
+<trend count="9" data="0.000,0.000,0.001,0.001,0.003,0.000,0.001,0.000,0.000"/>
+</term>
+<term id="1049" value="tissue microarray" x="0.000" y="0.390" colorref="2">
+<trend count="9" data="0.005,0.010,0.005,0.009,0.006,0.005,0.001,0.001,0.000"/>
+</term>
+<term id="1050" value="tissue sample" x="0.093" y="0.577" colorref="3">
+<trend count="9" data="0.000,0.000,0.001,0.001,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="1051" value="titanium" x="0.354" y="0.491" colorref="4">
+<trend count="9" data="0.008,0.012,0.011,0.007,0.010,0.010,0.005,0.000,0.000"/>
+</term>
+<term id="1052" value="tnf" x="0.087" y="0.680" colorref="3">
+<trend count="9" data="0.014,0.018,0.026,0.018,0.018,0.016,0.005,0.000,0.000"/>
+</term>
+<term id="1053" value="tof" x="0.415" y="0.407" colorref="4">
+<trend count="9" data="0.005,0.006,0.007,0.007,0.005,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="1054" value="tolerability" x="0.118" y="0.381" colorref="4">
+<trend count="9" data="0.054,0.056,0.057,0.054,0.067,0.068,0.013,0.001,0.000"/>
+</term>
+<term id="1055" value="tolerance" x="0.215" y="0.645" colorref="3">
+<trend count="9" data="0.054,0.056,0.057,0.054,0.067,0.068,0.013,0.001,0.000"/>
+</term>
+<term id="1056" value="toll" x="0.058" y="0.753" colorref="3">
+<trend count="9" data="0.008,0.013,0.014,0.008,0.011,0.011,0.003,0.000,0.000"/>
+</term>
+<term id="1057" value="tomography" x="0.296" y="0.412" colorref="4">
+<trend count="9" data="0.053,0.067,0.055,0.076,0.084,0.088,0.026,0.001,0.000"/>
+</term>
+<term id="1058" value="tooth" x="0.273" y="0.450" colorref="4">
+<trend count="9" data="0.022,0.022,0.018,0.023,0.027,0.020,0.009,0.002,0.000"/>
+</term>
+<term id="1059" value="toxicity" x="0.176" y="0.468" colorref="2">
+<trend count="9" data="0.047,0.044,0.042,0.037,0.054,0.046,0.009,0.000,0.000"/>
+</term>
+<term id="1060" value="trade" x="0.457" y="0.340" colorref="1">
+<trend count="9" data="0.025,0.025,0.028,0.030,0.035,0.024,0.009,0.000,0.000"/>
+</term>
+<term id="1061" value="transcript" x="0.207" y="0.828" colorref="3">
+<trend count="9" data="0.087,0.107,0.106,0.107,0.103,0.090,0.024,0.000,0.000"/>
+</term>
+<term id="1062" value="transcription" x="0.144" y="0.883" colorref="3">
+<trend count="9" data="0.087,0.107,0.106,0.107,0.103,0.090,0.024,0.000,0.000"/>
+</term>
+<term id="1063" value="transcription factor" x="0.127" y="0.947" colorref="3">
+<trend count="9" data="0.017,0.017,0.023,0.028,0.026,0.018,0.005,0.000,0.000"/>
+</term>
+<term id="1064" value="transplantation" x="0.117" y="0.334" colorref="2">
+<trend count="9" data="0.044,0.042,0.061,0.060,0.064,0.071,0.016,0.000,0.000"/>
+</term>
+<term id="1065" value="transport" x="0.270" y="0.753" colorref="3">
+<trend count="9" data="0.065,0.084,0.069,0.088,0.081,0.080,0.024,0.001,0.000"/>
+</term>
+<term id="1066" value="transporter" x="0.226" y="0.852" colorref="3">
+<trend count="9" data="0.065,0.084,0.069,0.088,0.081,0.080,0.024,0.001,0.000"/>
+</term>
+<term id="1067" value="transverse momentum" x="0.977" y="0.560" colorref="6">
+<trend count="9" data="0.001,0.001,0.006,0.018,0.012,0.027,0.005,0.000,0.000"/>
+</term>
+<term id="1068" value="trauma" x="0.293" y="0.226" colorref="1">
+<trend count="9" data="0.030,0.031,0.033,0.025,0.033,0.042,0.008,0.000,0.000"/>
+</term>
+<term id="1069" value="travel" x="0.300" y="0.287" colorref="1">
+<trend count="9" data="0.017,0.019,0.017,0.016,0.019,0.026,0.005,0.000,0.000"/>
+</term>
+<term id="1070" value="treatment group" x="0.130" y="0.168" colorref="2">
+<trend count="9" data="0.005,0.006,0.006,0.009,0.002,0.005,0.001,0.000,0.000"/>
+</term>
+<term id="1071" value="treatment outcome" x="0.275" y="0.200" colorref="4">
+<trend count="9" data="0.006,0.004,0.004,0.007,0.008,0.007,0.002,0.000,0.000"/>
+</term>
+<term id="1072" value="treg" x="0.055" y="0.837" colorref="3">
+<trend count="9" data="0.002,0.003,0.005,0.006,0.007,0.004,0.000,0.001,0.000"/>
+</term>
+<term id="1073" value="trial" x="0.181" y="0.247" colorref="2">
+<trend count="9" data="0.099,0.136,0.131,0.141,0.178,0.168,0.054,0.005,0.000"/>
+</term>
+<term id="1074" value="trial registration" x="0.208" y="0.038" colorref="2">
+<trend count="9" data="0.001,0.004,0.008,0.010,0.008,0.014,0.003,0.001,0.000"/>
+</term>
+<term id="1075" value="triple therapy" x="0.055" y="0.213" colorref="2">
+<trend count="9" data="0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000"/>
+</term>
+<term id="1076" value="tumor" x="0.081" y="0.562" colorref="3">
+<trend count="9" data="0.118,0.135,0.116,0.132,0.154,0.150,0.043,0.001,0.000"/>
+</term>
+<term id="1077" value="tumorigenesis" x="0.047" y="0.793" colorref="3">
+<trend count="9" data="0.003,0.004,0.002,0.004,0.007,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="1078" value="tumour" x="0.114" y="0.423" colorref="4">
+<trend count="9" data="0.040,0.033,0.032,0.041,0.035,0.037,0.014,0.000,0.000"/>
+</term>
+<term id="1079" value="ucd" x="0.191" y="0.339" colorref="2">
+<trend count="9" data="0.001,0.000,0.000,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="1080" value="ulcerative colitis" x="0.132" y="0.408" colorref="3">
+<trend count="9" data="0.003,0.003,0.004,0.005,0.008,0.008,0.003,0.000,0.000"/>
+</term>
+<term id="1081" value="ultrasonography" x="0.206" y="0.360" colorref="4">
+<trend count="9" data="0.010,0.012,0.005,0.010,0.007,0.009,0.001,0.000,0.000"/>
+</term>
+<term id="1082" value="uncertainty" x="0.620" y="0.434" colorref="1">
+<trend count="9" data="0.033,0.029,0.035,0.054,0.042,0.052,0.013,0.000,0.000"/>
+</term>
+<term id="1083" value="united states" x="0.390" y="0.207" colorref="1">
+<trend count="9" data="0.014,0.011,0.009,0.014,0.017,0.014,0.008,0.000,0.000"/>
+</term>
+<term id="1084" value="univariate analysis" x="0.081" y="0.157" colorref="2">
+<trend count="9" data="0.006,0.005,0.003,0.008,0.001,0.007,0.003,0.000,0.000"/>
+</term>
+<term id="1085" value="university hospital" x="0.184" y="0.132" colorref="2">
+<trend count="9" data="0.016,0.011,0.019,0.017,0.018,0.015,0.005,0.000,0.000"/>
+</term>
+<term id="1086" value="university hospital zurich" x="0.167" y="0.050" colorref="2">
+<trend count="9" data="0.004,0.003,0.007,0.007,0.007,0.005,0.003,0.000,0.000"/>
+</term>
+<term id="1087" value="update" x="0.301" y="0.268" colorref="2">
+<trend count="9" data="0.018,0.023,0.022,0.026,0.030,0.033,0.006,0.001,0.000"/>
+</term>
+<term id="1088" value="upper limit" x="0.942" y="0.557" colorref="6">
+<trend count="9" data="0.005,0.003,0.004,0.010,0.005,0.012,0.001,0.000,0.000"/>
+</term>
+<term id="1089" value="upregulation" x="0.060" y="0.853" colorref="3">
+<trend count="9" data="0.024,0.025,0.031,0.029,0.032,0.031,0.010,0.000,0.000"/>
+</term>
+<term id="1090" value="urine" x="0.166" y="0.550" colorref="4">
+<trend count="9" data="0.023,0.012,0.021,0.016,0.024,0.024,0.007,0.000,0.000"/>
+</term>
+<term id="1091" value="user" x="0.412" y="0.273" colorref="1">
+<trend count="9" data="0.050,0.057,0.047,0.048,0.059,0.055,0.016,0.000,0.000"/>
+</term>
+<term id="1092" value="uterus" x="0.184" y="0.662" colorref="4">
+<trend count="9" data="0.005,0.007,0.001,0.004,0.003,0.005,0.002,0.000,0.000"/>
+</term>
+<term id="1093" value="vaccination" x="0.174" y="0.576" colorref="3">
+<trend count="9" data="0.033,0.040,0.026,0.033,0.045,0.025,0.007,0.000,0.000"/>
+</term>
+<term id="1094" value="vaccine" x="0.149" y="0.739" colorref="3">
+<trend count="9" data="0.033,0.040,0.026,0.033,0.045,0.025,0.007,0.000,0.000"/>
+</term>
+<term id="1095" value="validity" x="0.417" y="0.213" colorref="1">
+<trend count="9" data="0.108,0.141,0.130,0.131,0.148,0.156,0.035,0.001,0.000"/>
+</term>
+<term id="1096" value="vector" x="0.340" y="0.663" colorref="3">
+<trend count="9" data="0.036,0.035,0.031,0.041,0.034,0.031,0.010,0.000,0.000"/>
+</term>
+<term id="1097" value="versus" x="0.206" y="0.201" colorref="2">
+<trend count="9" data="0.074,0.085,0.086,0.076,0.089,0.093,0.025,0.000,0.000"/>
+</term>
+<term id="1098" value="vertebrate" x="0.362" y="0.737" colorref="1">
+<trend count="9" data="0.021,0.020,0.027,0.022,0.020,0.018,0.006,0.000,0.000"/>
+</term>
+<term id="1099" value="viability" x="0.222" y="0.801" colorref="3">
+<trend count="9" data="0.011,0.014,0.011,0.019,0.017,0.016,0.005,0.001,0.000"/>
+</term>
+<term id="1100" value="vice versa" x="0.332" y="0.479" colorref="1">
+<trend count="9" data="0.008,0.007,0.004,0.008,0.007,0.011,0.000,0.000,0.000"/>
+</term>
+<term id="1101" value="viral replication" x="0.165" y="0.737" colorref="3">
+<trend count="9" data="0.005,0.005,0.002,0.004,0.005,0.003,0.002,0.000,0.000"/>
+</term>
+<term id="1102" value="virulence" x="0.297" y="0.627" colorref="3">
+<trend count="9" data="0.012,0.024,0.014,0.024,0.024,0.022,0.004,0.000,0.000"/>
+</term>
+<term id="1103" value="virus" x="0.164" y="0.584" colorref="3">
+<trend count="9" data="0.065,0.076,0.061,0.063,0.063,0.065,0.021,0.001,0.000"/>
+</term>
+<term id="1104" value="visit" x="0.222" y="0.112" colorref="2">
+<trend count="9" data="0.025,0.032,0.020,0.018,0.023,0.024,0.010,0.000,0.000"/>
+</term>
+<term id="1105" value="visualization" x="0.353" y="0.352" colorref="1">
+<trend count="9" data="0.099,0.108,0.090,0.114,0.128,0.105,0.027,0.001,0.000"/>
+</term>
+<term id="1106" value="vitro" x="0.158" y="0.860" colorref="3">
+<trend count="9" data="0.104,0.114,0.109,0.116,0.142,0.141,0.038,0.003,0.001"/>
+</term>
+<term id="1107" value="vitro model" x="0.194" y="0.797" colorref="3">
+<trend count="9" data="0.003,0.003,0.004,0.005,0.005,0.003,0.000,0.000,0.000"/>
+</term>
+<term id="1108" value="vitro study" x="0.277" y="0.590" colorref="4">
+<trend count="9" data="0.006,0.003,0.007,0.002,0.003,0.007,0.002,0.001,0.000"/>
+</term>
+<term id="1109" value="vivo" x="0.173" y="0.837" colorref="3">
+<trend count="9" data="0.111,0.133,0.105,0.137,0.148,0.137,0.037,0.002,0.001"/>
+</term>
+<term id="1110" value="vivo study" x="0.205" y="0.886" colorref="3">
+<trend count="9" data="0.001,0.004,0.001,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="1111" value="voxel" x="0.375" y="0.462" colorref="1">
+<trend count="9" data="0.009,0.005,0.005,0.011,0.010,0.008,0.008,0.001,0.000"/>
+</term>
+<term id="1112" value="way anova" x="0.307" y="0.514" colorref="4">
+<trend count="9" data="0.006,0.005,0.011,0.004,0.014,0.018,0.003,0.000,0.000"/>
+</term>
+<term id="1113" value="web" x="0.368" y="0.178" colorref="1">
+<trend count="9" data="0.042,0.027,0.037,0.027,0.029,0.025,0.010,0.000,0.000"/>
+</term>
+<term id="1114" value="week" x="0.162" y="0.321" colorref="2">
+<trend count="9" data="0.131,0.142,0.120,0.118,0.159,0.149,0.049,0.003,0.000"/>
+</term>
+<term id="1115" value="weight loss" x="0.139" y="0.421" colorref="2">
+<trend count="9" data="0.009,0.011,0.006,0.009,0.010,0.014,0.001,0.000,0.000"/>
+</term>
+<term id="1116" value="western blot" x="0.126" y="0.871" colorref="3">
+<trend count="9" data="0.009,0.022,0.013,0.016,0.009,0.013,0.002,0.000,0.000"/>
+</term>
+<term id="1117" value="whole" x="0.436" y="0.388" colorref="1">
+<trend count="9" data="0.000,0.000,0.001,0.001,0.000,0.000,0.001,0.000,0.000"/>
+</term>
+<term id="1118" value="whole exome sequencing" x="0.218" y="0.802" colorref="3">
+<trend count="9" data="0.000,0.000,0.000,0.001,0.001,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="1119" value="width" x="0.627" y="0.474" colorref="6">
+<trend count="9" data="0.011,0.010,0.012,0.019,0.017,0.020,0.007,0.001,0.000"/>
+</term>
+<term id="1120" value="wild type" x="0.161" y="0.836" colorref="3">
+<trend count="9" data="0.042,0.058,0.050,0.042,0.058,0.055,0.011,0.001,0.000"/>
+</term>
+<term id="1121" value="willingness" x="0.405" y="0.178" colorref="1">
+<trend count="9" data="0.009,0.008,0.013,0.010,0.009,0.007,0.001,0.001,0.000"/>
+</term>
+<term id="1122" value="wnt" x="0.249" y="0.868" colorref="3">
+<trend count="9" data="0.006,0.006,0.006,0.009,0.011,0.008,0.002,0.000,0.000"/>
+</term>
+<term id="1123" value="woman" x="0.266" y="0.192" colorref="2">
+<trend count="9" data="0.010,0.010,0.012,0.009,0.012,0.015,0.003,0.001,0.000"/>
+</term>
+<term id="1124" value="worker" x="0.438" y="0.249" colorref="1">
+<trend count="9" data="0.014,0.013,0.014,0.016,0.021,0.019,0.006,0.000,0.000"/>
+</term>
+<term id="1125" value="world" x="0.429" y="0.371" colorref="1">
+<trend count="9" data="0.063,0.066,0.067,0.091,0.092,0.095,0.028,0.001,0.000"/>
+</term>
+<term id="1126" value="x ray" x="0.447" y="0.489" colorref="1">
+<trend count="9" data="0.033,0.041,0.049,0.047,0.053,0.044,0.012,0.000,0.000"/>
+</term>
+<term id="1127" value="year old man" x="0.071" y="0.379" colorref="2">
+<trend count="9" data="0.004,0.009,0.007,0.001,0.005,0.009,0.001,0.000,0.000"/>
+</term>
+<term id="1128" value="yield" x="0.571" y="0.525" colorref="6">
+<trend count="9" data="0.086,0.103,0.107,0.102,0.109,0.117,0.035,0.000,0.000"/>
+</term>
+<term id="1129" value="young adult" x="0.336" y="0.226" colorref="1">
+<trend count="9" data="0.001,0.002,0.000,0.003,0.003,0.001,0.001,0.000,0.000"/>
+</term>
+<term id="1130" value="youth" x="0.354" y="0.151" colorref="1">
+<trend count="9" data="0.004,0.006,0.007,0.008,0.010,0.010,0.005,0.000,0.000"/>
+</term>
+<term id="1131" value="z boson" x="0.957" y="0.569" colorref="6">
+<trend count="9" data="0.001,0.000,0.001,0.004,0.003,0.009,0.001,0.000,0.000"/>
+</term>
+</terms>
+</graph>

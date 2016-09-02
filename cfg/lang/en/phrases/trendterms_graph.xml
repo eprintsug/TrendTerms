@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+  <epp:phrase id="trendterms_graph:home_template">
+<!--[if lt IE 9]>
+     <script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
+<![endif]-->
+<script type="text/javascript">
+// convenience function to get the id attribute of generated sketch html element
+  function getProcessingSketchId () { return 'TrendTerms'; }
+</script>
+<div id="content_tt" style="margin: 0px auto 0px auto; width: 300px; min-height: 240px; padding: 0px; overflow: none; background-color: #ffffff;">
+   <canvas id="TrendTerms" data-processing-sources="trendterms/TrendTerms.pde" class="trendterms">
+        <p>Your browser does not support the canvas tag.</p>
+        <!-- Note: you can put any alternative content here. -->
+   </canvas>
+   <noscript>
+     <p>JavaScript is required to view the contents of this page.</p>
+   </noscript>
+</div>
+<script type="text/javascript">
+  var pjs;
+
+  function resizeTT(w,h) {
+    if (!pjs) {
+      pjs = Processing.getInstanceById('TrendTerms');
+    }
+    pjs.noLoop();
+    pjs.resizeSketch(w,h);
+    pjs.loop();
+  };
+
+  function getTrendTermsCanvasSize() {
+    var w = jQuery( '#tt_body' ).width();
+    var h = 0.75*w;
+    resizeTT( w,h );
+    jQuery( '#TrendTerms' ).width(w);
+    jQuery( '#TrendTerms' ).height(h);
+    jQuery( '#content_tt' ).width(w);
+  }
+
+  jQuery( window ).resize(function() {
+    getTrendTermsCanvasSize();
+  });
+</script>
+  </epp:phrase>
+
+  <epp:phrase id="trendterms_graph:page_template">
+<div id="tt_body" class="panel-body">
+  <!--[if lt IE 9]>
+           <script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
+  <![endif]-->
+  <script type="text/javascript">
+    // convenience function to get the id attribute of generated sketch html element
+    function getProcessingSketchId () { return 'TrendTerms'; }
+  </script>
+  <div id="content_tt" style="margin: 0px auto 0px auto; width: 300px; padding: 0px; overflow: none; background-color: #ffffff;">
+      <epc:pin name="canvas"/>
+      <noscript>
+        <p>JavaScript is required to view the contents of this page.</p>
+      </noscript>
+  </div>
+</div>
+<script type="text/javascript">
+  var pjs;
+
+  function resizeTT(w,h) {
+    if (!pjs) {
+      pjs = Processing.getInstanceById('TrendTerms');
+    }
+    pjs.noLoop();
+    pjs.resizeSketch(w,h);
+    pjs.loop();
+  };
+
+  function getTrendTermsCanvasSize() {
+    var w = jQuery( '#tt_body' ).width();
+    var h = 0.75*w;
+    resizeTT( w,h );
+    jQuery( '#TrendTerms' ).width(w);
+    jQuery( '#TrendTerms' ).height(h);
+    jQuery( '#content_tt' ).width(w);
+  }
+
+  jQuery( window ).resize(function() {
+    getTrendTermsCanvasSize();
+  });
+</script>
+  </epp:phrase>
+  
+  <!-- Phrase for home page help -->
+  <epp:phrase id="trendterms_graph:help_home">
+    <p>TrendTerms displays relevant terms of the abstracts of ZORA publications from the previous year on a map. The terms and their relations were extracted using VOSViewer software. Their timelines are taken from ZORA. The bubble size of a term is proportional to the number of documents where the term occurs. Colored clusters are formed by all terms that have a high number of relations.<br/>
+    You can navigate and zoom the map. Mouse-hovering a term displays its timeline, clicking it yields the associated documents.</p>
+  </epp:phrase>
+
+  <!-- Phrases and scripts for help on detail page -->
+  <epp:phrase id="trendterms_graph:help_script">
+    <span class="ep_only_js ep_only_js_trendterms">
+      <div class="ep_sr_show_help ep_toggle" id="trendterms_help_show">
+        <a onclick="EPJS_blur(event); EPJS_toggleSlide('trendterms_help',false);EPJS_toggle('trendterms_help_hide',false);EPJS_toggle('trendterms_help_show',true);return false" href="#">
+          <span class="glyphicon glyphicon-question-sign trendterms_glyphicon"/>
+        </a>
+      </div>
+      <div class="ep_sr_hide_help ep_toggle ep_hide" id="trendterms_help_hide">
+        <a onclick="EPJS_blur(event); EPJS_toggleSlide('trendterms_help',false);EPJS_toggle('trendterms_help_hide',false);EPJS_toggle('trendterms_help_show',true);return false" href="#">
+          <span class="glyphicon glyphicon-minus-sign trendterms_glyphicon"/>
+        </a>
+      </div>
+    </span>
+  </epp:phrase>
+  <epp:phrase id="trendterms_graph:help_detail">
+    <div class="ep_sr_help ep_no_js" id="trendterms_help">
+      <div id="trendterms_help_inner">
+        <p>TrendTerms displays relevant terms of the abstract of this publication and related documents on a map. The terms and their relations were extracted from ZORA using word statistics. Their timelines are taken from ZORA as well. The bubble size of a term is proportional to the number of documents where the term occurs. Red, orange, yellow and green colors are used for terms that occur in the current document; red indicates high interlinkedness of a term with other terms, orange, yellow and green decreasing interlinkedness. Blue is used for terms that have a relation with the terms in this document, but occur in other documents.<br />
+          You can navigate and zoom the map. Mouse-hovering a term displays its timeline, clicking it yields the associated documents.</p>
+      </div>
+    </div>
+  </epp:phrase>
+
+</epp:phrases>
