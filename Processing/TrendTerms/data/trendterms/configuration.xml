@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <callback>
+    <base_url>/cgi/search/advanced?abstract=</base_url>
+  </callback>
+  <node>
+    <font name="Verdana" size="12"/>
+  </node>
+  <edge>
+    <line_weight>2.0</line_weight>
+    <color>FF808080</color>
+  </edge>
+  <colors>
+    <set id="1" name="general">
+      <color id="1" name="red" value="80FF0000"/>
+      <color id="2" name="orange" value="80FF6633"/>
+      <color id="3" name="yellow" value="80FFCC33"/>
+      <color id="4" name="green" value="8000FF00"/>
+      <color id="5" name="blue" value="800000FF"/>
+      <color id="6" name="pink" value="80FF33CC"/>
+    </set>
+  </colors>
+  <version>
+    <font name="Verdana" size="8" color="FFC0C0C0"/>
+  </version>
+  <timeline>
+    <background>C0E0E0E0</background>
+    <font name="Verdana" size="8" color="E0808080"/>
+  </timeline>
+  <depthlayers xshift="5" yshift="5" color="20282828"/>
+  <trendanalysis start="2008" end="2012"/>
+  <huds>
+    <zoombutton size="30" margin="6" padding="5" align="right" valign="top" background="C0FFFFFF"
+      color="E0808080"/>
+    <trenddirhud size="30" margin="6" padding="5" align="left" valign="top" background="C0FFFFFF"
+      color="E0808080" distcolor="E033CCFF" font="Verdana" high="↗" mid="→" low="↘"/>
+    <trendsizehud size="30" margin="6" padding="5" align="left" valign="center"
+      background="C0FFFFFF" color="E0808080" distcolor="E033CCFF" font="Verdana" high="H" mid="M"
+      low="L"/>
+  </huds>
+</configuration>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="callback"/>
+        <xs:element ref="node"/>
+        <xs:element ref="edge"/>
+        <xs:element ref="colors"/>
+        <xs:element ref="version"/>
+        <xs:element ref="timeline"/>
+        <xs:element ref="depthlayers"/>
+        <xs:element ref="trendanalysis"/>
+        <xs:element ref="huds"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="callback">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="base_url"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="base_url" type="xs:string"/>
+  <xs:element name="node">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="font"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="edge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="line_weight"/>
+        <xs:element ref="color"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="line_weight" type="xs:decimal"/>
+  <xs:element name="colors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="set"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="set">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="color"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="version">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="font"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="timeline">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="background"/>
+        <xs:element ref="font"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="background" type="xs:NCName"/>
+  <xs:element name="depthlayers">
+    <xs:complexType>
+      <xs:attribute name="color" use="required" type="xs:integer"/>
+      <xs:attribute name="xshift" use="required" type="xs:integer"/>
+      <xs:attribute name="yshift" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trendanalysis">
+    <xs:complexType>
+      <xs:attribute name="end" use="required" type="xs:integer"/>
+      <xs:attribute name="start" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="huds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="zoombutton"/>
+        <xs:element ref="trenddirhud"/>
+        <xs:element ref="trendsizehud"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="zoombutton">
+    <xs:complexType>
+      <xs:attribute name="align" use="required" type="xs:NCName"/>
+      <xs:attribute name="background" use="required" type="xs:NCName"/>
+      <xs:attribute name="color" use="required" type="xs:NCName"/>
+      <xs:attribute name="margin" use="required" type="xs:integer"/>
+      <xs:attribute name="padding" use="required" type="xs:integer"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+      <xs:attribute name="valign" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trenddirhud">
+    <xs:complexType>
+      <xs:attribute name="align" use="required" type="xs:NCName"/>
+      <xs:attribute name="background" use="required" type="xs:NCName"/>
+      <xs:attribute name="color" use="required" type="xs:NCName"/>
+      <xs:attribute name="distcolor" use="required" type="xs:NCName"/>
+      <xs:attribute name="font" use="required" type="xs:NCName"/>
+      <xs:attribute name="high" use="required"/>
+      <xs:attribute name="low" use="required"/>
+      <xs:attribute name="margin" use="required" type="xs:integer"/>
+      <xs:attribute name="mid" use="required"/>
+      <xs:attribute name="padding" use="required" type="xs:integer"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+      <xs:attribute name="valign" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trendsizehud">
+    <xs:complexType>
+      <xs:attribute name="align" use="required" type="xs:NCName"/>
+      <xs:attribute name="background" use="required" type="xs:NCName"/>
+      <xs:attribute name="color" use="required" type="xs:NCName"/>
+      <xs:attribute name="distcolor" use="required" type="xs:NCName"/>
+      <xs:attribute name="font" use="required" type="xs:NCName"/>
+      <xs:attribute name="high" use="required" type="xs:NCName"/>
+      <xs:attribute name="low" use="required" type="xs:NCName"/>
+      <xs:attribute name="margin" use="required" type="xs:integer"/>
+      <xs:attribute name="mid" use="required" type="xs:NCName"/>
+      <xs:attribute name="padding" use="required" type="xs:integer"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+      <xs:attribute name="valign" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="font">
+    <xs:complexType>
+      <xs:attribute name="color" type="xs:NCName"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="color">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:integer"/>
+      <xs:attribute name="name" type="xs:NCName"/>
+      <xs:attribute name="value" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

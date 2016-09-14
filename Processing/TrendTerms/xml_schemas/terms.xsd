@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="graph">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="optimize"/>
+        <xs:element ref="timeline"/>
+        <xs:element ref="terms"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="optimize">
+    <xs:complexType>
+      <xs:attribute name="value" use="required" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="timeline">
+    <xs:complexType>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+      <xs:attribute name="dates" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="terms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="term"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="term">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="trend"/>
+      </xs:sequence>
+      <xs:attribute name="colorref" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="value" use="required" type="xs:NCName"/>
+      <xs:attribute name="x" use="required" type="xs:decimal"/>
+      <xs:attribute name="y" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trend">
+    <xs:complexType>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+      <xs:attribute name="data" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -23,9 +23,10 @@
       
   Comment:     -
  
-  Uses:        Modules: TrendTerms_animate.pde, TrendTerms_analyze.pde, TrendTerms_api.pde, 
-               TrendTerms_events.pde, TrendTerms_graph_classes.pde, TrendTerms_gui_classes.pde,
-               TrendTerms_init.pde, TrendTerms_io.pde, traer_physics.pde
+  Uses:        Modules: TrendTerms.pde, TrendTerms_animate.pde, TrendTerms_analyze.pde, 
+               TrendTerms_api.pde, TrendTerms_events.pde, TrendTerms_graph_classes.pde, 
+               TrendTerms_gui_classes.pde, TrendTerms_init.pde, TrendTerms_io.pde, 
+               TrendTerms_node_actions.pde, traer_physics.pde
   
   Copyright:   2015, University of Zurich, IT Services
   License:     The TrendTerms code is Open Source Software. It is released under the 
@@ -52,7 +53,6 @@
    TODO
    - searching/filtering
    - zoom to target
-   - trend analysis
    - pinch zoom (probably with p5js)
    
    TODO Data Model
