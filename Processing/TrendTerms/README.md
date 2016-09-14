@@ -1,38 +1,28 @@
-#ConWheel - Processing(JS) code for visualisation of graphs on a wheel
+#TrendTerms - Processing(JS) code for visualisation of network graphs
 
-This is the standalone Processing(JS) code for ConWheel (Connection Wheel).
+This is the standalone Processing(JS) code for TrendTerms
 
-ConWheel reads a network graph and displays it on an interactive wheel.
-The visualisation can be classified as radial convergence according to the typology used 
+TrendTerms reads a graph of terms, their timelines and their relations and visualizes 
+it as a network.
+
+The visualisation can be classified as a combination of the scaling circles, centralised
+burst and ramification network graphs according to the typology used 
 by Manuel Lima (Visual Complexity, Mapping Patterns of Information, Princeton, NY, 2011, 
-ISBN 978-1-56898-936-5). 
+ISBN 978-1-56898-936-5).
 
-Since the nodes are ordered alphabetically on the wheel, it is well-suited to visualize
-author collaborations, but other applications are possible as well.
+The coordinates of the terms are either fixed by the software that generates the term data,
+or can be used as initial coordinates for an optimisation of the term positions.
+If the optimisation is enabled (see terms.xml), a simple physical model is used that minimizes 
+the forces between the nodes of the graph. The forces are made up of pairwise repulsions 
+between the nodes and springs between pairwise nodes where there is an edge between. The 
+spring force is proportional to the weight of the edge.
 
-Graph data, defined as a set of nodes and edges, and configuration parameters for the 
-look and feel of the graph are read from two XML files, e.g. data.xml and 
+The graph data, defined as a set of nodes and edges, and configuration parameters for the 
+look and feel of the graph are read from three XML files: terms.xml, edges.xml and 
 configuration.xml. 
-Examples files can be found in the data directory.
-The detailed format and description of the files is described in module conwheel_io.pde .
+Examples files can be found in the data  directory.
+The detailed format and description of the files is described in module TrendTerms_io.pde .
 Their XML schemas are available in the directory xml_schemas.
 
 
-##Commands to control the wheel:
 
-Mouse:
-
-* left click: 1st click select node, 2nd click rotate node to active position
-* right click: unselect node
-* click on publication count: gets publications of the author on the active position
-* click on node beneath publication count: goes to collaboration visualisation of the author on the active position
-
-Keys:
-
-* 0 : reset wheel rotatation
-* Cursor →↓ : rotate anti-clockwise
-* Cursor ←↑ : rotate clockwise
-* a-z : jump to letter
-* + : increase curvature
-* - : decrease curvature
-* = : default curvature
