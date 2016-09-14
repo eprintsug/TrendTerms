@@ -11,7 +11,7 @@
 // convenience function to get the id attribute of generated sketch html element
   function getProcessingSketchId () { return 'TrendTerms'; }
 </script>
-<div id="content_tt" style="margin: 0px auto 0px auto; width: 300px; min-height: 240px; padding: 0px; overflow: none; background-color: #ffffff;">
+<div id="content_tt">
    <canvas id="TrendTerms" data-processing-sources="trendterms/TrendTerms.pde" class="trendterms">
         <p>Your browser does not support the canvas tag.</p>
         <!-- Note: you can put any alternative content here. -->
@@ -56,7 +56,7 @@
     // convenience function to get the id attribute of generated sketch html element
     function getProcessingSketchId () { return 'TrendTerms'; }
   </script>
-  <div id="content_tt" style="margin: 0px auto 0px auto; width: 300px; padding: 0px; overflow: none; background-color: #ffffff;">
+  <div id="content_tt">
       <epc:pin name="canvas"/>
       <noscript>
         <p>JavaScript is required to view the contents of this page.</p>
