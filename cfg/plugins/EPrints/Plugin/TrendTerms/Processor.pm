@@ -61,7 +61,9 @@ package EPrints::Plugin::TrendTerms::Processor;
 use strict;
 use warnings;
 
+use utf8;
 use Search::Xapian;
+use XML::LibXML;
 
 use base 'EPrints::Plugin';
 
@@ -259,7 +261,7 @@ sub get_terms
 				$foundterms->{$termid}->{first_position} = $positions[0];
 				$termid++;
 			}
-		}	
+		}
 		$termlist_iterator++;
 	}
 	
@@ -316,10 +318,8 @@ sub get_related_documents
 	
 	my $path = $session->config( "variables_path" ) . "/xapian";
 	my $xapian = Search::Xapian::Database->new( $path );
+	
 	$xapian->reopen();
-	
-	my $doccount = $xapian->get_doccount;
-	
 	my $qp = Search::Xapian::QueryParser->new( $xapian );
 	
 	$qp->set_default_op( Search::Xapian::OP_AND() );
@@ -362,7 +362,7 @@ sub get_related_documents
 					# process term only if it is not in the inner set
 					#
 					if (!defined $termname2id->{$termname})
-					{		
+					{
 						my $field = $terms_found->{$relid}->{field};
 						my $term_doccount = $xapian->get_termfreq( $field . $termname );
 						
@@ -396,7 +396,7 @@ sub get_related_documents
 							push @{$related_terms->{$termname}->{edges}}, $termid;
 						}
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -458,7 +458,7 @@ sub get_related_documents
 				$terms->{$fromid}->{edgecount}++;
 				
 				$edge_count++;
-			}	
+			}
 		}
 	}
 	
@@ -482,7 +482,7 @@ sub get_timelines
 	my $max = 0;
 	
 	foreach my $termid (keys %$terms)
-	{	
+	{
 		my $timeline;
 		my $doccount = $terms->{$termid}->{doccount};
 
@@ -490,13 +490,13 @@ sub get_timelines
 		my $queryterm = $terms->{$termid}->{term};
 		
 		if (!defined $term2timeline->{$queryterm}->{id})
-		{	
+		{
 			my $query = Search::Xapian::Query->new(
 				Search::Xapian::OP_AND(),
 				Search::Xapian::Query->new( $queryfield . $queryterm )
 			);
 			
-			my $enq = $xapian->enquire( $query );		
+			my $enq = $xapian->enquire( $query );
 			my @matches = $enq->matches(0, $doccount);
 			
 			$timeline = get_timeline( \@matches );
@@ -745,7 +745,7 @@ sub assign_colors
 	my $range = $max - $min;
 	my $section = 1.001 * ($range / $num_colors);
 
-	$section = 1 if ($section == 0);	
+	$section = 1 if ($section == 0);
 	
 	# assign the colorid to the terms
 	foreach my $termid (keys %$terms)
@@ -759,9 +759,6 @@ sub assign_colors
 	
 	return $terms;
 }
-
-
-
 
 sub get_edgecount_ranges
 {
@@ -819,7 +816,7 @@ sub save_graph
 	if ($verbose)
 	{
 		my $term_count = scalar (keys %$terms);
-		my $edge_count = scalar (keys %$edges);	
+		my $edge_count = scalar (keys %$edges);
 		print STDERR "Trendterms for eprint $eprintid: $term_count terms, $edge_count edges\n";
 	}
 
@@ -849,64 +846,84 @@ sub write_xml_terms
 
 	my $terms_target = $dir . "/terms_" . $eprintid . ".xml";
 	
-	open my $xmlout, ">", $terms_target or die "Cannot open > $terms_target\n";
-
-	print $xmlout '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
-	print $xmlout '<graph>' . "\n";
-	print $xmlout '<optimize value="' . $optimize . '"/>' . "\n";
+	my $xmldoc = XML::LibXML::Document->new('1.0','utf-8');
+	
+	my $element_graph = $xmldoc->createElement( "graph" );
+	
+	my $element_optimize = $xmldoc->createElement( "optimize" );
+	$element_optimize->setAttribute( "value", $optimize );
+	$element_graph->appendChild( $element_optimize );
 	
 	#
 	# write baseline for timeline
 	#
-	print $xmlout '<timeline count="' . $year_count . '" dates="';
+	my $element_timeline = $xmldoc->createElement( "timeline" );
+	$element_timeline->setAttribute( "count", $year_count );
+	my $dates = '';
 	for ( my $i = $year_min; $i <= $year_max; $i++ )
 	{
-		print $xmlout "$i";
-		print $xmlout "," if $i < $year_max;
+		$dates .= $i;
+		$dates .= "," if $i < $year_max;
 	}
-	print $xmlout '"/>' . "\n";
-
+    $element_timeline->setAttribute( "dates", $dates );
+	$element_graph->appendChild( $element_timeline );
+	
 	#
 	# write terms and their timelines
 	#
-	print $xmlout '<terms count="' . $term_count . '">' . "\n";
+	my $element_terms = $xmldoc->createElement( "terms" );
 	
 	foreach my $termid (keys %$terms)
 	{
-		my $value = $terms->{$termid}->{term};
+		my $term_value = $terms->{$termid}->{term};
 		my $colorref = $terms->{$termid}->{colorref};
 		my $doccount =  $terms->{$termid}->{doccount};
 		
 		my $x = $terms->{$termid}->{x};
 		my $y = $terms->{$termid}->{y};
 		
-		print $xmlout '<term id="' . $termid . '" value="' . $value . '" x="' . $x . '" y="' . $y . '" colorref="' . $colorref . '">' . "\n"; 
+		my $element_term = $xmldoc->createElement( "term" );
+		$element_term->setAttribute( "id", $termid );
+		$element_term->setAttribute( "value", $term_value );
+		$element_term->setAttribute( "x", $x );
+		$element_term->setAttribute( "y", $y );
+		$element_term->setAttribute( "colorref", $colorref );
 		
 		#
 		# write timeline
 		#
 		my $timeline = $terms->{$termid}->{timeline};
-		print $xmlout '<trend count="' . $year_count . '" data="';
+		
+		my $element_trend = $xmldoc->createElement( "trend" );
+		$element_trend->setAttribute( "count", $year_count );
+		
+		my $data = '';
 		for ( my $i = $year_min; $i <= $year_max; $i++ )
 		{
 			my $value = $timeline->{timepoints}->{$i}->{value};
 			if (defined $value)
 			{
-				print $xmlout "$value";
+				$data .= $value;
 			}
 			else
 			{
-				print $xmlout "0";
+				$data .= "0";
 			}
-			print $xmlout "," if $i < $year_max;
+			$data .= "," if $i < $year_max;
 		}
-		print $xmlout '"/>' . "\n";
+		$element_trend->setAttribute( "data", $data );
 		
-		print $xmlout '</term>' . "\n";
+		$element_term->appendChild( $element_trend);
+		$element_terms->appendChild( $element_term);
 	}
 	
-	print $xmlout '</terms>' . "\n";
-	print $xmlout '</graph>' . "\n";
+	$element_graph->appendChild( $element_terms );
+	
+    $xmldoc->setDocumentElement( $element_graph );
+	my $xmldoc_string = $xmldoc->toString(1);
+	
+	open my $xmlout, ">", $terms_target or die "Cannot open > $terms_target\n";
+	print $xmlout $xmldoc_string;
 	close $xmlout;
 	
 	return;
@@ -916,28 +933,39 @@ sub write_xml_edges
 {
 	my ( $plugin, $eprintid, $edges, $dir ) = @_;
 	
-	my $edge_count = scalar (keys %$edges);	
+	my $edge_count = scalar (keys %$edges);
 
 	my $edges_target = $dir . "/edges_" . $eprintid . ".xml";
 
-	open my $xmlout, ">", $edges_target or die "Cannot open > $edges_target\n";
-
-	print $xmlout '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
-	print $xmlout '<graph>' . "\n";
+	my $xmldoc = XML::LibXML::Document->new('1.0','utf-8');
 	
-	print $xmlout '<edges count="' . $edge_count . '">' . "\n";
+	my $element_graph = $xmldoc->createElement( "graph" );
+	my $element_edges = $xmldoc->createElement( "edges" );
+	$element_edges->setAttribute( "count", $edge_count );
 	
 	foreach my $edgeid (keys %$edges)
 	{
+		my $element_edge = $xmldoc->createElement( "e" );
+		
 		my $from = $edges->{$edgeid}->{from};
 		my $to = $edges->{$edgeid}->{to};
 		my $w = $edges->{$edgeid}->{weight};
 		
-		print $xmlout '<e id="' . $edgeid . '" f="' . $from . '" t="' . $to . '" w="' . $w . '"/>' . "\n";
+		$element_edge->setAttribute( "id", $edgeid );
+		$element_edge->setAttribute( "f", $from );
+		$element_edge->setAttribute( "t", $to );
+		$element_edge->setAttribute( "w", $w );
+		
+		$element_edges->appendChild( $element_edge );
 	}
 	
-	print $xmlout '</edges>' . "\n";
-	print $xmlout '</graph>' . "\n";
+	$element_graph->appendChild( $element_edges );
+	
+	$xmldoc->setDocumentElement( $element_graph );
+	my $xmldoc_string = $xmldoc->toString(1);
+	
+	open my $xmlout, ">", $edges_target or die "Cannot open > $edges_target\n";
+	print $xmlout $xmldoc_string;
 	close $xmlout;
 	
 	return;
@@ -950,6 +978,7 @@ sub get_stopwords
 		a
 		about
 		above
+		abstract
 		across
 		after
 		again
@@ -964,6 +993,8 @@ sub get_stopwords
 		always
 		among
 		an
+		analysis
+		analyzed
 		and
 		another
 		any
@@ -980,13 +1011,16 @@ sub get_stopwords
 		asked
 		asking
 		asks
+		associated
 		at
+		available
 		away
 		b
 		back
 		backed
 		backing
 		backs
+		based
 		be
 		became
 		because
@@ -1016,14 +1050,18 @@ sub get_stopwords
 		clear
 		clearly
 		come
+		compared
 		considered
 		could
 		d
+		demonstrate
+		demonstrated
 		described
 		did
 		differ
 		different
 		differently
+		discussed
 		do
 		does
 		done
@@ -1032,6 +1070,7 @@ sub get_stopwords
 		downed
 		downing
 		downs
+		due
 		during
 		e
 		each
@@ -1046,6 +1085,7 @@ sub get_stopwords
 		establish
 		established
 		establishes
+		evaluated
 		even
 		evenly
 		ever
@@ -1063,6 +1103,7 @@ sub get_stopwords
 		felt
 		few
 		find
+		findings
 		finds
 		first
 		five
@@ -1117,8 +1158,14 @@ sub get_stopwords
 		however
 		i
 		if
+		ii
+		iii
 		important
+		improve
+		improved
 		in
+		including
+		increased
 		interest
 		interested
 		interesting
@@ -1164,6 +1211,7 @@ sub get_stopwords
 		member
 		members
 		men
+		method
 		might
 		more
 		moreover
@@ -1176,6 +1224,7 @@ sub get_stopwords
 		my
 		myself
 		n
+		near
 		necessary
 		need
 		needed
@@ -1199,6 +1248,7 @@ sub get_stopwords
 		number
 		numbers
 		o
+		obtained
 		of
 		off
 		often
@@ -1226,6 +1276,7 @@ sub get_stopwords
 		p
 		part
 		parted
+		particular
 		parting
 		parts
 		per
@@ -1244,6 +1295,10 @@ sub get_stopwords
 		presents
 		problem
 		problems
+		produced
+		proposed
+		provided
+		provides
 		put
 		puts
 		q
@@ -1251,6 +1306,13 @@ sub get_stopwords
 		r
 		rather
 		really
+		recent
+		related
+		report
+		reported
+		required
+		result
+		results
 		right
 		right
 		room
@@ -1294,8 +1356,9 @@ sub get_stopwords
 		state
 		states
 		still
-		still
+		study
 		such
+		suggest
 		sure
 		t
 		take
@@ -1343,7 +1406,9 @@ sub get_stopwords
 		use
 		used
 		uses
+		using
 		v
+		various
 		very
 		w
 		want
@@ -1389,7 +1454,7 @@ sub get_stopwords
 		youngest
 		your
 		yours
-		z
+		z		
 		ab
 		aber
 		aber
@@ -1409,7 +1474,6 @@ sub get_stopwords
 		alles
 		allgemeinen
 		als
-		als
 		also
 		am
 		an
@@ -1417,8 +1481,6 @@ sub get_stopwords
 		anderen
 		andern
 		anders
-		au
-		auch
 		auch
 		auf
 		aus
@@ -1557,13 +1619,12 @@ sub get_stopwords
 		einmal
 		eins
 		elf
-		en
 		ende
 		endlich
 		entweder
 		entweder
 		er
-		Ernst
+		ernst
 		erst
 		erste
 		ersten
@@ -1610,7 +1671,6 @@ sub get_stopwords
 		gibt
 		ging
 		gleich
-		gott
 		gross
 		groß
 		grosse
@@ -2163,11 +2223,9 @@ sub get_stopwords
 		je
 		jusqu
 		jusque
-		k
 		la
 		là
 		laquelle
-		las
 		le
 		lequel
 		les
@@ -2216,7 +2274,6 @@ sub get_stopwords
 		nous
 		nous-mêmes
 		nul
-		o|
 		ô
 		oh
 		ohé
@@ -2395,6 +2452,10 @@ sub get_stopwords
 		vous-mêmes
 		vu
 		zut
+		del
+		el
+		las
+		una
 	);
 	
 	return @STOPWORDS;
