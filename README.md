@@ -36,7 +36,6 @@ The setup procedure consists of the following steps
 - Full generation of trendterms data
 - Running updates
 
-*TODO*
 
 ##Installation
 
@@ -246,7 +245,7 @@ a complete run every 6-12 months.
 The terms and edges for the new eprints are correctly calculated. However, because IDF 
 has changed because documents have been added to the total document set 
 (for IDF, see theory below), the term selection in the graph for the older eprints is now 
-only approximative, since terms may have been dropped out because their WDF*IDF value for a
+only approximative, since terms may have been dropped out because their WDF\*IDF value for a
 given document may be now lower than the given boundary for selection. However, we assume, 
 that IDF only changes slowly, but recommend to carry out periodically complete runs to 
 correct for the IDF change.
@@ -262,10 +261,10 @@ IDF(i) = 1 / DF(i) is the inverse of the document frequency DF(i), which is the 
 documents that contain the term i in a document set. This value changes with addition of
 new documents to the document set.
 
-Theoretically, plotting WDF*IDF against the frequency of a term in a complete document set
-should yield a bell-like curve. Very frequent terms have a low WDF*IDF because of their high
-IDF value - these are the stop words. Terms which are highly specific have a low WDF*IDF too,
-because of their low WDF. Thus, choosing terms with a WDF*IDF above a given boundary should
+Theoretically, plotting WDF\*IDF against the frequency of a term in a complete document set
+should yield a bell-like curve. Very frequent terms have a low WDF\*IDF because of their high
+IDF value - these are the stop words. Terms which are highly specific have a low WDF\*IDF too,
+because of their low WDF. Thus, choosing terms with a WDF\*IDF above a given boundary should
 yield relevant terms that occur also several times in a document set.
  
 The Xapian search engine stores both WDF and DF with the terms. These can be used to 
@@ -277,12 +276,12 @@ Pass 1: Selection of terms within the own abstract
 
 The steps of pass 1 are:
 
-1.1	Get abstract terms + WDF + positions. Filter stop words.
-1.2	Get DF --> IDF
-1.3	Filter terms: choose WDF*IDF within boundary conditions --> set of terms {F1}
-1.4	For all combinations of terms in the set {F1}, sum up distance-dependent edge weights. 
+*	Get abstract terms + WDF + positions. Filter stop words.
+*	Get DF --> IDF
+*	Filter terms: choose WDF*IDF within boundary conditions --> set of terms {F1}
+*	For all combinations of terms in the set {F1}, sum up distance-dependent edge weights. 
 Distance is calculated from positions of the terms
-1.5	Coloring of the term bubbles is done according to the edge weights
+*	Coloring of the term bubbles is done according to the edge weights
 
 
 Pass 2: Selection of related terms in abstracts of related eprints
