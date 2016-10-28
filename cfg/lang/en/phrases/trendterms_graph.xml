@@ -92,7 +92,7 @@
   
   <!-- Phrase for home page help -->
   <epp:phrase id="trendterms_graph:help_home">
-    <p>TrendTerms displays relevant terms of the abstracts of ZORA publications from the previous year on a map. The terms and their relations were extracted using VOSViewer software. Their timelines are taken from ZORA. The bubble size of a term is proportional to the number of documents where the term occurs. Colored clusters are formed by all terms that have a high number of relations.<br/>
+    <p>TrendTerms displays relevant terms of the abstracts of <epc:pin name="archive"/> publications from the previous year on a map. The terms and their relations were extracted using VOSViewer software. Their timelines are taken from <epc:pin name="archive2"/>. The bubble size of a term is proportional to the number of documents where the term occurs. Colored clusters are formed by all terms that have a high number of relations.<br/>
     You can navigate and zoom the map. Mouse-hovering a term displays its timeline, clicking it yields the associated documents.</p>
   </epp:phrase>
 
@@ -114,10 +114,13 @@
   <epp:phrase id="trendterms_graph:help_detail">
     <div class="ep_sr_help ep_no_js" id="trendterms_help">
       <div id="trendterms_help_inner">
-        <p>TrendTerms displays relevant terms of the abstract of this publication and related documents on a map. The terms and their relations were extracted from ZORA using word statistics. Their timelines are taken from ZORA as well. The bubble size of a term is proportional to the number of documents where the term occurs. Red, orange, yellow and green colors are used for terms that occur in the current document; red indicates high interlinkedness of a term with other terms, orange, yellow and green decreasing interlinkedness. Blue is used for terms that have a relation with the terms in this document, but occur in other documents.<br />
+        <p>TrendTerms displays relevant terms of the abstract of this publication and related documents on a map. The terms and their relations were extracted from <epc:pin name="archive"/> using word statistics. Their timelines are taken from <epc:pin name="archive2"/> as well. The bubble size of a term is proportional to the number of documents where the term occurs. Red, orange, yellow and green colors are used for terms that occur in the current document; red indicates high interlinkedness of a term with other terms, orange, yellow and green decreasing interlinkedness. Blue is used for terms that have a relation with the terms in this document, but occur in other documents.<br />
           You can navigate and zoom the map. Mouse-hovering a term displays its timeline, clicking it yields the associated documents.</p>
       </div>
     </div>
   </epp:phrase>
+
+  <!-- Phrase for box title, in case Box::TrendTerms plugin is used -->
+  <epp:phrase id="Plugin/Screen/EPrint/Box/TrendTerms:title">TrendTerms</epp:phrase>
 
 </epp:phrases>

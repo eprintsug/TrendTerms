@@ -91,7 +91,7 @@
   </epp:phrase>
 
   <epp:phrase id="trendterms_graph:help_home">
-    <p>TrendTerms zeigt relevante Begriffe aus den Abstracts der englischen Publikationen des Vorjahrs in ZORA an. Die Begriffe und ihre Beziehungen untereinander wurden mit Hilfe der Software VOSViewer extrahiert. Aus ZORA wurde dann ihre zeitliche Entwicklung hinterlegt. Die Grösse einer Blase wird durch die Anzahl der Dokumente bestimmt, in denen der Begriff vorkommt. Die eingefärbten Cluster fassen Begriffe zusammen, die untereinander viele Beziehungen aufweisen.<br/>
+    <p>TrendTerms zeigt relevante Begriffe aus den Abstracts der englischen Publikationen des Vorjahrs in <epc:pin name="archive"/> an. Die Begriffe und ihre Beziehungen untereinander wurden mit Hilfe der Software VOSViewer extrahiert. Aus <epc:pin name="archive2"/> wurde dann ihre zeitliche Entwicklung hinterlegt. Die Grösse einer Blase wird durch die Anzahl der Dokumente bestimmt, in denen der Begriff vorkommt. Die eingefärbten Cluster fassen Begriffe zusammen, die untereinander viele Beziehungen aufweisen.<br/>
        Sie können wie in einer Karte navigieren und zoomen. Berühren Sie einen Begriff mit der Maus, wird seine zeitliche Entwicklung eingeblendet. Klicken Sie auf einen Begriff, erhalten Sie passende Dokumente dazu.</p>
   </epp:phrase>
 
@@ -113,10 +113,13 @@
   <epp:phrase id="trendterms_graph:help_detail">
     <div class="ep_sr_help ep_no_js" id="trendterms_help">
       <div id="trendterms_help_inner">
-        <p>TrendTerms zeigt relevante Begriffe aus dem Abstract dieser Publikation und von verwandten Dokumenten auf einer Karte an. Die Begriffe und ihre Beziehungen untereinander wurden mit Hilfe von Termstatistiken aus ZORA ermittelt. Ebenso stammen die zeitlichen Entwicklungen aus ZORA. Die Grösse einer Blase wird durch die Anzahl der Dokumente bestimmt, in denen der Begriff vorkommt. Rot, Orange, Gelb und Grün zeigt die Stärke der Vernetzung der Begriffe an, mit Rot für die stärkste Vernetzung, Grün die schwächste. Blaue Knoten stehen für Begriffe, die anderen Dokumenten vorkommen, aber eine Relation zu den Begriffen im Abstract dieser Publikation aufweisen.<br />
+        <p>TrendTerms zeigt relevante Begriffe aus dem Abstract dieser Publikation und von verwandten Dokumenten auf einer Karte an. Die Begriffe und ihre Beziehungen untereinander wurden mit Hilfe von Termstatistiken aus <epc:pin name="archive"/> ermittelt. Ebenso stammen die zeitlichen Entwicklungen aus <epc:pin name="archive2"/>. Die Grösse einer Blase wird durch die Anzahl der Dokumente bestimmt, in denen der Begriff vorkommt. Rot, Orange, Gelb und Grün zeigt die Stärke der Vernetzung der Begriffe an, mit Rot für die stärkste Vernetzung, Grün die schwächste. Blaue Knoten stehen für Begriffe, die anderen Dokumenten vorkommen, aber eine Relation zu den Begriffen im Abstract dieser Publikation aufweisen.<br />
            Sie können wie in einer Karte navigieren und zoomen. Berühren Sie einen Begriff mit der Maus, wird seine zeitliche Entwicklung eingeblendet. Klicken Sie auf einen Begriff, erhalten Sie passende Dokumente dazu.</p>
       </div>
     </div>
   </epp:phrase>
+
+   <!-- Phrase for box title, in case Box::TrendTerms plugin is used -->
+  <epp:phrase id="Plugin/Screen/EPrint/Box/TrendTerms:title">TrendTerms</epp:phrase>
   
 </epp:phrases>
