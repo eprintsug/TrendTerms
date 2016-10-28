@@ -1,5 +1,5 @@
 # TrendTerms
-Visualisation of terms in document abstracts
+## Visualisation of terms in document abstracts
 
 The TrendTerms package analyses the relevant terms in the abstract of an eprint and 
 its related eprints, including their time evolution. Word statistics and positions 
