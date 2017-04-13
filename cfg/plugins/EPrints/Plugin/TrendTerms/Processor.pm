@@ -48,7 +48,7 @@ visualised.
 
 Creates a new TrendTerms Processor plugin.
 
-=item process_record
+=item generate_trendterms
 
 Identifies the trend terms for a given eprint
 
