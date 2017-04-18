@@ -17,14 +17,14 @@ The package consists of
   
 For a demo, see e.g. http://www.zora.uzh.ch/97201/
 
-##Requirements
+## Requirements
 
 - EPrints 3.3.x with installed Search::Xapian extension. For details see 
 https://wiki.eprints.org/w/API:EPrints/Plugin/Search/Xapian
 - JQuery is required for scaling the visualisation canvas.
 
 
-##General setup
+## General setup
 
 The setup procedure consists of the following steps
 
@@ -37,16 +37,16 @@ The setup procedure consists of the following steps
 - Running updates
 
 
-##Installation
+## Installation
 
 Copy the content of the bin and cfg directories to the respective 
 {eprints_root}/archives/{yourarchive}/bin and {eprints_root}/archives/{yourarchive}/cfg 
 directories.
 
 
-##Configuration
+## Configuration
 
-###Configure the position of the TrendTerms visualisation
+### Configure the position of the TrendTerms visualisation
 
 archives/{archive}/cfg/cfg.d/z_trendterms.pl allows you to configure the position 
 of the TrendTerms box in the summary page of an eprint.
@@ -62,7 +62,7 @@ archives/{archive}/cfg/plugins/EPrints/Plugin/Screen/EPrint/Box/TrendTerms.pm ov
 eprint_render.pl and adapt it to your needs.
 
 
-###Edit the look of your visualisation
+### Edit the look of your visualisation
 
 You can configure the look of your visualisation (fonts, colors, position of the HUDs, ...) in 
 archives/{archive}/cfg/static/trendterms/configuration.xml:
@@ -142,12 +142,12 @@ The detailed format (including XML Schemas) is described in
 [TrendTerms_io.pde](https://github.com/eprintsug/TrendTerms/blob/master/Processing/TrendTerms/TrendTerms_io.pde)
 
 
-###Restart the web server
+### Restart the web server
 
 After you have edited the configuration files, restart the web server.
 
 
-##Initial generation of TrendTerms data
+## Initial generation of TrendTerms data
 
 To initialize and test your setup, create TrendTerms graph data for a single eprintid (note that 
 the eprint should have an abstract)
@@ -167,7 +167,7 @@ https://github.com/eprintsug/TrendTerms/blob/master/Processing/TrendTerms/TrendT
 https://github.com/eprintsug/TrendTerms/tree/master/Processing/TrendTerms/xml_schemas )
 
 
-###Linking the trendterms_data directory
+### Linking the trendterms_data directory
 
 The trendterms_data directory must be linked to all your language-specific HTML trendterms
 directories so that the data can be accessed by the Processing code. Do the following:
@@ -179,7 +179,7 @@ ln -s {eprints_root}/archives/{repo}/html/trendterms_data data
 
 Repeat these commands for every language, e.g. en, de, and so on.
 
-###Initial test
+### Initial test
 
 In your browser, load the summary page of the eprint for which the TrendTerms data was
 created above.
@@ -208,7 +208,7 @@ The positions are optimized until the total force is below a given threshold.
 Optimisation is only carried out for graphs with less than 100 terms.
 
 
-##Generating the TrendTerms data: The generate_trendterms script
+## Generating the TrendTerms data: The generate_trendterms script
 
 Now a full run to generate the TrendTerms data must be carried out:
 
@@ -225,7 +225,7 @@ About 1.5 GB are required for 100'000 eprints.
 
 
 
-##Running updates
+## Running updates
 
 There are two options in for running updates with the generate_trendterms script:
 
@@ -251,7 +251,7 @@ that IDF only changes slowly, but recommend to carry out periodically complete r
 correct for the IDF change.
 
 
-##Theory behind the selection of terms
+## Theory behind the selection of terms
 
 In information retrieval, the product WDF*IDF is a popular expression for the weight of a
 term in relevance ranking.
@@ -296,7 +296,7 @@ The timelines are gathered for all terms of the combined set {F1 ∪ F2}
 
 
 
-##Editing the Processing code (for developers)
+## Editing the Processing code (for developers)
 
 The TrendTerms.pde file being used in the EPrints repo can be found in cfg/static/trendterms 
 and can be used as is.
